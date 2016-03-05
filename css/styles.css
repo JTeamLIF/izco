@@ -1,5 +1,5 @@
 .logo {
-  padding:25px;
+  padding:20px;
 }
 
 .logofooter {
@@ -8,16 +8,47 @@
 
 .menu {
   background: #0e4c7d;
-  height:200px;
+  height:228px;
+  font-size: 1.3em;
+  padding:25px;
 }
 
 .latestSharePrices {
   background: #333333;
-  height:200px;
+  height:228px;
+}
+
+.searchBarDiv {
+  background: #999999;
+  height: 74px;
+}
+
+.searchBarDiv .form-group {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  height: 75px;
+}
+
+.btn-search {
+  margin: 0 10px;
+  border: 1px solid #E2E2E2;
+  background: none;
+  border-radius: 0;
+  width: 34px;
+  height: 34px;
+}
+
+.glyphicon-search {
+  font-size: 1.6em;
+  color: #ffffff;
 }
 
 .searchBar {
-  background: #999999;
+  width: 87%;
+  height: 35px;
+  font-size: 1.3em;
+  padding-left: 20px;
 }
 
 .upcomingEvents, .latestRegulatoryNews {
@@ -59,15 +90,21 @@
 
 .utilities a {
   color: #666666;
+} 
 
-
+.noPadding {
+	padding: 0 !important;
 }
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
-.im-centered { margin: auto; max-width: 1280px;}
+
+.im-centered { 
+	margin: auto; 
+	max-width: 1280px;
+}
 
 /*MENU STYLES*/
 
@@ -75,7 +112,7 @@ body {
 	border-top-width: 2px;
 	border-top-style: solid;
 	border-top-color: #999999;
-	line-height: 20px;
+	line-height: 1.9em;
 }
 
 
@@ -84,7 +121,8 @@ body {
 	padding: 0; /*removes indent Mozilla and NN7*/
 	list-style-type: none;
 	border-top: 2px solid #ffffff;
-	margin-top: 36px;
+	margin-top: 11px;
+	/*list-style-image: url(../images/menu_list_active.png);*/
 }
 
 #nav_footer {
@@ -109,15 +147,15 @@ body {
 
 #menu_top_left li, #menu_top_right li, #menu_left li {
 	margin: 0 0 0px 0;
-	background-image: url({site_url}images/jlif/menu_arrow.jpg);
+	/*background-image: url(../images/menu_list_active.png);*/
 	background-repeat: no-repeat;
-	background-position: right;
+/*	background-position: right;*/
 }
 
 #menu_top_left a, #menu_top_right a, #menu_left a {
 	/*/*/display: block;
 	border-bottom: 1px solid #87A6BE;
-	width: 217px;/* */
+	/*width: 217px;*//* */
 	color: #ffffff;
 	text-decoration:none;
 }
@@ -128,13 +166,18 @@ body {
 
 
 #menu_top_left a:hover, #menu_top_right a:hover, #menu_left a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	background-color:#ffffff;
+	color:#0e4c7d;
+	list-style-image: url(../images/menu_list_active.png);
 
 }
 
-#menu_top_left ul .top_menu_active, #menu_top_right ul .top_menu_active {
-	background-image: url({site_url}images/jlif/menu_arrow_active.jpg);
-	background-color: #F8F8F8;
+/*.top_menu_active{
+	background-image: url(../images/menu_list_active.png);
+	background-position: left;
+	background-color:#ffffff;
+	color:#0e4c7d;*/
 }
 
 #menu_left ul .menu_active {
