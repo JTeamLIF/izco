@@ -15,7 +15,7 @@
 
 .image-bg-fluid-height {
   background: url('../images/index-bg-image-1.jpg') no-repeat center center scroll;
-  padding: 100px 0;
+  height: 500px;
 }
 
 .img-center {
