@@ -1,0 +1,144 @@
+.logo {
+  padding:25px;
+}
+
+.menu {
+  background: #0e4c7d;
+  height:200px;
+}
+
+.latestSharePrices {
+  background: #333333;
+  height:200px;
+}
+
+.searchBar {
+  background: #999999;
+}
+
+.upcomingEvents, .latestRegulatoryNews {
+  background: #e5e5e5;
+  height:300px;
+}
+
+.twitter {
+  background: #3b7cbd;
+  height:150px;
+}
+
+.footer {
+  height: 300px;
+  color: #333333;
+}
+
+.underFooter {
+  background: #efefef;
+  height:50px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.im-centered { margin: auto; max-width: 1280px;}
+
+/*MENU STYLES*/
+
+#menu_top_right, #menu_top_left, #menu_left {
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	line-height: 20px;
+}
+
+
+#menu_top_left ul, #menu_top_right ul, #menu_left ul {
+	margin: 0; /*removes indent IE and Opera*/
+	padding: 0; /*removes indent Mozilla and NN7*/
+	list-style-type: none;
+	border-top: 2px solid #ffffff;
+	margin-top: 36px;
+}
+
+#nav_footer {
+	margin: 0; /*removes indent IE and Opera*/
+	padding: 0; /*removes indent Mozilla and NN7*/
+	list-style-type: none;
+/*	border-top: 2px solid #ffffff;*/
+	margin-top: 36px;
+}
+
+.footer a {
+	color: #333333;
+	text-decoration:none;
+}
+
+.footertitle a {
+	color: #1A629A;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 22px;
+}
+
+#menu_top_left li, #menu_top_right li, #menu_left li {
+	margin: 0 0 0px 0;
+	background-image: url({site_url}images/jlif/menu_arrow.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#menu_top_left a, #menu_top_right a, #menu_left a {
+	/*/*/display: block;
+	border-bottom: 1px solid #87A6BE;
+	width: 217px;/* */
+	color: #ffffff;
+	text-decoration:none;
+}
+
+#menu_top_right ul li a, #menu_top_left ul li a, #menu_left ul li a {
+	padding-left: 3px;
+}
+
+
+#menu_top_left a:hover, #menu_top_right a:hover, #menu_left a:hover {
+	text-decoration: underline;
+
+}
+
+#menu_top_left ul .top_menu_active, #menu_top_right ul .top_menu_active {
+	background-image: url({site_url}images/jlif/menu_arrow_active.jpg);
+	background-color: #F8F8F8;
+}
+
+#menu_left ul .menu_active {
+	background-image: url({site_url}images/jlif/menu_arrow_active.jpg);
+	background-color: #F8F8F8;
+}
+
+#menu_left ul .withsub_menu_active {
+	background-image: url({site_url}images/jlif/menu_arrow_down_active.jpg);
+	background-color: #E7E7E7;
+}
+
+#menu_left ul .menu_active_subs {
+	background-image: url({site_url}images/jlif/menu_arrow_active.jpg);
+	background-color: #F8F8F8;
+}
+
+/*Active menu item black*/
+#menu_top ul .top_menu_active a, #menu_left_sub .menu_active a, #menu_left ul .menu_active a {
+	color: #000;
+}
+
+/*Stops rollover on active menu item*/
+#menu_top_left .top_menu_active a:hover, #menu_top_right .top_menu_active a:hover, #menu_left .menu_active a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+ul #menu_left_sub li a {
+	padding-left: 20px;
+	width: 200px;
+}
+
+/*END OF MENU STYLES*/
