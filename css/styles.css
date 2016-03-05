@@ -103,6 +103,16 @@ body {
 	height: 322px;
 }
 
+.thumbs img {
+	width: 320px;
+	height: 165px;
+}
+
+.fixedWidth {
+	width: 33.33%;
+	float: left;
+}
+
 .twitter {
   background: #3b7cbd;
   height:100px;
