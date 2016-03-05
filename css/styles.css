@@ -24,8 +24,41 @@ body {
 }
 
 .latestSharePrices {
-  background: #333333;
-  height: 228px;
+	background: #333333;
+	height: 228px;
+	padding: 36px;
+	color: #FFF;
+}
+
+.sharepricecontainer {
+  border-top: 4px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.pricedisplay{
+  font-size: 5em;
+  line-height:0.9em;
+
+}
+
+.pricetitle{
+  font-size: 1.3em;
+  	color: #B4B4B4;
+    padding-top: 12px;
+}
+
+.pricetime{
+  font-size: 1em;
+  	color: #B4B4B4;
+	margin-bottom:0px;
+
+}
+
+.pricedelay{
+  font-size: 0.9em;
+  	color: #999999;
+	font-style:italic;
+
 }
 
 .searchBarDiv {
@@ -169,9 +202,7 @@ body {
 /*MENU STYLES*/
 
 #menu_top_right, #menu_top_left, #menu_left {
-	border-top-width: 2px;
-	border-top-style: solid;
-	border-top-color: #999999;
+
 	line-height: 1.9em;
 }
 
@@ -179,7 +210,7 @@ body {
 	margin: 0; /*removes indent IE and Opera*/
 	padding: 0; /*removes indent Mozilla and NN7*/
 	list-style-type: none;
-	border-top: 2px solid #ffffff;
+	border-top: 4px solid #ffffff;
 	margin-top: 11px;
 	/*list-style-image: url(../images/menu_list_active.png);*/
 }
