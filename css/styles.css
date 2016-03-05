@@ -1,5 +1,15 @@
+@font-face {
+  font-family: DINPro-Medium;
+  src: url(../fonts/DINPro-Medium.ttf);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
 .logo {
-  padding:20px;
+  padding: 27px;
 }
 
 .logofooter {
@@ -8,14 +18,14 @@
 
 .menu {
   background: #0e4c7d;
-  height:228px;
+  height: 228px;
   font-size: 1.3em;
-  padding:25px;
+  padding: 25px;
 }
 
 .latestSharePrices {
   background: #333333;
-  height:228px;
+  height: 228px;
 }
 
 .searchBarDiv {
@@ -45,7 +55,7 @@
 }
 
 .searchBar {
-  width: 87%;
+  width: 76%;
   height: 35px;
   font-size: 1.3em;
   padding-left: 20px;
@@ -96,9 +106,59 @@
 	padding: 0 !important;
 }
 
-body {
+.overSlideShowDiv {
+	background: rgba(25, 25, 25, .7);
+	height: 500px;
+}
+
+.overSlideShowTextDiv {
+	font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
+	padding:50px;
+	opacity: 1;
+	color: #fff;
+	text-align: left;
+}
+
+.overSlideShowTextDiv h3 {
+	color: #83bdf7;
+	margin-top: 0px;
+}
+
+.overSlideShowTextDiv p {
+	color: #cccccc;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	margin: 30px 60px 0 0;
+	font-size: 1.3em;
+	height: 250px;
+}
+
+.overSlideShowTextDiv .btn-viewAssetGallery {
+  border: none;
+  background: none;
+  text-align: left;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.overSlideShowTextDiv .spn-viewAssetGallery {
+	border: 1px solid #999999;
+	border-right: none;
+  width: 148px;
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 5px 0 0 10px;
+}
+
+.glyphicon-triangle-right, .glyphicon-triangle-bottom {
+  color: #0094d9;
+  border: 1px solid #999999;
+  padding: 5px 5px 5px 6px;
+  font-size: 1.5em;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  cursor: pointer;
 }
 
 .im-centered { 
@@ -114,7 +174,6 @@ body {
 	border-top-color: #999999;
 	line-height: 1.9em;
 }
-
 
 #menu_top_left ul, #menu_top_right ul, #menu_left ul {
 	margin: 0; /*removes indent IE and Opera*/
