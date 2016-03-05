@@ -2,6 +2,10 @@
   padding:25px;
 }
 
+.logofooter {
+  padding: 20px 25px 25px 0;
+}
+
 .menu {
   background: #0e4c7d;
   height:200px;
@@ -23,17 +27,36 @@
 
 .twitter {
   background: #3b7cbd;
-  height:150px;
+  height:100px;
 }
 
 .footer {
-  height: 300px;
+  height: 190px;
   color: #333333;
 }
 
 .underFooter {
   background: #efefef;
   height:50px;
+}
+
+.copyright {
+  color: #666666;
+  margin-top: 20px;
+  font-size:90%;
+}
+
+.utilities  {
+  color: #666666;
+  margin-top: 20px;
+  text-align:right;
+  font-size:90%;
+}
+
+.utilities a {
+  color: #666666;
+
+
 }
 
 body {
