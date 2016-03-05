@@ -1,5 +1,5 @@
 .logo {
-  padding:25px;
+  padding:20px;
 }
 
 .logofooter {
@@ -16,8 +16,37 @@
   height:200px;
 }
 
-.searchBar {
+.searchBarDiv {
   background: #999999;
+  height: 74px;
+}
+
+.searchBarDiv .form-group {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  height: 75px;
+}
+
+.btn-search {
+  margin: 0 10px;
+  border: 1px solid #E2E2E2;
+  background: none;
+  border-radius: 0;
+  width: 34px;
+  height: 34px;
+}
+
+.glyphicon-search {
+  font-size: 1.6em;
+  color: #ffffff;
+}
+
+.searchBar {
+  width: 87%;
+  height: 35px;
+  font-size: 1.3em;
+  padding-left: 20px;
 }
 
 .upcomingEvents, .latestRegulatoryNews {
@@ -59,15 +88,21 @@
 
 .utilities a {
   color: #666666;
+} 
 
-
+.noPadding {
+	padding: 0 !important;
 }
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
-.im-centered { margin: auto; max-width: 1280px;}
+
+.im-centered { 
+	margin: auto; 
+	max-width: 1280px;
+}
 
 /*MENU STYLES*/
 
