@@ -1,0 +1,36 @@
+.logo {
+  padding:25px;
+}
+
+.menu {
+  background: #0e4c7d;
+  height:200px;
+}
+
+.latestSharePrices {
+  background: #333333;
+  height:200px;
+}
+
+.searchBar {
+  background: #999999;
+}
+
+.upcomingEvents, .latestRegulatoryNews {
+  background: #e5e5e5;
+  height:300px;
+}
+
+.twitter {
+  background: #3b7cbd;
+  height:150px;
+}
+
+.footer {
+  height: 300px;
+}
+
+.underFooter {
+  background: #efefef;
+  height:50px;
+}
