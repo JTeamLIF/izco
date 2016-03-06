@@ -178,6 +178,7 @@ body {
 .twitter {
 /*  background: #3b7cbd;*/
   height:100px;
+  color:#ffffff;
 }
 
 .footer {
@@ -255,7 +256,7 @@ body {
   padding: 5px 0 0 10px;
 }
 
-.glyphicon-triangle-right, .glyphicon-triangle-bottom {
+.glyphicon-triangle-right, .glyphicon-triangle-left, .glyphicon-triangle-bottom {
   color: #0094d9;
   border: 1px solid #999999;
   padding: 5px 5px 5px 6px;
@@ -278,7 +279,7 @@ body {
 .regnewscontent .spn-viewAssetGallery, .upcomingeventscontent .spn-viewAssetGallery {
 	border: 1px solid #999999;
 	border-right: none;
-  width: 148px;
+  width: 200px;
   display: block;
   float: left;
   height: 30px;
@@ -289,6 +290,71 @@ body {
 .twitterlogo, .twitterfeed, .twitterbuttons, .twitterlink {
 	background-color:#3b7cbd;
 	height:100px
+}
+
+.twitterlogo, .twitterfeed, .twitterlink {
+	background-color:#3b7cbd;
+	height:100px
+}
+
+.twitterbuttons {
+	background-color:#3b7cbd;
+	height:100px;
+	padding-top:30px;
+	padding-right:0px;
+}
+
+.twitterlink {
+	padding-left:25px;
+}
+
+
+.twitterdate {
+	font-size:1em;
+	padding-top:12px;
+}
+
+.twitterarticle {
+	border-top: 1px solid #ffffff;
+    font-size: 1.3em;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
+.twitter .glyphicon-triangle-right, .twitter .glyphicon-triangle-left {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px 5px 5px 6px;
+  font-size: 1.5em;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  cursor: pointer;
+}
+
+.twitter .glyphicon-triangle-left {
+  margin-right: 20px;
+
+}
+
+.twitterlink .btn-viewAssetGallery {
+  border: none;
+  background: none;
+  text-align: left;
+/*  padding-left: 15px;*/
+  cursor: pointer;
+  padding-top: 30px;
+}
+
+.twitterlink .spn-viewAssetGallery {
+	border: 1px solid #ffffff;
+	border-right: none;
+  width: 200px;
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 5px 0 0 10px;
+
 }
 
 .im-centered { 
