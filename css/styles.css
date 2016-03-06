@@ -187,21 +187,25 @@ body {
 }
 
 .underFooter {
-  background: #efefef;
+/*  background: #efefef;*/
   height:50px;
 }
 
 .copyright {
   color: #666666;
-  margin-top: 20px;
+  padding-top: 18px;
   font-size:90%;
+  background: #efefef;
+  height:50px;
 }
 
 .utilities  {
   color: #666666;
-  margin-top: 20px;
+  padding-top: 18px;
   text-align:right;
   font-size:90%;
+  background: #efefef;
+  height:50px;
 }
 
 .utilities a {
@@ -249,11 +253,12 @@ body {
 .overSlideShowTextDiv .spn-viewAssetGallery {
 	border: 1px solid #999999;
 	border-right: none;
-  width: 148px;
+  width: 200px;
   display: block;
   float: left;
   height: 30px;
   padding: 5px 0 0 10px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .glyphicon-triangle-right, .glyphicon-triangle-left, .glyphicon-triangle-bottom {
@@ -285,6 +290,17 @@ body {
   height: 30px;
   padding: 5px 0 0 10px;
   background:#ffffff;
+}
+.regnewscontent .glyphicon-triangle-right, .upcomingevents .glyphicon-triangle-right {
+  color: #0094d9;
+  border: 1px solid #999999;
+  padding: 5px 5px 5px 6px;
+  font-size: 1.5em;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  cursor: pointer;
+  background:#ffffff
 }
 
 .twitterlogo, .twitterfeed, .twitterbuttons, .twitterlink {
