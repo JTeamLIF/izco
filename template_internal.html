@@ -13,7 +13,7 @@
 <link href="css/styles.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="css/full-width-pics.css" rel="stylesheet">
-
+<link href="css/styles_menu_left.css" rel="stylesheet">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -68,13 +68,24 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-
-      
+        <ul class="nav">
+          <li class="level-1 first"><a href="#">level-1 first</a></li>
+          <li class="level-1 parent-menu-active"><a href="#">level-1 parent-menu-active</a>
+            <ul class="nav_sub">
+              <li class="level-2 first"><a href="#">level-2 first</a></li>
+              <li class="level-2 parent-menu-active"><a href="#">level-2 active</a></li>
+              <li class="level-2"><a href="#">level-2</a></li>
+              <li class="level-2"><a href="#">level-2</a>
+            </ul>
+          </li>
+          <li class="level-1"><a href="#">level-1</a></li>
+          <li class="level-1"><a href="#">level-1</a></li>
+        </ul>
       </div>
       <div class="col-lg-6 content1">Content Here</div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div><br>
-
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <br>
         <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
       </div>
     </div>

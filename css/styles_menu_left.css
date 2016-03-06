@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.menu_left {
+	height: 500px;
+	background: #E9E9E9;
+	padding-left:50px;
+	padding-top:50px;
+}
+
+.nav li a {
+	margin: 0; /*removes indent IE and Opera*/
+	padding: 0; /*removes indent Mozilla and NN7*/
+}
+
+.menu_left .nav {
+/*	padding-top: 56px;*/
+	font-size: 1em;
+    line-height: 2.4em;
+}
+
+.menu_left ul {
+	list-style-type: none;
+	margin-bottom:0;
+	padding:0;
+}
+
+.menu_left a {
+	/*/*/display: block;
+	border-top: 1px solid #999999;
+	width: 270px;/* */
+	color: #666666;
+	text-decoration: none;
+	margin-bottom: 1px;
+}
+
+.menu_left ul li a {
+	padding-left: 16px;
+}
+
+.nav .level-1.parent-menu-active .nav_sub .level-2 a {
+	background-color: #FFF;
+}
+
+.nav .level-1.parent-menu-active .nav_sub .level-2 a:hover {
+	background-color: #0094D9;
+	color:#fff;
+}
+
+.nav .level-1.parent-menu-active a {
+	background-color: #0E4C7D;
+	color:#FFFFFF;
+}
+.nav .level-1 a:hover{
+	background-color: #0E4C7D;
+	color:#FFFFFF;
+}
+
+.nav .level-1.parent-menu-active .nav_sub .level-2.parent-menu-active a {
+	background-color: #0094D9;
+}
+.nav .level-1.parent-menu-active .nav_sub .level-2 a {
+	color: #666;
+}
+.nav .level-1.parent-menu-active .nav_sub .level-2.parent-menu-active a {
+	color: #FFF;
+	background-image: url(../images/menu_left_sub_on.png);
+	background-repeat: no-repeat;
+	background-position: 16px 0px;
+}
+.nav .level-1.parent-menu-active .nav_sub .level-2 a {
+	padding-left: 50px;
+}
+.nav .level-1.first a {
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #666;
+}
