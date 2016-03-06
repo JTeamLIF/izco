@@ -422,16 +422,61 @@ body {
 }
 /*MENU STYLES*/
 
-#menu_top_right, #menu_top_left, #menu_left {
+#menu_top_left {
 	line-height: 1.9em;
 }
-#menu_top_left ul, #menu_top_right ul, #menu_left ul {
+#menu_top_left ul {
 	margin: 0; /*removes indent IE and Opera*/
 	padding: 0; /*removes indent Mozilla and NN7*/
 	list-style-type: none;
 	border-top: 4px solid #ffffff;
 	margin-top: 11px;/*list-style-image: url(../images/menu_list_active.png);*/
 }
+
+#menu_top_left li {
+	margin: 0 0 0px 0;
+	/*background-image: url(../images/menu_list_active.png);*/
+	background-repeat: no-repeat;/*	background-position: right;*/
+}
+#menu_top_left a {
+	/*/*/display: block;
+	border-bottom: 1px solid #87A6BE;
+	/*width: 217px;*//* */
+	color: #ffffff;
+	text-decoration: none;
+}
+#menu_top_left ul li a {
+	padding-left: 25px;
+}
+#menu_top_left a:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #0e4c7d;
+
+}
+/*.top_menu_active{
+	background-image: url(../images/menu_list_active.png);
+	background-position: left;
+	background-color:#ffffff;
+	color:#0e4c7d;
+}*/
+
+/*Active menu item black*/
+#menu_top_left ul .top_menu_active a {
+	color: #0E4C7D;
+	background-color: #fff;
+	background-image: url(../images/menu_list_active.png);
+	background-repeat: no-repeat;
+	background-position: 8px -7px;
+}
+/*Stops rollover on active menu item*/
+#menu_top_left .top_menu_active a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/*END OF MENU STYLES*/
+
 #nav_footer {
 	margin: 0; /*removes indent IE and Opera*/
 	padding: 0; /*removes indent Mozilla and NN7*/
@@ -449,59 +494,6 @@ body {
 	font-weight: bold;
 	line-height: 22px;
 }
-#menu_top_left li, #menu_top_right li, #menu_left li {
-	margin: 0 0 0px 0;
-	/*background-image: url(../images/menu_list_active.png);*/
-	background-repeat: no-repeat;/*	background-position: right;*/
-}
-#menu_top_left a, #menu_top_right a, #menu_left a {
-	/*/*/display: block;
-	border-bottom: 1px solid #87A6BE;
-	/*width: 217px;*//* */
-	color: #ffffff;
-	text-decoration: none;
-}
-#menu_top_right ul li a, #menu_top_left ul li a, #menu_left ul li a {
-	padding-left: 3px;
-}
-#menu_top_left a:hover, #menu_top_right a:hover, #menu_left a:hover {
-	text-decoration: none;
-	background-color: #ffffff;
-	color: #0e4c7d;
-	list-style-image: url(../images/menu_list_active.png);
-}
-/*.top_menu_active{
-	background-image: url(../images/menu_list_active.png);
-	background-position: left;
-	background-color:#ffffff;
-	color:#0e4c7d;*/
-}
-#menu_left ul .menu_active {
-	background-image: url({site_url}images/jlif/menu_arrow_active.jpg);
-	background-color: #F8F8F8;
-}
-#menu_left ul .withsub_menu_active {
-	background-image: url({site_url}images/jlif/menu_arrow_down_active.jpg);
-	background-color: #E7E7E7;
-}
-#menu_left ul .menu_active_subs {
-	background-image: url({site_url}images/jlif/menu_arrow_active.jpg);
-	background-color: #F8F8F8;
-}
-/*Active menu item black*/
-#menu_top ul .top_menu_active a, #menu_left_sub .menu_active a, #menu_left ul .menu_active a {
-	color: #000;
-}
-/*Stops rollover on active menu item*/
-#menu_top_left .top_menu_active a:hover, #menu_top_right .top_menu_active a:hover, #menu_left .menu_active a:hover {
-	color: #000;
-	text-decoration: none;
-}
-ul #menu_left_sub li a {
-	padding-left: 20px;
-	width: 200px;
-}
-/*END OF MENU STYLES*/
 
 .breadcrumb {
 	height: 43px;
@@ -522,7 +514,7 @@ ul #menu_left_sub li a {
 	color: #3b7cbd;
 }
 
-.menu_left, .content1, .rightcol1 {
+.content1, .rightcol1 {
 	height: 500px;
 	background: #E9E9E9;
 }
@@ -543,110 +535,3 @@ ul #menu_left_sub li a {
 	font-size: 1.3em;
 }
 
-/*LEFT MENU STYLES*/
-
-.menu_left {
-/*	padding-top: 56px;*/
-	line-height: 20px;
-	min-height: 200px;
-}
-.menu_left ul {
-	margin: 0; /*removes indent IE and Opera*/
-	padding: 0; /*removes indent Mozilla and NN7*/
-	list-style-type: none;
-}
-.menu_left li {
-	margin: 0 0 0px 0;/*	background-image: url({site_url}images/jlif/menu_arrow.jpg);
-	background-repeat: no-repeat;
-	background-position: right;*/
-}
-.menu_left a {
-	/*/*/display: block;
-	/*border-bottom: 1px dotted #999999;*/
-	width: 210px;/* */
-	color: #666666;
-	text-decoration: none;
-	margin-bottom: 1px;
-}
-.menu_left ul li a {
-	padding-left: 10px;
-	background-color: #E9E9E9;
-}
-.menu_left ul li a .parent-menu_active {
-	padding-left: 10px;
-	background-color: #CCD51B;
-}
-.menu_left a:hover {
-	text-decoration: underline;
-}
-/*#menu_top_left ul .top_menu_active, #menu_top_right ul .top_menu_active {
-	background-image: url({site_url}images/jlif/menu_arrow_active.jpg);
-	background-color: #F8F8F8;
-}*/
-
-.menu_left ul .menu_active {
-	background-color: #F8F8F8;
-}
-.parent-menu_active {
-	background-color: #E7E7E7;
-}
-.menu_left ul .menu_active_subs a {
-	background-color: #FAFBE9;
-	background-image: url(../img/background_menu_dot.png);
-	background-repeat: no-repeat;
-}
-.menu_left ul .level-2 a {
-	background-color: #FFFFFF;
-	background-image: url(../img/background_menu_dot.png);
-	background-repeat: no-repeat;
-	color:#666666;
-}
-/*Active menu item black*/
-.menu_left ul .parent-menu_active a {
-	color: #FFF;
-	background-color: #0E4C7D;
-}
-/*Active menu item black*/
-.menu_left_sub .menu_active a, .menu_left ul .menu_active a {
-	color: #666;
-	background-color: #0E4C7D;
-}
-/*Stops rollover on active menu item*/
-.menu_left .menu_active a:hover {
-	color: #000;
-	text-decoration: none;
-}
-ul .menu_left_sub li a {
-	padding-left: 20px;
-	width: 200px;
-}
-#nav-sub .level-1.parent-menu_active ul .level-2.menu_active a {
-	background-color: #FAFBE9;
-	background-image: url(../img/background_menu_dot.png);
-	background-repeat: no-repeat;
-	padding-left: 20px;
-	width: 200px;
-}
-#nav-sub .level-1.parent-menu_active ul .level-2 a {
-	background-color: #FFFFFF;
-	background-image: url(../img/background_menu_dot.png);
-	background-repeat: no-repeat;
-	padding-left: 20px;
-	width: 200px;
-	color:#66666;
-}
-#nav-sub .level-2.parent-menu_active ul .level-3.menu_active a {
-	background-color: #FAFBE9;
-	background-image: url(../img/background_menu_line.png);
-	background-repeat: no-repeat;
-	padding-left: 30px;
-	width: 190px;
-}
-#nav-sub .level-2.parent-menu_active ul .level-3 a {
-	background-color: #FFFFFF;
-	background-image: url(../img/background_menu_line.png);
-	background-repeat: no-repeat;
-	padding-left: 30px;
-	width: 190px;
-}
-/*END OF LEFT MENU STYLES*/
