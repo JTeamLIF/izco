@@ -73,5 +73,11 @@
 .nav .level-1.first a {
 	border-top-width: 2px;
 	border-top-style: solid;
-	border-top-color: #666;
+	border-top-color: #999;
+}
+
+.nav .level-1.first.parent-menu-active .nav_sub .level-2 a {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
 }
