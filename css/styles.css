@@ -47,22 +47,20 @@ body {
 
 .pricetitle{
   font-size: 1.3em;
-  	color: #B4B4B4;
-    padding-top: 12px;
+	color: #B4B4B4;
+  padding-top: 12px;
 }
 
 .pricetime{
   font-size: 1em;
-  	color: #B4B4B4;
+	color: #B4B4B4;
 	margin-bottom:0px;
-
 }
 
 .pricedelay{
   font-size: 0.9em;
-  	color: #999999;
+	color: #999999;
 	font-style:italic;
-
 }
 
 .searchBarDiv {
@@ -86,6 +84,10 @@ body {
   height: 34px;
 }
 
+.dropup .glyphicon-triangle-top {
+	/*display: none;*/
+}
+
 .glyphicon-search {
   font-size: 1.6em;
   color: #ffffff;
@@ -102,30 +104,26 @@ body {
 	background: #e5e5e5;
 	height: 266px;
 	padding:25px;
-
 }
 
 .upcomingevents {
 	background: #e5e5e5;
 	height: 322px;
-	    padding-left: 0;
-    padding-right: 0;
-
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .regnewscontent {
 	background: #e5e5e5;
 	height: 266px;
 	padding: 25px;
-
 }
 
 .regnews {
 	background: #e5e5e5;
 	height: 322px;
-	    padding-left: 0;
-    padding-right: 0;
-
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .upcomingeventstitle {
@@ -143,11 +141,10 @@ body {
 }
 
 .upcomingeventstitle h3, .regnewstitle h3 {
-    font-size: 1.6em;
-    margin-top: 0;
-    padding-left: 25px;
-    padding-top: 15px;
-
+  font-size: 1.6em;
+  margin-top: 0;
+  padding-left: 25px;
+  padding-top: 15px;
 }
 
 .newsitem {
@@ -262,7 +259,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
 }
 
-.glyphicon-triangle-right, .glyphicon-triangle-left, .glyphicon-triangle-bottom {
+.glyphicon-triangle-right, .glyphicon-triangle-left, .glyphicon-triangle-bottom, .glyphicon-triangle-top {
   color: #0094d9;
   border: 1px solid #999999;
   padding: 5px 5px 5px 6px;
