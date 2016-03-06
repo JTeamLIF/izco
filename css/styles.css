@@ -88,6 +88,84 @@ body {
 	height: 1300px !important;
 }
 
+.whatWeDo {
+	padding: 0 30px;
+}
+
+.inverstorAdvisorWrapper {
+	background: #f7f7f7;
+	padding: 60px 0;
+}
+
+.inverstorAdvisorTitle {
+	background: #515151;
+	height: 260px;
+}
+
+.inverstorAdvisorInfo {
+	background: #e9e9e9;
+	height: 260px;
+	padding: 30px;
+	width: 638px;
+}
+
+.inverstorAdvisorTitle h1 {
+	font-size: 1.3em;
+	color: #ffffff;
+  margin: 0;
+  padding: 25px 10px 0 10px;
+}
+
+.inverstorAdvisorTitle h3 {
+	font-size: 1.2em;
+	color: #cccccc;
+  margin: 0;
+  padding: 5px 10px;
+  height: 150px;
+}
+
+.otherContactsWrapper {
+  padding: 20px 0;
+  position: relative;
+  width: 871px;
+}
+
+.teamMember {
+  background: url('../images/teamMemberThumb.jpg');
+  height: 214px;
+  width: 269px;
+  float: left;
+  border: 1px solid #999999;
+  margin: 10px;
+}
+
+.emptyOverlay {
+	background: rgba(25, 25, 25, 0);
+	height: 70%
+}
+
+.teamMemberInfo {
+	background: rgba(25, 25, 25, .6);
+  height: 30%;
+  font-size: 1.1em;
+  padding: 12px 25px;
+  color: #ffffff;
+}
+
+.teamMemberInfo h1 {
+	font-size: 1.1em;
+	margin: 0;
+}
+
+.teamMemberInfo h3 {
+	font-size: 0.9em;
+	margin: 0;
+	color: #cccccc;
+	padding: 2px 0;
+	height: 30px;
+	width: 165px;
+}
+
 .bannerimage {
 	background: url('../images/internal_top.jpg');
 	width:1280px; 
@@ -299,6 +377,11 @@ body {
 	padding: 5px 0 0 10px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.dropup .glyphicon-triangle-top {
+	display: none;
+}
+
 .glyphicon-triangle-right, 
 .glyphicon-triangle-left, 
 .glyphicon-triangle-bottom {
