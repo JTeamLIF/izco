@@ -131,12 +131,12 @@ body {
 }
 
 .teamMember {
-	background: url('../images/teamMemberThumb.jpg');
-	height: 214px;
-	width: 269px;
-	float: left;
-  margin: 0 10px;
+  background: url('../images/teamMemberThumb.jpg');
+  height: 214px;
+  width: 269px;
+  float: left;
   border: 1px solid #999999;
+  margin: 10px;
 }
 
 .emptyOverlay {
@@ -148,7 +148,7 @@ body {
 	background: rgba(25, 25, 25, .6);
   height: 30%;
   font-size: 1.1em;
-  padding: 15px 25px;
+  padding: 12px 25px;
   color: #ffffff;
 }
 
@@ -158,10 +158,12 @@ body {
 }
 
 .teamMemberInfo h3 {
-	font-size: 1em;
+	font-size: 0.9em;
 	margin: 0;
 	color: #cccccc;
-	padding: 5px 0;
+	padding: 2px 0;
+	height: 30px;
+	width: 165px;
 }
 
 .bannerimage {
@@ -169,8 +171,6 @@ body {
 	width:1280px; 
 	height:230px;
 }
-
-
 
 .clearPageTitle {
 	background: rgba(25, 25, 25, 0);
