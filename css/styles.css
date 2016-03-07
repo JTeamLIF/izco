@@ -732,7 +732,7 @@ hr {
 	background: #666666 !important;
 }
 
-.table-striped td {
+.table-striped tr {
 	width: 100%;
 }
 
