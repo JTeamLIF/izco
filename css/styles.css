@@ -585,7 +585,7 @@ body {
 	line-height: 28px;
 }
 .content1, .rightcol1 {
-	height: 500px;
+/*	height: 500px;*/
 	background: #E9E9E9;
 }
 
@@ -598,8 +598,9 @@ body {
 }
 
 .content1, .rightcol1 {
-	height: 500px;
+/*	height: 500px;*/
 	background: #E9E9E9;
+	padding-bottom:40px;
 }
 
 .rightcol1 {
@@ -621,4 +622,7 @@ body {
 	color: #666666;
 	font-size: 1.3em;
 }
-
+.contentwrapper1 {
+	background-color:#E9E9E9;
+	padding: 0px;
+}
