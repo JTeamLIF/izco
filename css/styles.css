@@ -7,6 +7,10 @@ body {
 	font-size: 12px;
 }
 
+hr {
+	border-top: 1px solid #cccccc;
+}
+
 .logo {
 	padding: 27px;
 }
@@ -749,4 +753,17 @@ body {
 
 .publicationsTable {
 	width: 100%;
+}
+
+.dividendh1 {
+	background: #ffffff;
+	width: 100%;
+	margin: 20px 0 !important;
+	padding: 20px 10px !important;
+	border: none !important;
+	color:#3b7cbd;
+}
+
+.dividendDate {
+	color:#3b7cbd !important;
 }
