@@ -168,7 +168,7 @@ body {
 
 .bannerimage {
 	background: url('../images/internal_top.jpg');
-	width:1280px; 
+	width:1280px;
 	height:230px;>
 }
 .clearPageTitle {
@@ -382,8 +382,8 @@ body {
 	display: none;
 }
 
-.glyphicon-triangle-right, 
-.glyphicon-triangle-left, 
+.glyphicon-triangle-right,
+.glyphicon-triangle-left,
 .glyphicon-triangle-bottom {
 	color: #0094d9;
 	border: 1px solid #999999;
@@ -402,7 +402,7 @@ body {
 }
 
 .rightcol1 .btn-viewAssetGallery,
-.regnewscontent .btn-viewAssetGallery, 
+.regnewscontent .btn-viewAssetGallery,
 .upcomingeventscontent .btn-viewAssetGallery {
 	border: none;
 	background: none;
@@ -411,7 +411,7 @@ body {
 	padding-top: 30px;
 }
 .rightcol1 .spn-viewAssetGallery,
-.regnewscontent .spn-viewAssetGallery, 
+.regnewscontent .spn-viewAssetGallery,
 .upcomingeventscontent .spn-viewAssetGallery,
 .contactCard .spn-viewAssetGallery {
 	border: 1px solid #999999;
@@ -424,7 +424,7 @@ body {
 	background: #ffffff;
 }
 .rightcol1 .glyphicon-triangle-right,
-.regnewscontent .glyphicon-triangle-right, 
+.regnewscontent .glyphicon-triangle-right,
 .upcomingevents .glyphicon-triangle-right {
 	color: #0094d9;
 	border: 1px solid #999999;
@@ -436,15 +436,15 @@ body {
 	cursor: pointer;
 	background: #ffffff
 }
-.twitterlogo, 
-.twitterfeed, 
-.twitterbuttons, 
+.twitterlogo,
+.twitterfeed,
+.twitterbuttons,
 .twitterlink {
 	background-color: #3b7cbd;
 	height: 100px
 }
-.twitterlogo, 
-.twitterfeed, 
+.twitterlogo,
+.twitterfeed,
 .twitterlink {
 	background-color: #3b7cbd;
 	height: 100px
@@ -468,7 +468,7 @@ body {
 	margin-top: 5px;
 	padding-top: 3px;
 }
-.twitter .glyphicon-triangle-right, 
+.twitter .glyphicon-triangle-right,
 .twitter .glyphicon-triangle-left {
 	color: #ffffff;
 	border: 1px solid #ffffff;
@@ -589,7 +589,7 @@ body {
 	background: #E9E9E9;
 }
 
-.previousPage {
+.previousPage, .previousPage a {
 	color: #999999;
 }
 
@@ -608,17 +608,36 @@ body {
 }
 
 .content1 h1 {
-    border-bottom: 1px solid #cccccc;
-    color: #3b7cbd;
-    font-size: 2.2em;
-    margin: 46px 0 35px;
-    padding-bottom: 6px;
+  border-bottom: 1px solid #cccccc;
+  color: #3b7cbd;
+  font-size: 2.2em;
+  margin: 46px 0 35px;
+  padding-bottom: 6px;
 }
 
 .content1 h3 {
-	    font-size: 1.8em;
-    line-height: 1.3em;
-    margin-bottom: 40px
+  font-size: 1.8em;
+  line-height: 1.3em;
+  margin-bottom: 40px
+}
+
+.content1 h5 {
+	font-size: 1.5em;
+	color: #666666;
+}
+
+.content1 ul {
+	list-style-position: outside;
+  padding: 15px;
+ 	font-size: 1.3em;
+}
+
+.content1 li span {
+	color: #666666;
+}
+
+.content1 li {
+	color: #0795de;
 }
 
 .content1 p {
