@@ -19,12 +19,17 @@ $(function () {
 	$('.glyphicon-triangle-top').on('click', function() {
 		var div = $(this).closest('.overSlideShowDiv');
 		$(this).hide();
-		div.animate({ marginTop:'0px' }, 
-			{ 
+		div.animate({ marginTop:'0px' },
+			{
 				complete: function() {
 					div.css('position', 'relative');
 				}
 			});
+	});
+
+	$('#myTabs a').click(function (e) {
+  	e.preventDefault()
+  	$(this).tab('show')
 	});
 
 });
