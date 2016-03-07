@@ -745,10 +745,17 @@ hr {
 
 .table-striped .text {
 	padding: 0 10px 10px 20px;
-	display: block;
+	display: inline-block;
 	font-weight: bold;
 	color:#666666;
 	font-size: 1.2em;
+}
+
+.table-striped .calendar {
+  padding: 0 19px;
+  display: inline-block;
+  float: right;
+  margin-top: -10px;
 }
 
 .publicationsTable {
