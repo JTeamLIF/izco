@@ -24,7 +24,7 @@
 </head>
 
 <body>
-<div class="im-centered"> 
+<div class="im-centered">
   <!-- Navigation -->
   <div class="row">
     <div class="col-md-12">
@@ -58,11 +58,11 @@
   </div>
   </section>
   <div class="row">
-    <div class="col-md-12"> 
+    <div class="col-md-12">
       <div class="bannerimage">
         <div class="clearPageTitle">
         </div>
-        <div class="pageTitle"> 
+        <div class="pageTitle">
           Media
         </div>
       </div>
@@ -71,8 +71,8 @@
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right">
-        <span class="previousPage"><a href="index.html">Home</a></span> | 
-        <span class="activePage">Media</span> | 
+        <span class="previousPage"><a href="index.html">Home</a></span> |
+        <span class="previousPage">Media</span> |
         <span class="activePage">Press Coverage</span>
       </div>
     </div>
@@ -87,23 +87,110 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Press Coverage</h1>
-        <h3>h3</h3>
-        <p>paragraph</p>
+        <p>Search by date, keyword or category</p>
+        <div class="input-group inline">
+          <input type="text" class="form-control" placeholder="Keyword" aria-describedby="basic-addon1">
+        </div>
+        <div class="dropdown inline" style="margin-left: 37px;">
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <div class="input-group inline">
+          <input type="text" class="form-control" placeholder="From" aria-describedby="basic-addon1">
+        </div>
+        <img src="images/calendar-icon.jpg" class="inline calendarIconPadding">
+        <div class="input-group inline">
+          <input type="text" class="form-control" placeholder="To" aria-describedby="basic-addon1">
+        </div>
+        <img src="images/calendar-icon.jpg" class="inline calendarIconPadding">
+        <button type="button" class="btn btn-default navbar-btn inline search">Search</button>
+
+        <div class="clearfix"></div>
+
+        <div class="publicationsMain">
+
+        <ul class="years">
+          <li><span>2016</span></li>
+          <li>2015</li>
+          <li>2014</li>
+          <li>2013</li>
+          <li>2012</li>
+        </ul>
+        <h2 class="selectedYear">2016</h2>
+        <p><b>Total:</b> 7 results</p>
+
+       <!-- Nav tabs -->
+        <ul class="nav nav-tabs publicationsTab" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="all">
+            <table class="table-striped publicationsTable">
+              <tr>
+                <td>
+                  <span class="date">25 Feb 2016</span>
+                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">25 Feb 2016</span>
+                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">25 Feb 2016</span>
+                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">25 Feb 2016</span>
+                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">25 Feb 2016</span>
+                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">25 Feb 2016</span>
+                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
+      </div>
+
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> 
-          <span class="spn-viewAssetGallery">Link title</span> 
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> 
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> 
-          <span class="spn-viewAssetGallery">Link title</span> 
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> 
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
       </div>
     </div>
   </div>
-  
+
   <!-- Footer -->
   <footer>
     <div class="row">
@@ -166,11 +253,11 @@
   </footer>
 </div>
 
-<!-- jQuery --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script> 
-<script src="js/app.js"></script> 
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
 
-<!-- Bootstrap Core JavaScript --> 
+<!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
