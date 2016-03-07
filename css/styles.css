@@ -608,14 +608,17 @@ body {
 }
 
 .content1 h1 {
-	color: #3b7cbd;
-	border-bottom: 1px solid #cccccc;
-	font-size: 2.2em;
-	margin: 52px 0;
+    border-bottom: 1px solid #cccccc;
+    color: #3b7cbd;
+    font-size: 2.2em;
+    margin: 46px 0 35px;
+    padding-bottom: 6px;
 }
 
 .content1 h3 {
-	margin-bottom: 40px;
+	    font-size: 1.8em;
+    line-height: 1.3em;
+    margin-bottom: 40px
 }
 
 .content1 p {
@@ -625,4 +628,6 @@ body {
 .contentwrapper1 {
 	background-color:#E9E9E9;
 	padding: 0px;
+	    margin-left: 15px;
+    max-width: 1280px;
 }
