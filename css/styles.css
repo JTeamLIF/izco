@@ -647,6 +647,106 @@ body {
 .contentwrapper1 {
 	background-color:#E9E9E9;
 	padding: 0px;
-	    margin-left: 15px;
-    max-width: 1280px;
+  margin-left: 15px;
+  max-width: 1280px;
+}
+
+.inline {
+	display: inline-block;
+	float: left;
+}
+
+.categoryDropdown {
+  width: 173px;
+  height: 34px;
+  border-radius: 0;
+  color: #9A9A9A;
+}
+
+.categoryDropdown .title {
+	float: left;
+}
+
+.categoryDropdown .caret {
+  margin-left: 0;
+  float: right;
+  margin: 10px 0;
+  color: #000000;
+}
+
+.calendarIconPadding {
+	padding: 5px 10px;
+}
+
+.search {
+  background: #078fd5;
+  border-radius: 0;
+  width: 173px;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.publicationsMain {
+	padding: 40px 0;
+}
+
+.years {
+	float:right;
+}
+.years li {
+	list-style-type: none;
+	display: inline-block;
+	color: #666666;
+	padding: 0 2px;
+}
+.years li span {
+	color: #078fd5;
+}
+
+.selectedYear {
+	font-size:1.4em;
+	font-weight: 900;
+	color:#666666;
+	margin: 2px 0;
+}
+
+.publicationsTab {
+	padding: 0 !important;
+}
+
+.publicationsTab li a {
+	color: #666666;
+  background: #f0f0f0;
+  margin: 0 5px !important;
+  border-radius: 0;
+  border: 1px solid #d8d8d8;
+  padding: 5px 30px !important;
+}
+
+.publicationsTab li.active a {
+	color:#f0f0f0 !important;
+	background: #666666 !important;
+}
+
+.table-striped td {
+	width: 100%;
+}
+
+.table-striped .date {
+	padding: 10px 10px 0 20px;
+	display: block;
+	color:#666666;
+	font-size: 1.2em;
+}
+
+.table-striped .text {
+	padding: 0 10px 10px 20px;
+	display: block;
+	font-weight: bold;
+	color:#666666;
+	font-size: 1.2em;
+}
+
+.publicationsTable {
+	width: 100%;
 }
