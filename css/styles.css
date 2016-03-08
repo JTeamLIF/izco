@@ -774,3 +774,34 @@ hr {
 .dividendDate {
 	color:#3b7cbd !important;
 }
+
+.green {
+	color: #22b14c;
+	font-size: 1.4em;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 20px !important
+}
+
+.red {
+	color: #ed1c24;
+	font-size: 1.4em;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 20px !important
+}
+
+.headingText {
+	font-size: 1.4em;
+	padding: 5px 5px 0 20px
+}
+
+.tableGlyph {
+	color: #bbbbbb;
+  border: none;
+	padding: 0;
+  font-size: 1.3em;
+  height: 0;
+  width: 0;
+  top: 5px;
+}
