@@ -813,3 +813,24 @@ hr {
 .eurolandCopyright a{
 	color: #118ef5;
 }
+
+.subscription input, .subscription select {
+	float:right;
+	width: 450px;
+	display: inline-block;
+	margin-top: -5px;
+}
+
+ol li {
+	color: #000 !important;
+	font-size: 1.2em;
+}
+
+.checkboxLabel {
+	font-size:1.2em;
+	display: block;
+}
+
+.checkbox span {
+	display: block;
+}
