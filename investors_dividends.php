@@ -28,32 +28,18 @@
   <!-- Navigation -->
   <div class="row">
     <div class="col-md-12">
-      <div class="col-md-6 noPadding">
-        <div class="logo"> <a href="index.html"><img class="img-responsive logo" src="images/logo.png" alt="logo"></a> </div>
-        <div class="searchBarDiv">
-          <div class="form-group">
-            <input type="text" class="searchBar pull-left" placeholder="Search">
-            <button type="submit" class="btn-search pull-left"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span> </button>
-          </div>
-        </div>
-      </div>
+      <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
         <ul id="nav_main">
-          <li><a href="about_overview.html">About</a></li>
-          <li><a href="portfolio_investmentportfolio.html">Portfolio</a></li>
-          <li class="top_menu_active"><a href="investors_shareprice.html">Investors</a></li>
-          <li><a href="media_presscoverage.html">Media</a></li>
-          <li><a href="contact_administrators.html">Contact</a></li>
+          <li><a href="about_overview.php">About</a></li>
+          <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
+          <li class="top_menu_active"><a href="investors_shareprice.php">Investors</a></li>
+          <li><a href="media_presscoverage.php">Media</a></li>
+          <li><a href="contact_administrators.php">Contact</a></li>
         </ul>
       </div>
-      <div class="col-md-3 latestSharePrices">
-        <div class="sharepricecontainer">
-          <p class="pricetitle">Latest Share Price </p>
-          <p class="pricedisplay">119.00p</p>
-          <p class="pricetime">As at 3:15pm . 21October 2015</p>
-          <p class="pricedelay">Delayed by 15 minutes</p>
-        </div>
-      </div>
+    <?php include("inc/latest-share-price.php"); ?>
+
     </div>
   </div>
   </section>
@@ -71,7 +57,7 @@
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right">
-        <span class="previousPage"><a href="index.html">Home</a></span> |
+        <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage">Investors</span> |
         <span class="activePage">Dividends</span>
       </div>
@@ -82,11 +68,11 @@
       <div class="col-lg-3 menu_left">
         <ul class="nav">
 
-          <li class="level-1 first"><a href="investors_shareprice.html">Share Information</a></li>
-          <li class="level-1"><a href="investors_latestregulatorynews.html">Regulatory news</a></li>
+          <li class="level-1 first"><a href="investors_shareprice.php">Share Information</a></li>
+          <li class="level-1"><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
           <li class="level-1 parent-menu-active"><a href="investors_dividends.html">Dividends</a></li>
-          <li class="level-1"><a href="investors_publications.html">Publications</a></li>
-          <li class="level-1"><a href="investors_financialcalendar.html">Financial Calendar</a></li>
+          <li class="level-1"><a href="investors_publications.php">Publications</a></li>
+          <li class="level-1"><a href="investors_financialcalendar.php">Financial Calendar</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
@@ -216,65 +202,7 @@
   </div>
 
   <!-- Footer -->
-  <footer>
-    <div class="row">
-      <div class="col-md-12 footer noPadding">
-        <div class="col-lg-2">
-          <div class="logofooter"> <img class="img-responsive logofooter" src="images/logo_footer.png" alt="logo"> </div>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="about_overview.html">About</a></li>
-            <li><a href="about_overview.html">Overview</a></li>
-            <li><a href="about_keyevents.html">Key events</a></li>
-            <li><a href="about_advisorteam.html">The team</a></li>
-            <li><a href="about_investmentpolicy.html">Investment policy</a></li>
-            <li><a href="about_riskmanagement.html">Risk management</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="portfolio_investmentportfolio.html">Portfolio</a></li>
-            <li><a href="portfolio_investmentportfolio.html">Investment portfolio</a></li>
-            <li><a href="portfolio_assetbreakdown.html">Asset breakdown</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="investors_shareprice.html">Investors</a></li>
-            <li><a href="investors_shareprice.html">Share information</a></li>
-            <li><a href="investors_regulatorynews.html">Regulatory news</a></li>
-            <li><a href="investors_publications.html">Publications</a></li>
-            <li><a href="investors_dividends.html">Dividends</a></li>
-            <li><a href="investors_financialcalendar.html">Financial calendar</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="media_presscoverage.html">Media</a></li>
-            <li><a href="media_presscoverage.html">Press coverage</a></li>
-            <li><a href="media_videocoverage.html">Video coverage</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="contact_administrators.html">Contact</a></li>
-            <li><a href="contact_administrators.html">Administrators</a></li>
-            <li><a href="contact_shareholderenquiries.html">Shareholder enquiries</a></li>
-            <li><a href="contact_investmentadvisors.html">Investment advisors</a></li>
-            <li><a href="contact_publicrelations.html">Public relations</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- /.container -->
-    <div class="row">
-      <div class="col-md-12 underFooter">
-        <div class="col-lg-6 pull-left copyright"> &copy;2015 John Laing Infrastructure Fund </div>
-        <div class="col-lg-6 pull-right utilities"> <a href="termsandconditions.html">Terms &amp; Conditions</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="privacypolicy.html">Privacy Policy</a> | <a href="cookiepolicy.html">Cookie Policy</a> </div>
-      </div>
-    </div>
-  </footer>
+  <?php include("inc/footer.php"); ?>
 </div>
 
 <!-- jQuery -->
