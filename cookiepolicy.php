@@ -24,45 +24,31 @@
 </head>
 
 <body>
-<div class="im-centered"> 
+<div class="im-centered">
   <!-- Navigation -->
   <div class="row">
     <div class="col-md-12">
-      <div class="col-md-6 noPadding">
-        <div class="logo"> <a href="index.html"><img class="img-responsive logo" src="images/logo.png" alt="logo"></a> </div>
-        <div class="searchBarDiv">
-          <div class="form-group">
-            <input type="text" class="searchBar pull-left" placeholder="Search">
-            <button type="submit" class="btn-search pull-left"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span> </button>
-          </div>
-        </div>
-      </div>
+      <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
         <ul id="nav_main">
-          <li><a href="about_overview.html">About</a></li>
-          <li><a href="portfolio_investmentportfolio.html">Portfolio</a></li>
-          <li><a href="investors_shareprice.html">Investors</a></li>
-          <li><a href="media_presscoverage.html">Media</a></li>
-          <li><a href="contact_administrators.html">Contact</a></li>
+          <li><a href="about_overview.php">About</a></li>
+          <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
+          <li><a href="investors_shareprice.php">Investors</a></li>
+          <li><a href="media_presscoverage.php">Media</a></li>
+          <li><a href="contact_administrators.php">Contact</a></li>
         </ul>
       </div>
-      <div class="col-md-3 latestSharePrices">
-        <div class="sharepricecontainer">
-          <p class="pricetitle">Latest Share Price </p>
-          <p class="pricedisplay">119.00p</p>
-          <p class="pricetime">As at 3:15pm . 21October 2015</p>
-          <p class="pricedelay">Delayed by 15 minutes</p>
-        </div>
-      </div>
+    <?php include("inc/latest-share-price.php"); ?>
+
     </div>
   </div>
   </section>
   <div class="row">
-    <div class="col-md-12"> 
+    <div class="col-md-12">
       <div class="bannerimage">
         <div class="clearPageTitle">
         </div>
-        <div class="pageTitle"> 
+        <div class="pageTitle">
           Cookie Policy
         </div>
       </div>
@@ -71,7 +57,7 @@
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right">
-        <span class="previousPage"><a href="index.html">Home</a></span> | 
+        <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="activePage">Cookie Policy</span>
       </div>
     </div>
@@ -80,16 +66,16 @@
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
         <ul class="nav">
-          <li class="level-1 first"><a href="termsandconditions.html">Terms &amp; Conditions</a></li>
-          <li class="level-1"><a href="disclaimer.html">Disclaimer</a></li>
-          <li class="level-1"><a href="privacypolicy.html">Privacy Policy</a></li>
-          <li class="level-1 parent-menu-active"><a href="cookiepolicy.html">Cookie Policy</a></li>
+          <li class="level-1 first"><a href="termsandconditions.php">Terms &amp; Conditions</a></li>
+          <li class="level-1"><a href="disclaimer.php">Disclaimer</a></li>
+          <li class="level-1"><a href="privacypolicy.php">Privacy Policy</a></li>
+          <li class="level-1 parent-menu-active"><a href="cookiepolicy.php">Cookie Policy</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
         <h1>Cookie Policy</h1>
-        
-        
+
+
 
 <p><p>This Cookies Policy belongs to JLIF Limited and governs our use of cookies and similar technologies for storing information. This Cookies Policy explains how we use cookies and similar technologies when you visit our website. To enable you to use this website you must indicate that you have read and accepted the details of this policy in full and understand its terms before you can commence using the site.</p>
 
@@ -133,86 +119,28 @@ Many cookies are designed to give you optimal usage of the web. For example, we 
 <p>Most browsers are initially set to accept cookies. However, you have the ability to disable cookies if you wish, generally through changing your internet software browsing settings. It may also be possible to configure your browser settings to enable acceptance of specific cookies or to notify you each time a new cookie is about to be stored on your computer enabling you to decide whether to accept or reject the cookie. To manage your use of cookies there are various resources available to you, for example the &#8220;Help&#8221; section on your browser may assist you. You can also disable or delete the stored data used by technology similar to cookies, such as Local Shared Objects or Flash cookies, by managing your browser&#8217;s &#8220;add-on settings&#8221; or visiting the website of its manufacturer. As our cookies allow you to access some of our website&#8217;s essential features we recommend that you leave cookies enabled, otherwise, if cookies are disabled, it may mean that you experience reduced functionality or will be prevented from using this site altogether.</p>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> 
-          <span class="spn-viewAssetGallery">Link title</span> 
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> 
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> 
-          <span class="spn-viewAssetGallery">Link title</span> 
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> 
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
       </div>
     </div>
   </div>
-  
+
   <!-- Footer -->
-  <footer>
-    <div class="row">
-      <div class="col-md-12 footer noPadding">
-        <div class="col-lg-2">
-          <div class="logofooter"> <img class="img-responsive logofooter" src="images/logo_footer.png" alt="logo"> </div>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="about_overview.html">About</a></li>
-            <li><a href="about_overview.html">Overview</a></li>
-            <li><a href="about_keyevents.html">Key events</a></li>
-            <li><a href="about_advisorteam.html">The team</a></li>
-            <li><a href="about_investmentpolicy.html">Investment policy</a></li>
-            <li><a href="about_riskmanagement.html">Risk management</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="portfolio_investmentportfolio.html">Portfolio</a></li>
-            <li><a href="portfolio_investmentportfolio.html">Investment portfolio</a></li>
-            <li><a href="portfolio_assetbreakdown.html">Asset breakdown</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="investors_shareprice.html">Investors</a></li>
-            <li><a href="investors_shareprice.html">Share information</a></li>
-            <li><a href="investors_regulatorynews.html">Regulatory news</a></li>
-            <li><a href="investors_publications.html">Publications</a></li>
-            <li><a href="investors_dividends.html">Dividends</a></li>
-            <li><a href="investors_financialcalendar.html">Financial calendar</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="media_presscoverage.html">Media</a></li>
-            <li><a href="media_presscoverage.html">Press coverage</a></li>
-            <li><a href="media_videocoverage.html">Video coverage</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <ul id="nav_footer">
-            <li class="footertitle"><a href="contact_administrators.html">Contact</a></li>
-            <li><a href="contact_administrators.html">Administrators</a></li>
-            <li><a href="contact_shareholderenquiries.html">Shareholder enquiries</a></li>
-            <li><a href="contact_investmentadvisors.html">Investment advisors</a></li>
-            <li><a href="contact_publicrelations.html">Public relations</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- /.container -->
-    <div class="row">
-      <div class="col-md-12 underFooter">
-        <div class="col-lg-6 pull-left copyright"> &copy;2015 John Laing Infrastructure Fund </div>
-        <div class="col-lg-6 pull-right utilities"> <a href="termsandconditions.html">Terms &amp; Conditions</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="privacypolicy.html">Privacy Policy</a> | <a href="cookiepolicy.html">Cookie Policy</a> </div>
-      </div>
-    </div>
-  </footer>
+  <?php include("inc/footer.php"); ?>
 </div>
 
-<!-- jQuery --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script> 
-<script src="js/app.js"></script> 
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
 
-<!-- Bootstrap Core JavaScript --> 
+<!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
