@@ -14,6 +14,17 @@
 <!-- Custom CSS -->
 <link href="css/full-width-pics.css" rel="stylesheet">
 <link href="css/styles_menu_left.css" rel="stylesheet">
+<link href="css/jquery-jvectormap-2.0.3.css" rel="stylesheet">
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+<script src="js/mapData.js"></script>
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -50,7 +61,7 @@
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right">
         <span class="previousPage"><a href="index.php">Home</a></span> |
-        <span class="activePage">Portfolio</span> |
+        <span class="previousPage">Portfolio</span> |
         <span class="activePage">Investment Portfolio</span>
       </div>
     </div>
@@ -66,8 +77,10 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Investment Portfolio</h1>
-        <h3>h3</h3>
-        <p>paragraph</p>
+        <h3>JLIF has invested its capital in the acquisition of 57 independently valued infrastructure projects sourced from
+        third party vendors and John Laing, with a growing proportion of assets acquired from the broader secondary market.
+        The portfolio provides geographic diversification in countries that are regarded as fiscally strong and are committed
+        to PPP projects.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
@@ -81,17 +94,72 @@
           </div>
       </div>
     </div>
+    <div class="col-md-12 contentwrapper1" style="background-color: #f7f7f7;">
+      <div class="col-lg-3" style="background-color: #f7f7f7;">
+      </div>
+      <div class="col-lg-9" style="background-color: #f7f7f7;">
+        <div id="chartdiv"></div>
+        <dl class="accordion">
+          <dt class="health">
+            Health
+            <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true" style="font-size: 1em;"></span>
+          </dt>
+          <dd>
+            <div class="contactCard">
+              <div class="pull-left">
+                image
+              </div>
+              <div class="pull-right contactInfo">
+                <h1>Asset title</h1>
+                <h3>Location</h3>
+
+                <p>AHV Access Health Vancouver Ltd, the project company, has contracted with Vancouver Coastal Health Authority
+                to design, build, finance and maintain the Gordon & Leslie Diamond Healthcare Centre, part of Vancouver General
+                Hospital, under a 30 year concession which runs until 2036.</p>
+
+                <span class="blue">Percentage ownership:</span> 100%
+
+              </div>
+            </div>
+          </dd>
+
+          <dt class="justice">Justice & Emergency Services
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
+          </dt>
+          <dd></dd>
+
+          <dt class="transport">Transport
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
+          </dt>
+          <dd></dd>
+
+          <dt class="govBuilding">Government Buildings
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
+          </dt>
+          <dd></dd>
+
+          <dt class="Regeneration">Regeneration & Social Housing
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
+          </dt>
+          <dd></dd>
+
+          <dt class="streetLighting">Street Lighting
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
+          </dt>
+          <dd></dd>
+
+        </dl>
+      </div>
+    </div>
   </div>
 
   <!-- Footer -->
   <?php include("inc/footer.php"); ?>
 </div>
 
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<script type="text/javascript" src="js/jquery-jvectormap-2.0.3.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
 </body>
 </html>

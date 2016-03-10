@@ -27,6 +27,7 @@
             <li class="footertitle"><a href="investors_shareprice.php">Investors</a></li>
             <li><a href="investors_shareprice.php">Share information</a></li>
             <li><a href="investors_regulatorynews.php">Regulatory news</a></li>
+            <li><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
             <li><a href="investors_publications.php">Publications</a></li>
             <li><a href="investors_dividends.php">Dividends</a></li>
             <li><a href="investors_financialcalendar.php">Financial calendar</a></li>

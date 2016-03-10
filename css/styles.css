@@ -850,6 +850,7 @@ ol li {
 .checkbox span {
 	display: block;
 }
+
 .overSlideShowTextDiv .btn-viewAssetGallery a .spn-viewAssetGallery {
 	color: #FFF;
 }
@@ -859,7 +860,6 @@ ol li {
 .col-lg-3.twitterlink .btn-viewAssetGallery a .spn-viewAssetGallery {
 	color: #FFF;
 }
-
 .contactWrapper {
 	background: #f7f7f7;
 	padding: 30px 0;
@@ -867,13 +867,13 @@ ol li {
 
 .contactheadblock {
 	background-color: #666;
-    color: #fff;
-    font-size: 1.3em;
-
-    height: 30px;
-    line-height: 2em;
-    width: 100%;
+  color: #fff;
+  font-size: 1.3em;
+  height: 30px;
+  line-height: 2em;
+  width: 100%;
 }
+
 .contactmap{
 	margin-top: 0px;
 }
@@ -888,8 +888,8 @@ ol li {
 }
 .contactdetails {
 	font-size: 1em;
-    padding-left: 13px;
-    padding-top: 60px;
+  padding-left: 13px;
+  padding-top: 60px;
 }
 
 .phonenumber {
@@ -899,26 +899,22 @@ ol li {
 	color: #0688CB;
 }
 
-.main-text
-{
-    position: absolute;
-    top: 105px;
-   /* width: 96.66666666666666%;*/
-    color: #FFF;
+.main-text {
+  position: absolute;
+  top: 105px;
+ /* width: 96.66666666666666%;*/
+  color: #FFF;
 	font-size: 4em;
 	font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
 	font-weight: 100;
 	padding: 23px 42px;
 }
 
-.containerCarousel
-{
-    width: 1280px;
+.containerCarousel {
+  width: 1280px;
 	padding-left:0px;
 	padding-right:0px;
-
 }
-
 
 .pageTitle {
 	background: rgba(14, 76, 125,.7);
@@ -952,4 +948,68 @@ ol li {
 .col-md-12.chartWrapper {
 	height: 300px;
 	background-color:#f7f7f7;
+}
+
+#chartdiv {
+	width: 100%;
+	height: 430px;
+	font-size: 11px;
+}
+
+.accordion {
+   margin: 50px 50px 50px 0;
+}
+
+.accordion dt {
+	font-weight: 700;
+  background: #565656;
+  color: #ffffff;
+  height: 56px;
+  margin: 10px 0;
+}
+
+.accordion dt, dd {
+	padding: 15px 35px;
+  border-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+&:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+.accordion dd {
+ border-top: 0;
+ font-size: 12px;
+}
+
+&:last-of-type {
+ border-top: 1px solid white;
+ position: relative;
+ top: -1px;
+}
+
+.health {
+	border-left: 20px solid #0094d9;
+}
+
+.justice {
+	border-left: 20px solid #7cc576;
+}
+
+.transport {
+	border-left: 20px solid #f26c4f;
+}
+
+.govBuilding {
+	border-left: 20px solid #a864a8;
+}
+
+.Regeneration {
+	border-left: 20px solid #d0dd28;
+}
+
+.streetLighting {
+	border-left: 20px solid #c7b299;
 }
