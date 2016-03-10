@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <div class="row">
     <div class="col-md-12">
-      <?php include("inc/logo-and-search-bar.php"); ?>
+     <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
         <ul id="nav_main">
           <li class="top_menu_active"><a href="about_overview.php">About</a></li>
@@ -59,7 +59,7 @@
       <div class="col-lg-9 pull-right">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage"><a href="about_overview.php">About</a></span> |
-        <span class="activePage">Risk management</span>
+        <span class="activePage">Corporate social responsibility</span>
       </div>
     </div>
   </div>
@@ -71,37 +71,15 @@
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
-          <li class="level-1 parent-menu-active"><a href="about_riskmanagement.php">Risk management</a></li>
-          <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
+          <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
+          <li class="level-1 parent-menu-active"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
-        <h1>Risk management</h1>
-        <h3>Risk is the potential for events and consequences to occur that can create either threats to success or opportunities for benefit.
-        JLIF has a comprehensive risk management framework to identify risks in advance to create opportunities or prepare for mitigation.</h3>
-        <h5>JLIF aims to invest in assets which are predominantly:</h5>
-        <ul>
-          <li>
-            <span>in their operational phase, having completed construction</span>
-          </li>
-          <li>
-            <span>public sector or government-backed with regard to revenue</span>
-          </li>
-          <li>
-            <span>“availability based” (where the payments from the concession do not generally depend on the level of use of the project asset)</span>
-          </li>
-          <li>
-            <span>within the UK and in countries which are regarded as fiscally strong</span>
-          </li>
-        </ul>
-        <p>We believe that attractive opportunities are likely to arise for JLIF to enhance returns for Shareholders in areas of the world where PPP is
-        a practiced route for delivering infrastructure investment. JLIF may therefore make investments in the European Union, other European countries,
-        Canada, the United States of America and in the Asia Pacific region.</p>
-        <p>When any acquisition is made we will ensure that any one asset does not have a value greater
-        than 25% of the total assets of JLIF immediately post-acquisition.</p>
-        <p>We intend to make prudent use of short-term leverage, primarily to finance the acquisition of investments after the acquisition of the seed
-        portfolio. This leverage will be limited to 25% of the total assets of JLIF and is intended to be used as a bridging facility for smaller
-        portfolio acquisitions, replenished at the time of further significant capital raising.</p>
+        <h1>Corporate social responsibility</h1>
+        <h3>h3</h3>
+
+        <p>para</p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
@@ -119,7 +97,6 @@
 
   <!-- Footer -->
   <?php include("inc/footer.php"); ?>
-
 </div>
 
 <!-- jQuery -->

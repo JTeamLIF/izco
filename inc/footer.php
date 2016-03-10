@@ -12,6 +12,7 @@
             <li><a href="about_advisorteam.php">The team</a></li>
             <li><a href="about_investmentpolicy.php">Investment policy</a></li>
             <li><a href="about_riskmanagement.php">Risk management</a></li>
+            <li><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
           </ul>
         </div>
         <div class="col-lg-2">
@@ -35,7 +36,7 @@
           <ul id="nav_footer">
             <li class="footertitle"><a href="media_presscoverage.php">Media</a></li>
             <li><a href="media_presscoverage.php">Press coverage</a></li>
-            <li><a href="media_videocoverage.php">Video coverage</a></li>
+            <!--<li><a href="media_videocoverage.php">Video coverage</a></li>-->
           </ul>
         </div>
         <div class="col-lg-2">

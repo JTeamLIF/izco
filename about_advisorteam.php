@@ -83,6 +83,7 @@
           </li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
+          <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1" id="inverstorAdvisorTeam">

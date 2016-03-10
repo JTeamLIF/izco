@@ -72,6 +72,7 @@
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
+          <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
@@ -98,7 +99,7 @@
       <div class="col-md-12 inverstorAdvisorWrapper">
         <div class="col-lg-3"></div>
         <div class="col-lg-9" id="inverstorAdvisorTeam">
-        <iframe src='timeline/index.php' width='90%' height='550' frameborder='0'></iframe>
+        <iframe src='timeline/index.html' width='90%' height='550' frameborder='0'></iframe>
         </div>
       </div>
     </div>

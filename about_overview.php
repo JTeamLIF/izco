@@ -83,6 +83,7 @@
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Invvestment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
+          <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1 whatWeDo" id="whatWeDo">
@@ -99,9 +100,9 @@
         <br>
         <div href="#" class="btn-viewAssetGallery">
           <span class="spn-viewAssetGallery">
-            <a href="investors_publications.php">View annual report</a>
+            <a href="investors_publications.php">View annual report
           </span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></a></span>
         </div>
       </div>
     </div>
@@ -155,8 +156,8 @@
 
           <p>Paul Lester, a resident of the United Kingdom,was appointed as non-executive Chairman of four organisations: Greenergy International Ltd on 1 October 2010, Peverel in April 2012, Paribas in October 2012 and Signia Wealth Ltd in January 2014...</p>
           <div href="#" class="btn-viewAssetGallery">
-            <span class="spn-viewAssetGallery">Read more</span>
-            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+            <span class="spn-viewAssetGallery"><a href="about_boardofdirectors.php">Read more</span>
+            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
           </div>
         </div>
       </div>
@@ -171,8 +172,8 @@
 
           <p>Andrew Charlesworth is a Director of JLCM, responsible for delivering the fund’s performance targets. He has been able to draw on 19 years of experience in infrastructure development and finance to help JLIF grow from a Portfolio Value of £259.0 million at launch...</p>
           <div href="#" class="btn-viewAssetGallery">
-            <span class="spn-viewAssetGallery">Read more</span>
-            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+            <span class="spn-viewAssetGallery"><a href="about_advisorteam.php">Read more</span>
+            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
           </div>
         </div>
       </div>
@@ -181,13 +182,13 @@
 
       <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre">
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View board of directors</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <span class="spn-viewAssetGallery"><a href="about_boardofdirectors.php">View board of directors</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <br>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View fund advisors</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <span class="spn-viewAssetGallery"><a href="about_advisorteam.php">View fund advisers</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
       </div>
     </div>
