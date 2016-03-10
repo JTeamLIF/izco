@@ -65,7 +65,7 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Press Coverage</h1>
-<!--        <p>Search by date, keyword or category</p>
+        <p>Search by date, keyword or category</p>
         <div class="input-group inline">
           <input type="text" class="form-control" placeholder="Keyword" aria-describedby="basic-addon1">
         </div>
@@ -88,11 +88,11 @@
         <img src="images/calendar-icon.jpg" class="inline calendarIconPadding">
         <button type="button" class="btn btn-default navbar-btn inline search">Search</button>
 
-        <div class="clearfix"></div>-->
+        <div class="clearfix"></div>
 
         <div class="publicationsMain">
 
-      <!--  <ul class="years">
+        <ul class="years">
           <li><span>2016</span></li>
           <li>2015</li>
           <li>2014</li>
@@ -100,7 +100,7 @@
           <li>2012</li>
         </ul>
         <h2 class="selectedYear">2016</h2>
-        <p><b>Total:</b> 7 results</p>-->
+        <p><b>Total:</b> 7 results</p>
 
        <!-- Nav tabs -->
         <ul class="nav nav-tabs publicationsTab" role="tablist">
