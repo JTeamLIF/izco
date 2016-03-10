@@ -45,7 +45,7 @@
   </section>
   <!-- Full Width Image Header with Logo -->
   <!-- Image backgrounds are set within the full-width-pics.css file. -->
-  <header class="image-bg-fluid-height">
+  <header id="headerImage" class="image-bg-fluid-height-1">
     <div data-id="1" class="col-md-6 overSlideShowDiv">
       <div class="overSlideShowTextDiv">
         <div class="dropup">
@@ -166,16 +166,16 @@
     <div class="col-md-12">
       <div class="col-md-6 thumbs noPadding">
         <div class="col-md-2 fixedWidth noPadding">
-          <img id="1" class="imageThumbnail" src="images/index-bg-image-1.jpg">
-          <img id="2" class="imageThumbnail" src="images/index-bg-image-1.jpg">
+          <img id="1" class="imageThumbnail" src="images/H_tb_on_1.png">
+          <img id="2" class="imageThumbnail" src="images/H_tb_off_2.png">
         </div>
         <div class="col-md-2 fixedWidth noPadding">
-          <img id="3" class="imageThumbnail" src="images/index-bg-image-1.jpg">
-          <img id="4" class="imageThumbnail" src="images/index-bg-image-1.jpg">
+          <img id="3" class="imageThumbnail" src="images/H_tb_off_3.png">
+          <img id="4" class="imageThumbnail" src="images/H_tb_off_4.png">
         </div>
         <div class="col-md-2 fixedWidth noPadding">
-          <img id="5" class="imageThumbnail" src="images/index-bg-image-1.jpg">
-          <img id="6" class="imageThumbnail" src="images/index-bg-image-1.jpg">
+          <img id="5" class="imageThumbnail" src="images/H_tb_off_5.png">
+          <img id="6" class="imageThumbnail" src="images/H_tb_off_6.png">
         </div>
       </div>
       <div class="col-md-3 upcomingevents">
