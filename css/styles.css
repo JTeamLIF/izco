@@ -181,16 +181,6 @@ hr {
 	height: 50%
 }
 
-.pageTitle {
-	background: rgba(14, 76, 125,.7);
-  height: 50%;
-  font-size: 4em;
-  padding: 23px 42px;
-  font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  font-weight: 100;
-}
-
 .latestSharePrices {
 	background: #333333;
 	height: 228px;
@@ -883,4 +873,54 @@ ol li {
 	/* [disabled]padding-left: 13px; */
 	padding-top: 15px;
 	color: #0688CB;
+}
+
+.main-text
+{
+    position: absolute;
+    top: 105px;
+   /* width: 96.66666666666666%;*/
+    color: #FFF;
+	font-size: 4em;
+	font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	padding: 23px 42px;
+}
+
+.containerCarousel
+{
+    width: 1280px;
+	padding-left:0px;
+	padding-right:0px;
+
+}
+
+
+.pageTitle {
+	background: rgba(14, 76, 125,.7);
+	height: 50%;
+	font-size: 4em;
+	padding: 23px 42px;
+	font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: 100;
+	z-index: 1;
+}
+
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
 }

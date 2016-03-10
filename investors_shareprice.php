@@ -22,7 +22,7 @@
   <![endif]-->
 
 </head>
-
+<?php $categorytitle = 'Investors'; ?>
 <body>
 <div class="im-centered">
   <!-- Navigation -->
@@ -42,18 +42,10 @@
 
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <div class="bannerimage">
-        <div class="clearPageTitle">
-        </div>
-        <div class="pageTitle">
-          Investors
-        </div>
-      </div>
-    </div>
-  </div>
+</section>
+<?php include("inc/internal_carousel.php"); ?>
+<div id="push">
+</div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right">

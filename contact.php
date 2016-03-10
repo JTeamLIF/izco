@@ -22,7 +22,7 @@
   <![endif]-->
 
 </head>
-
+<?php $categorytitle = 'Contact'; ?>
 <body>
 <div class="im-centered"> 
   <!-- Navigation -->
@@ -42,14 +42,9 @@
     </div>
   </div>
   </section>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="bannerimage">
-        <div class="clearPageTitle"> </div>
-        <div class="pageTitle"> Contact </div>
-      </div>
-    </div>
-  </div>
+<?php include("inc/internal_carousel.php"); ?>
+<div id="push">
+</div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right"> <span class="previousPage"><a href="index.php">Home</a></span> | <span class="activePage">Contact</span> | <span class="activePage">Administrators</span> </div>
@@ -140,7 +135,6 @@
           <div class="contactdetails"> <strong>RLM Finsbury</strong><br>
             Tenter House<br>
             45 Moorfields<br>
-
             London, EC2Y 9AE<br>
             <br>
             <span class = "phonenumber">Telephone:</span> +44 (0)20 7251 3801 </div>
