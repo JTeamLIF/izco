@@ -175,6 +175,7 @@ hr {
 	width:1280px;
 	height:230px;>
 }
+
 .clearPageTitle {
 	background: rgba(25, 25, 25, 0);
 	height: 50%
@@ -300,8 +301,8 @@ hr {
 	height: 322px;
 }
 .thumbs img {
-	width: 320px;
-	height: 165px;
+	width: 214px;
+  height: 161px;
 	cursor: pointer;
 }
 .fixedWidth {

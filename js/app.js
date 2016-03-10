@@ -32,5 +32,19 @@ $(function () {
   	$(this).tab('show')
 	});
 
+	// 6 IMAGES HOMEPAGE - on click turn image on/off
+	$('.imageThumbnail').on('click', function(element) {
+
+		clickedImageId = $(this).attr('id');
+		$('#headerImage').attr('class', 'image-bg-fluid-height-' + clickedImageId);
+		$('.imageThumbnail').each(function () {
+			var src = $(this).attr('src').replace('on', 'off');
+			$(this).attr('src', src);
+		});
+		var src = $(this).attr('src').replace('off', 'on');
+		$(this).attr('src', src);
+	});
+
+
 });
 
