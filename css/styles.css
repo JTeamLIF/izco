@@ -845,3 +845,42 @@ ol li {
 .col-lg-3.twitterlink .btn-viewAssetGallery a .spn-viewAssetGallery {
 	color: #FFF;
 }
+
+.contactWrapper {
+	background: #f7f7f7;
+	padding: 30px 0;
+}
+
+.contactheadblock {
+	background-color: #666;
+    color: #fff;
+    font-size: 1.3em;
+
+    height: 30px;
+    line-height: 2em;
+    width: 100%;
+}
+.contactmap{
+	margin-top: 0px;
+}
+.contactright {
+	margin-top: 30px;
+	border-top: 1px solid #d8d8d8;
+}
+
+.contactleft {
+	padding-right: 0px;
+
+}
+.contactdetails {
+	font-size: 1em;
+    padding-left: 13px;
+    padding-top: 60px;
+}
+
+.phonenumber {
+	/* [disabled]font-size: 1em; */
+	/* [disabled]padding-left: 13px; */
+	padding-top: 15px;
+	color: #0688CB;
+}
