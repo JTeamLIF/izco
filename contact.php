@@ -24,7 +24,7 @@
 </head>
 
 <body>
-<div class="im-centered">
+<div class="im-centered"> 
   <!-- Navigation -->
   <div class="row">
     <div class="col-md-12">
@@ -38,29 +38,21 @@
           <li class="top_menu_active"><a href="contact.php">Contact</a></li>
         </ul>
       </div>
-    <?php include("inc/latest-share-price.php"); ?>
-
+      <?php include("inc/latest-share-price.php"); ?>
     </div>
   </div>
   </section>
   <div class="row">
     <div class="col-md-12">
       <div class="bannerimage">
-        <div class="clearPageTitle">
-        </div>
-        <div class="pageTitle">
-          Contact
-        </div>
+        <div class="clearPageTitle"> </div>
+        <div class="pageTitle"> Contact </div>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
-        <span class="previousPage"><a href="index.php">Home</a></span> |
-        <span class="activePage">Contact</span> |
-        <span class="activePage">Administrators</span>
-      </div>
+      <div class="col-lg-9 pull-right"> <span class="previousPage"><a href="index.php">Home</a></span> | <span class="activePage">Contact</span> | <span class="activePage">Administrators</span> </div>
     </div>
   </div>
   <div class="row">
@@ -68,37 +60,107 @@
       <div class="col-lg-3 menu_left">
         <ul class="nav">
           <li class="level-1 parent-menu-active first"><a href="contact.php">Contact</a></li>
-
         </ul>
       </div>
       <div class="col-lg-6 content1">
         <h1>Contact</h1>
-        <h3>h3</h3>
-        <p>paragraph</p>
+        <h3>Suspendisse id ante. Morbi pellentesque placerat mauris. Nulla id magna vel turpis mollis egestas. Suspendisse adipiscing nulla eget augue. Nunc eu arcu. Curabitur vestibulum dictum justo. Mauris sodales lobortis turpis. Nam eu libero. Duis condimentum. Quisque nulla nunc, pellentesque sed, suscipit non, pharetra sed, dui.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
-          </div>
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
-          </div>
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12 contentwrapper1">
+      <div class="col-md-12 contactWrapper">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3 contactleft">
+          <div class="col-lg-3 contactheadblock">Administrators</div>
+          <div class="contactdetails"> <strong>Heritage Group Ltd</strong><br>
+            PO Box 225, Heritage Hall<br>
+            Le Marchant Street<br>
+            St Peter Port<br>
+            Guernsey, GY1 4HY<br>
+            <br>
+            <span class = "phonenumber">Telephone:</span> +44 (0)1481 716000 </div>
+        </div>
+        <div class="col-lg-3 contactright">
+          <div class="col-lg-3 contactmap"><img src="images/contactmap_administrators.png" width="284" height="232" alt="jlif administrators"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 contentwrapper1">
+      <div class="col-md-12 contactWrapper">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3 contactleft">
+          <div class="col-lg-3 contactheadblock">Shareholder Enquiries</div>
+          <div class="contactdetails"> <strong>Capita Registrars</strong><br>
+            The Registry, 34 Beckenham Road<br>
+            Beckenham<br>
+            Kent, BR3 4TU <br>
+            <br>
+            <span class = "phonenumber">Telephone:</span> +44 (0)20 8639 3399 </div>
+        </div>
+        <div class="col-lg-3 contactright">
+          <div class="col-lg-3 contactmap"><img src="images/contactmap_shareholder.png" width="284" height="232" alt="jlif administrators"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 contentwrapper1">
+      <div class="col-md-12 contactWrapper">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3 contactleft">
+          <div class="col-lg-3 contactheadblock">Investment Advisers</div>
+          <div class="contactdetails"> <strong>John Laing Capital Management Limited</strong><br>
+            1 Kingsway<br>
+            London, WC2B 6AN<br>
+            <br>
+            <span class = "phonenumber">Telephone:</span> +44 (0)20 7901 3326<br>
+            <span class = "phonenumber">Email:</span> <a href="mailto:info@jlif.com">info@jlif.com</a> </div>
+        </div>
+        <div class="col-lg-3 contactright">
+          <div class="col-lg-3 contactmap"><img src="images/contactmap_adviser.png" width="284" height="232" alt="jlif administrators"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 contentwrapper1">
+      <div class="col-md-12 contactWrapper">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3 contactleft">
+          <div class="col-lg-3 contactheadblock">Public Relations</div>
+          <div class="contactdetails"> <strong>RLM Finsbury</strong><br>
+            Tenter House<br>
+            45 Moorfields<br>
 
+            London, EC2Y 9AE<br>
+            <br>
+            <span class = "phonenumber">Telephone:</span> +44 (0)20 7251 3801 </div>
+        </div>
+        <div class="col-lg-3 contactright">
+          <div class="col-lg-3 contactmap"><img src="images/contactmap_publicrelations.png" width="284" height="232" alt="jlif administrators"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!-- Footer -->
   <?php include("inc/footer.php"); ?>
 </div>
 
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<!-- jQuery --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script> 
+<script src="js/app.js"></script> 
 
-<!-- Bootstrap Core JavaScript -->
+<!-- Bootstrap Core JavaScript --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
