@@ -22,7 +22,7 @@
   <![endif]-->
 
 </head>
-
+<?php $categorytitle = 'About'; ?>
 <body>
 <div class="im-centered"> 
   <!-- Navigation -->
@@ -42,14 +42,9 @@
     </div>
   </div>
   </section>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="bannerimage">
-        <div class="clearPageTitle"> </div>
-        <div class="pageTitle"> About </div>
-      </div>
-    </div>
-  </div>
+<?php include("inc/internal_carousel.php"); ?>
+<div id="push">
+</div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right"> <span class="previousPage"> <a href="index.php">Home</a> </span> | <span class="previousPage"> <a href="about_overview.php">About</a> </span> | <span class="activePage"> <a href="about_boardofdirectors.php">Board of directors</a> </span> </div>

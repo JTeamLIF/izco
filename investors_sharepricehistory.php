@@ -22,7 +22,7 @@
   <![endif]-->
 
 </head>
-
+<?php $categorytitle = 'Investors'; ?>
 <body>
 <div class="im-centered">
   <!-- Navigation -->
@@ -39,21 +39,12 @@
         </ul>
       </div>
     <?php include("inc/latest-share-price.php"); ?>
-
     </div>
   </div>
   </section>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="bannerimage">
-        <div class="clearPageTitle">
-        </div>
-        <div class="pageTitle">
-          Investors
-        </div>
-      </div>
-    </div>
-  </div>
+<?php include("inc/internal_carousel.php"); ?>
+<div id="push">
+</div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right">
