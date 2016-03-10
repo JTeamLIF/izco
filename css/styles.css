@@ -850,7 +850,6 @@ ol li {
 .checkbox span {
 	display: block;
 }
-
 .overSlideShowTextDiv .btn-viewAssetGallery a .spn-viewAssetGallery {
 	color: #FFF;
 }
@@ -860,6 +859,7 @@ ol li {
 .col-lg-3.twitterlink .btn-viewAssetGallery a .spn-viewAssetGallery {
 	color: #FFF;
 }
+
 .contactWrapper {
 	background: #f7f7f7;
 	padding: 30px 0;
@@ -867,13 +867,13 @@ ol li {
 
 .contactheadblock {
 	background-color: #666;
-  color: #fff;
-  font-size: 1.3em;
-  height: 30px;
-  line-height: 2em;
-  width: 100%;
-}
+    color: #fff;
+    font-size: 1.3em;
 
+    height: 30px;
+    line-height: 2em;
+    width: 100%;
+}
 .contactmap{
 	margin-top: 0px;
 }
@@ -888,8 +888,8 @@ ol li {
 }
 .contactdetails {
 	font-size: 1em;
-  padding-left: 13px;
-  padding-top: 60px;
+    padding-left: 13px;
+    padding-top: 60px;
 }
 
 .phonenumber {
@@ -899,22 +899,26 @@ ol li {
 	color: #0688CB;
 }
 
-.main-text {
-  position: absolute;
-  top: 105px;
- /* width: 96.66666666666666%;*/
-  color: #FFF;
+.main-text
+{
+    position: absolute;
+    top: 105px;
+   /* width: 96.66666666666666%;*/
+    color: #FFF;
 	font-size: 4em;
 	font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
 	font-weight: 100;
 	padding: 23px 42px;
 }
 
-.containerCarousel {
-  width: 1280px;
+.containerCarousel
+{
+    width: 1280px;
 	padding-left:0px;
 	padding-right:0px;
+
 }
+
 
 .pageTitle {
 	background: rgba(14, 76, 125,.7);
@@ -946,7 +950,7 @@ ol li {
 }
 
 .col-md-12.chartWrapper {
-	height: 300px;
+	height: 600px;
 	background-color:#f7f7f7;
 }
 
