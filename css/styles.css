@@ -751,6 +751,22 @@ hr {
 	font-size: 1.2em;
 }
 
+.table-striped .acquisition {
+	padding: 0 10px 0px 20px;
+	display: block;
+	font-weight: bold;
+	color:#666666;
+	font-size: 1.2em;
+}
+
+.table-striped .category {
+	padding: 0 10px 10px 20px;
+	display: inline-block;
+	font-weight: bold;
+	color:#0688CB;
+	font-size: 1.2em;
+}
+
 .table-striped .calendar {
   padding: 0 19px;
   display: inline-block;
@@ -931,4 +947,9 @@ ol li {
 {
     color: #000;
     background-color: #FFF;
+}
+
+.col-md-12.chartWrapper {
+	height: 600px;
+	background-color:#f7f7f7;
 }
