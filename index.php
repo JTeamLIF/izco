@@ -35,7 +35,7 @@
           <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
           <li><a href="investors_shareprice.php">Investors</a></li>
           <li><a href="media_presscoverage.php">Media</a></li>
-          <li><a href="contact_administrators.php">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
     <?php include("inc/latest-share-price.php"); ?>
@@ -57,8 +57,8 @@
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View asset gallery</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
           <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
@@ -76,8 +76,8 @@
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View asset gallery</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
           <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
@@ -95,8 +95,8 @@
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View asset gallery</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
           <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
@@ -114,8 +114,8 @@
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View asset gallery</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
           <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
@@ -133,8 +133,8 @@
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View asset gallery</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
           <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
@@ -152,8 +152,8 @@
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View asset gallery</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
           <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
@@ -192,8 +192,8 @@
             <p>Annual General Meeting</p>
           </div>
           <div href="#" class="btn-viewAssetGallery">
-            <span class="spn-viewAssetGallery">View all news</span>
-            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+            <a href="investors_financialcalendar.php"><span class="spn-viewAssetGallery">View all events</span>
+            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@
             <p class="newsdate">09 Nov 2015</p>
             <p>Annual General Meeting</p>
           </div>
-          <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">View all news</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+          <div href="#" class="btn-viewAssetGallery"> <a href="investors_latestregulatorynews.php"><span class="spn-viewAssetGallery">View all news</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a> </div>
         </div>
       </div>
     </div>
@@ -226,7 +226,7 @@
       </div>
       <div class="col-lg-1 twitterbuttons"><span class="glyphicon glyphicon-triangle-left pull-left" aria-hidden="true"></span><span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></div>
       <div class="col-lg-3 twitterlink">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Follow us</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery"> <a href="https://twitter.com/jlfund?lang=en-gb" target="_blank"><span class="spn-viewAssetGallery">Follow us</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a> </div>
       </div>
     </div>
   </div>
