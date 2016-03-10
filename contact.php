@@ -59,7 +59,7 @@
       <div class="col-lg-9 pull-right">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="activePage">Contact</span> |
-        <span class="activePage">Public Relations</span>
+        <span class="activePage">Administrators</span>
       </div>
     </div>
   </div>
@@ -67,14 +67,12 @@
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
         <ul class="nav">
-          <li class="level-1 first"><a href="contact_administrators.php">Administrators</a></li>
-          <li class="level-1"><a href="contact_shareholderenquiries.php">Shareholder enquiries</a>
-          <li class="level-1"><a href="contact_investmentadvisers.php">Investment Advisers</a></li>
-          <li class="level-1 parent-menu-active"><a href="contact_publicrelations.php">Public Relations</a></li>
+          <li class="level-1 parent-menu-active first"><a href="contact.php">Contact</a></li>
+
         </ul>
       </div>
       <div class="col-lg-6 content1">
-        <h1>Public Relations</h1>
+        <h1>Contact</h1>
         <h3>h3</h3>
         <p>paragraph</p>
       </div>

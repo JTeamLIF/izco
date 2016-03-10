@@ -25,9 +25,9 @@
           <ul id="nav_footer">
             <li class="footertitle"><a href="investors_shareprice.php">Investors</a></li>
             <li><a href="investors_shareprice.php">Share information</a></li>
-            <li><a href="investors_regulatorynews.html">Regulatory news</a></li>
+            <li><a href="investors_regulatorynews.php">Regulatory news</a></li>
             <li><a href="investors_publications.php">Publications</a></li>
-            <li><a href="investors_dividends.html">Dividends</a></li>
+            <li><a href="investors_dividends.php">Dividends</a></li>
             <li><a href="investors_financialcalendar.php">Financial calendar</a></li>
           </ul>
         </div>
@@ -40,11 +40,11 @@
         </div>
         <div class="col-lg-2">
           <ul id="nav_footer">
-            <li class="footertitle"><a href="contact_administrators.php">Contact</a></li>
-            <li><a href="contact_administrators.php">Administrators</a></li>
-            <li><a href="contact_shareholderenquiries.php">Shareholder enquiries</a></li>
-            <li><a href="contact_investmentadvisors.html">Investment advisors</a></li>
-            <li><a href="contact_publicrelations.php">Public relations</a></li>
+            <li class="footertitle"><a href="contact.php">Contact</a></li>
+            <li><a href="contact.php">Administrators</a></li>
+            <li><a href="contact.php">Shareholder enquiries</a></li>
+            <li><a href="contact.php">Investment advisers</a></li>
+            <li><a href="contact.php">Public relations</a></li>
           </ul>
         </div>
       </div>
@@ -52,7 +52,7 @@
     <!-- /.container -->
     <div class="row">
       <div class="col-md-12 underFooter">
-        <div class="col-lg-6 pull-left copyright"> &copy;2015 John Laing Infrastructure Fund </div>
+        <div class="col-lg-6 pull-left copyright"> &copy;2016 John Laing Infrastructure Fund </div>
         <div class="col-lg-6 pull-right utilities"> <a href="termsandconditions.php">Terms &amp; Conditions</a> | <a href="disclaimer.php">Disclaimer</a> | <a href="privacypolicy.php">Privacy Policy</a> | <a href="cookiepolicy.php">Cookie Policy</a> </div>
       </div>
     </div>

@@ -346,6 +346,7 @@ hr {
 .overSlideShowDiv {
 	background: rgba(25, 25, 25, .7);
 	height: 500px;
+	width: 640px;
 }
 .overSlideShowTextDiv {
 	font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
@@ -834,4 +835,13 @@ ol li {
 
 .checkbox span {
 	display: block;
+}
+.overSlideShowTextDiv .btn-viewAssetGallery a .spn-viewAssetGallery {
+	color: #FFF;
+}
+.btn-viewAssetGallery a .spn-viewAssetGallery {
+	color: #333;
+}
+.col-lg-3.twitterlink .btn-viewAssetGallery a .spn-viewAssetGallery {
+	color: #FFF;
 }

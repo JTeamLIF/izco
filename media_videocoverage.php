@@ -35,7 +35,7 @@
           <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
           <li><a href="investors_shareprice.php">Investors</a></li>
           <li class="top_menu_active"><a href="media_presscoverage.php">Media</a></li>
-          <li><a href="contact_administrators.php">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
     <?php include("inc/latest-share-price.php"); ?>
