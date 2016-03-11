@@ -24,7 +24,7 @@
 </head>
 <?php $categorytitle = 'About'; ?>
 <body>
-<div class="im-centered">
+<div class="im-centered"> 
   <!-- Navigation -->
   <div class="row">
     <div class="col-md-12">
@@ -38,21 +38,15 @@
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
-    <?php include("inc/latest-share-price.php"); ?>
-
+      <?php include("inc/latest-share-price.php"); ?>
     </div>
   </div>
   </section>
-<?php include("inc/internal_carousel.php"); ?>
-<div id="push">
-</div>
+  <?php include("inc/internal_carousel.php"); ?>
+  <div id="push"> </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
-        <span class="previousPage"><a href="index.php">Home</a></span> |
-        <span class="previousPage"><a href="about_overview.php">About</a></span> |
-        <span class="activePage">Risk management</span>
-      </div>
+      <div class="col-lg-9 pull-right"> <span class="previousPage"><a href="index.php">Home</a></span> | <span class="previousPage"><a href="about_overview.php">About</a></span> | <span class="activePage">Risk management</span> </div>
     </div>
   </div>
   <div class="row">
@@ -64,7 +58,7 @@
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1 parent-menu-active"><a href="about_riskmanagement.php">Risk management</a>
-              <ul class="nav_sub">
+            <ul class="nav_sub">
               <li class="level-2 parent-menu-active first"><a href="about_riskmanagement.php">Overview</a></li>
               <li class="level-2"><a href="about_riskmanagement.php">Risk Committee</a></li>
             </ul>
@@ -75,56 +69,46 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Risk management</h1>
-        <h3>Risk is the potential for events and consequences to occur that can create either threats to success or opportunities for benefit.
-        JLIF has a comprehensive risk management framework to identify risks in advance to create opportunities or prepare for mitigation.</h3>
-        <h5>JLIF aims to invest in assets which are predominantly:</h5>
+        <h3>Risk is the potential for events to occur that can create either threats to success or opportunities for benefit. Threats to the success of the business could adversely impact the Group’s business model, reputation or financial standing. However, under a well-formed risk management framework, potential threats can be identified in advance and mitigated or converted into opportunities.</h3>
+        <p>The purpose of JLIF’s risk management policies and procedures is not to completely eliminate risk, as this is not possible; rather, it is to reduce the likelihood of occurrence and to ensure that the Company is adequately prepared to deal with risks so as to minimise their impact should they materialise. </p>
+        <p>JLIF has a dedicated Risk Committee to lead its risk management activities, chaired by Helen Green. </p>
+        <p>Mitigation actions have been developed with respect to each risk identified to reduce the likelihood of such risk occurring and secondly to minimize the severity of its impact in the event that it does occur. In addition, the reputational impact of each risks is assessed and a red-amber-green rating is ascribed. </p>
+        <p>The risk register is a ‘live’ document that is reviewed and updated regularly as new risks emerge and existing risks change. The risk register is formally reviewed by the Risk Committee, which meets four times a year, and is presented at each Board meeting for consideration and approval. </p>
+        <h5>JLIF’s risk register covers six main areas of risk:</h5>
         <ul>
-          <li>
-            <span>in their operational phase, having completed construction</span>
-          </li>
-          <li>
-            <span>public sector or government-backed with regard to revenue</span>
-          </li>
-          <li>
-            <span>“availability based” (where the payments from the concession do not generally depend on the level of use of the project asset)</span>
-          </li>
-          <li>
-            <span>within the UK and in countries which are regarded as fiscally strong</span>
-          </li>
+          <li> <span>Economic</span> </li>
+          <li> <span>Operational</span> </li>
+          <li> <span>Political</span> </li>
+          <li> <span>Financial</span> </li>
+          <li> <span>Taxation</span> </li>
+          <li> <span>Compliance and Legal</span> </li>
         </ul>
-        <p>We believe that attractive opportunities are likely to arise for JLIF to enhance returns for Shareholders in areas of the world where PPP is
-        a practiced route for delivering infrastructure investment. JLIF may therefore make investments in the European Union, other European countries,
-        Canada, the United States of America and in the Asia Pacific region.</p>
-        <p>When any acquisition is made we will ensure that any one asset does not have a value greater
-        than 25% of the total assets of JLIF immediately post-acquisition.</p>
-        <p>We intend to make prudent use of short-term leverage, primarily to finance the acquisition of investments after the acquisition of the seed
-        portfolio. This leverage will be limited to 25% of the total assets of JLIF and is intended to be used as a bridging facility for smaller
-        portfolio acquisitions, replenished at the time of further significant capital raising.</p>
+        <h1>Risk committee</h1>
+        <h3>The Risk Committee, which reports to the Board, is mandated to review the effectiveness of the Company’s (and that of the Investment Adviser, Administrator and other third party service providers as it deems fit) internal control policies and procedures for the identification, assessment and reporting of risks.</h3>
+        <h5>Internal control and financial reporting </h5>
+        <p>The Board is responsible for the Company’s systems of internal control and for reviewing its effectiveness, and the Board has, therefore, established a set of ongoing processes designed to meet the particular needs of the Company in managing the risks to which it is exposed. </p>
+        <p>The process is based on a risk-based approach to internal control through a matrix which identifies the key functions carried out by the Investment Adviser and other key service providers, the various activities undertaken within those functions, the risks associated with each activity and the controls employed to minimise those risks. A residual risk rating is then applied. A regular report is provided to the Board highlighting material changes to risk ratings and then a formal review of these procedures is carried out by the Audit Committee on an annual basis. By their nature, these procedures will provide a reasonable, but not absolute, assurance against material misstatement or loss.</p>
+        <p> At each Board meeting, the Board also monitors the Group’s investment performance and activities since the last Board meeting to ensure that the Investment Adviser and Operator adhere to the agreed Investment Policy and approved investment guidelines. Furthermore, at each Board meeting, the Board receives reports from the Company Secretary and Administrator in respect of compliance matters and duties performed by them on behalf of the Company.</p>
+        <p> The Board considers that an internal audit function specific to the Company is unnecessary and that the systems and procedures employed by the Investment Adviser and Operator, including their own internal audit functions, provide sufficient assurance that a sound system of internal control, which safeguards the Company’s assets, is maintained.</p>
+        <p> Investment Advisory services are provided to the Company by John Laing Capital Management Limited (“JLCM”). The Board is responsible for setting the overall Investment Policy and monitors the action of the Investment Adviser and Operator at regular Board meetings. The Board has also delegated administration and company secretarial services to Heritage International Fund Managers Limited but retains accountability for all functions it delegates. </p>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
-          </div>
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
-          </div>
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
       </div>
     </div>
   </div>
-
+  
   <!-- Footer -->
   <?php include("inc/footer.php"); ?>
-
 </div>
 
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<!-- jQuery --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script> 
+<script src="js/app.js"></script> 
 
-<!-- Bootstrap Core JavaScript -->
+<!-- Bootstrap Core JavaScript --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

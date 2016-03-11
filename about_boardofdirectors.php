@@ -70,7 +70,7 @@
       </div>
       <div class="col-lg-6 content1" id="inverstorAdvisorTeam">
         <h1>Board of directors</h1>
-        <h3>JLIF benefits from experienced investment advisers who have significant knowledge and expertise in infrastructure. Utilising this extensive PPP knowledge they will seek to deliver further value from the diversified Portfolio by enhancing the value of the assets.</h3>
+        <h3>The Board consists of six Non-Executive Directors, all of whom are independent of the Company’s Investment Adviser. As the Company has no Executive Directors, the provision of the UK Corporate Governance Code relating to the combining of the roles of Chairman and Chief Executive Officer does not apply to the Company.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>

@@ -56,7 +56,7 @@
           <a href="about_overview.php">About</a>
         </span> |
         <span class="activePage">
-          <a href="about_overview.php#whatWeDo">What we do</a>
+          <a href="about_overview.php#whatWeDo">About</a>
         </span>
       </div>
     </div>
@@ -67,23 +67,28 @@
         <ul class="nav">
           <li class="level-1 parent-menu-active"><a href="#">Overview</a>
             <ul class="nav_sub">
-              <li class="level-2 parent-menu-active first"><a href="about_overview.php#whatWeDo">What we do</a></li>
-              <li class="level-2"><a href="about_overview.php#whoWeAre">Who we are</a></li>
+              <li class="level-2 parent-menu-active first"><a href="about_overview.php#whatWeDo">About</a></li>
+              <li class="level-2"><a href="about_overview.php#whoWeAre">The investment adviser</a></li>
             </ul>
           </li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
-          <li class="level-1"><a href="about_investmentpolicy.php">Invvestment policy</a></li>
+          <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
           <li class="level-1"><a href="about_corporategovernance.php">Corporate governance</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1 whatWeDo" id="whatWeDo">
-        <h1>What we do</h1>
-        <h3>JLIF invests in the equity and subordinated debt issued with respect to infrastructure projects.</h3>
-        <p>As an equity stakeholder, we partner with public sector counterparties across the world to deliver key local and national infrastructure projects. In return, these provide government-backed, inflation-linked revenue streams to our business. Our continued success is built on a collaborative approach centred on long term relationships with our clients and partners such that their changing infrastructure needs can be met in a timely and cost-effective manner.</p>
-        <p>JLIF manages its Portfolio to ensure the delivery of ongoing value and yield in order to deliver and maximise shareholder value through total returns. The Company grows through acquisitions of further assets from both the John Laing Group and from the wider market as and when opportunities to invest in assets that can generate value for shareholders are identified.</p>
+        <h1>About</h1>
+        <h3>JLIF is one of Europe’s largest listed infrastructure funds, with a Premium Listing on the London Stock Exchange.</h3>
+        <p>As a specialist equity stakeholder, we partner with public sector counterparties across the world to deliver key local and national infrastructure projects that provide government-backed, inflation-linked revenue streams. Our success is built on a collaborative approach centred on long term relationships with our clients and partners such that their changing infrastructure needs can be met in a timely and cost-effective manner</p>
+        <h5>Our purpose </h5>
+        <p>Our purpose is to actively generate long term sustainable value through quality investments in, and specialist management of, infrastructure projects that generate predictable, low risk returns. </p>
+        <h5>Our objective </h5>
+        <p>We target a minimum annualised yield of 6% per annum, by reference to the issue price of £1 of the Ordinary Shares issued at the IPO, and an IRR of 7-8% over the longer term via an active management approach designed to enhance the value of existing investments, supported by the acquisition of new, value enhancing investments. </p>
+                <h5>Your investment</h5>
+        <p>As at 31 December 2015, JLIF was valued at £950.8 million on the stock market and has delivered a total return to shareholders of 50.2% since launch in November 2010. The Portfolio saw underlying growth of 8.34% in the year. JLIF holds stakes in low-risk, operational PPP infrastructure projects located in the UK, Continental Europe and North America, and looks forward to continuing to grow the Portfolio in the future, both in size and geographic footprint.</p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
@@ -133,11 +138,10 @@
       <div class="col-lg-3 menu_left whoWeAre">
       </div>
       <div class="col-lg-6 content1 whoWeAre">
-        <h1>Who we are</h1>
-        <h3>JLIF is one of Europe’s largest listed infrastructure funds and a FTSE 250 company trading on the London Stock Exchange.</h3>
-        <p>JLIF has a board of six non-executive directors chaired by Paul Lester, CBE. Andrew Charlesworth, who has over 20 years’ experience in infrastructure investments, is a director of JLCM and lead its management team. He is dedicated to advising JLIF and managing its holding entities.</p>
-        <p>JLIF is advised on a day-to-day basis by John Laing Capital Management Limited (“JLCM”), a wholly owned subsidiary of John Laing. JLCM has been authorised and regulated in the UK by the Financial Conduct Authority (previously the Financial Services Authority) since December 2004.</p>
-        <p>JLIF benefits from a team of experienced investment advisers who have significant knowledge and expertise in infrastructure investing. Utilising this extensive PPP knowledge they will seek to deliver further value from the diversified Portfolio by enhancing the value of the assets.</p>
+        <h1>The investment adviser</h1>
+        <h3>John Laing Capital Management Limited (“JLCM”), a wholly owned subsidiary of John Laing, acts as the Investment Adviser to the Company and as the Operator of JLIF Limited Partnership. </h3>
+        <p>JLCM was incorporated in England and Wales on 19 May 2004 under the Companies Act 1985 (registered number 5132286) and has been authorised and regulated in the UK by the Financial Services Authority (now the Financial Conduct Authority) since December 2004. JLCM has the ability to call on and utilise the substantial experience of the John Laing Group in the management of the Fund.</p>
+
 
       <div class="contactCard">
         <div class="pull-left">
