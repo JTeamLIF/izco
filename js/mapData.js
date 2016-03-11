@@ -224,7 +224,7 @@ AmCharts.ready(function() {
 
   window.map.dataProvider = dataProvider;
   window.map.export = { enabled: true }
-  window.map.projection = "Miller";
+  window.map.projection = "Mercator";
   window.map.write("chartdiv");
   clearChartAd();
 });
