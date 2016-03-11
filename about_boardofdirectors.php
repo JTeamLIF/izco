@@ -82,67 +82,79 @@
     <div class="col-md-12 contentwrapper1">
       <div class="col-md-12 inverstorAdvisorWrapper">
         <div class="col-lg-3"></div>
-        <div class="col-lg-9" id="inverstorAdvisorTeam"> <img src="images/paul-big.jpg">
-          <div class="col-lg-3 inverstorAdvisorTitle">
-            <h1>Paul Lester CBE</h1>
-            <h3>Chairman</h3>
-            <div class="dropdown"> <span class="glyphicon glyphicon-triangle-bottom pull-right" style="margin-right: 10px;" aria-hidden="true"></span> </div>
-          </div>
-          <div class="col-lg-8 inverstorAdvisorInfo">
-            <p>Paul Lester, a resident of the United Kingdom, was appointed as non-executive Chairman of Greenergy International Ltd on 1 October 2010, and Knight Square in April 2012. He has also been appointed Chairman Designate of Essentra Plc. He is a member of the Government’s Major Project Review Group. Mr Lester was chief executive of VT Group plc, the support services company, from July 2002 until its acquisition by Babcock International in July 2010.</p>
-            <p>Mr Lester was group managing director of Balfour Beatty plc, the international engineering, construction and services group, from 1997 to 2002, and chief executive of Graseby plc from 1990 to 1997. Mr Lester has also held senior management positions at Schlumberger and the Dowty Group plc. </p>
-            <p>Mr Lester is a former president of the Society of Maritime Industries.</p>
-          </div>
-          <div class="col-lg-9 otherContactsWrapper">
-            <div class="teamMember">
-              <div class="emptyOverlay"></div>
-              <div class="teamMemberInfo">
-                <h1>Paul Lester CBE</h1>
-                <h3>Chairman</h3>
-                <div class="dropup"> <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span> </div>
+        <div class="col-lg-9" id="inverstorAdvisorTeam">
+          <img id="mainImage" src="images/Bio_main_Paul_Lester.png">
+            <div class="col-lg-3 inverstorAdvisorTitle">
+              <h1 id="mainName">Paul Lester CBE</h1>
+              <h3 id="mainTitle">Chairman</h3>
+            </div>
+            <div id="mainDesc" class="col-lg-8 inverstorAdvisorInfo">
+              <p>Andrew Charlesworth is a Director of JLCM, responsible for delivering the fund’s performance targets. He has been able to draw on 19 years of experience in infrastructure development and finance to help JLIF grow from a Portfolio Value of £259.0 million at launch to a Portfolio Value of £864.9 million, overseeing JLIF’s entry into the FTSE 250 index within just 11 months of its IPO. Andrew’s broad experience of the PPP market, having acted as advisor to authorities in procuring PPP projects and to senior lenders in funding them has ensured that the investments JLIF has made have been accretive to shareholder value, delivering above forecast returns.</p>
+
+              <p>Prior to his current role, Andrew led significant parts of the primary investment business within John Laing, initially as CEO of Regenter (a John Laing social housing PPP joint venture), then as Local Authority PPP Director and lastly as the Financial and Commercial Director for the global John Laing Investments business. Andrew holds the CFA UK’s Investment Management Certificate (Part 1).</p>
+            </div>
+            <div class="col-lg-9 otherContactsWrapper">
+              <div id="Paul_Lester" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Paul Lester CBE</h1>
+                  <h3>Chairman</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="David_MacLellan" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>David MacLellan</h1>
+                  <h3>Deputy Chairman & Senior Independent Director</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="Talmai_Morgan" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Talmai Morgan</h1>
+                  <h3>Director</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+               <div id="Christopher_Spencer" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Christopher Spencer</h1>
+                  <h3>Director & Chairman of the Audit Committee</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="Guido_van_Berkel" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Guido_van_Berkel</h1>
+                  <h3>Director</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="Helen_Green" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Helen Green</h1>
+                  <h3>Director & Chairman of the Risk Committee</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="teamMember">
-              <div class="emptyOverlay"></div>
-              <div class="teamMemberInfo">
-                <h1>David MacLellan</h1>
-                <h3>Deputy Chairman & Senior Independent Director</h3>
-                <div class="dropup"> <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span> </div>
-              </div>
-            </div>
-            <div class="teamMember">
-              <div class="emptyOverlay"></div>
-              <div class="teamMemberInfo">
-                <h1>Talmai Morgan</h1>
-                <h3>Director</h3>
-                <div class="dropup"> <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span> </div>
-              </div>
-            </div>
-            <div class="teamMember">
-              <div class="emptyOverlay"></div>
-              <div class="teamMemberInfo">
-                <h1>Christopher Spencer </h1>
-                <h3>Director & Chairman of the Audit Committee</h3>
-                <div class="dropup"> <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span> </div>
-              </div>
-            </div>
-            <div class="teamMember">
-              <div class="emptyOverlay"></div>
-              <div class="teamMemberInfo">
-                <h1>Guido van Berkel</h1>
-                <h3>Director</h3>
-                <div class="dropup"> <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span> </div>
-              </div>
-            </div>
-            <div class="teamMember">
-              <div class="emptyOverlay"></div>
-              <div class="teamMemberInfo">
-                <h1>Helen Green</h1>
-                <h3>Director & Chairman of the Risk Committee</h3>
-                <div class="dropup"> <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span> </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -152,8 +164,9 @@
   <?php include("inc/footer.php"); ?>
 </div>
 
-<!-- jQuery --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script> 
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script src="js/teamMembers.js"></script>
 
 <!-- Bootstrap Core JavaScript --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>

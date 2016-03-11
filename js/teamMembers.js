@@ -49,5 +49,41 @@ var data = {
     title: 'Director of Investments',
     desc: 'Joanne Griffin is Director of Investments for JLCM, responsible for the sourcing, valuation and execution of acquisitions, development of JLIF’s business into new PPP markets, and for shareholder and board reporting. Joanne has over 11 years’ experience in infrastructure investments and serves as a director at both asset and corporate levels. She led the process that saw JLIF sign a £150 million revolving credit facility and was responsible for over £800 million of acquisitions to date. Prior to joining JLCM, Joanne led the finance and commercial elements of multiple PPP projects across most sectors of the infrastructure market, both in the UK and internationally. Previously, Joanne worked at Carillion, a construction-to-services company, and gained significant experience in financial modelling for bidding and advising consortia on their investments. Joanne is an Associate member of the Chartered Institute of Securities and Investment.',
     bigURL: 'images/Bio_main_Joanne_Griffin.png'
+  },
+    Paul_Lester: {
+    name: 'Paul Lester',
+    title: 'Chairman',
+    desc: 'Paul Lester, a resident of the United Kingdom, was appointed as non-executive Chairman of Greenergy International Ltd on 1 October 2010, and Knight Square in April 2012. He has also been appointed Chairman Designate of Essentra Plc. He is a member of the Government’s Major Project Review Group. Mr Lester was chief executive of VT Group plc, the support services company, from July 2002 until its acquisition by Babcock International in July 2010. Mr Lester was group managing director of Balfour Beatty plc, the international engineering, construction and services group, from 1997 to 2002, and chief executive of Graseby plc from 1990 to 1997. Mr Lester has also held senior management positions at Schlumberger and the Dowty Group plc. Mr Lester is a former president of the Society of Maritime Industries.',
+    bigURL: 'images/Bio_main_Paul_Lester.png'
+  },
+    David_MacLellan: {
+    name: 'David MacLellan',
+    title: 'Deputy Chairman & Senior Independent Director',
+    desc: 'David MacLellan, a resident of the United Kingdom, is the founder and currently Chairman of RJD Partners, a midmarket private-equity business focused on the services and leisure sectors. Previously, Mr MacLellan was an executive director of Aberdeen Asset Managers plc following its acquisition in 2000 of Murray Johnstone where he was latterly Chief Executive having joined the company in 1984. Mr MacLellan has served on the boards of a number of companies and is currently chairman of Havelock Europa plc and a non-executive director of J&J Denholm Limited, a private company registered in England with its headquarters in Glasgow. He resigned as a non-executive director of Maven Income and Growth VCT 2 plc. with effect from 16 September 2015. David MacLellan is a past council member of the British Venture Capital Association and a member of the Institute of Chartered Accountants of Scotland. He also serves as Chairman of the Nomination Committee of JLIF',
+    bigURL: 'images/Bio_main_David_MacLellan.png'
+  },
+    Talmai_Morgan: {
+    name: 'Talmai Morgan',
+    title: 'Director',
+    desc: 'Talmai Morgan, a resident of Guernsey, qualified as a barrister in 1976. He holds a MA in Economics and Law from Cambridge University. He moved to Guernsey in 1988 where he worked for Barings and then for the Bank of Bermuda. From 1999 to 2004, he was Director of Fiduciary Services and Enforcement at the Guernsey Financial Services Commission (Guernsey’s financial regulatory agency) where he was responsible for the design and subsequent implementation of Guernsey’s law relating to the regulation of fiduciaries, administration businesses and company directors. He was also particularly involved in the activities of the Financial Action Task Force and the Offshore Group of Banking Supervisors. For the last ten years, Mr Morgan has been the non-executive chairman or a non-executive director of a number of publicly listed investment companies. He is presently Chairman of NB Private Equity Partners Limited, Sherborne Investors (Guernsey) B Limited and Global Fixed Income Realisation Limited. He also sits on the board of BH Macro Limited, BH Global Limited, NB Distressed Debt Investment Fund Limited and Real Estate Credit Investments PCC Limited.',
+    bigURL: 'images/Bio_main_Talmai_Morgan.png'
+  },
+    Christopher_Spencer: {
+    name: 'Christopher Spencer',
+    title: 'Director & Chairman of the Audit Committee',
+    desc: 'Christopher Spencer, a resident of Guernsey, qualified as a chartered accountant in London in 1975. Following two years in Bermuda, he moved to Guernsey. Mr Spencer, who specialised in audit and fiduciary work, was Managing Partner/Director of Pannell Kerr Forster (Guernsey) Limited from 1990 until his retirement in May 2000. Mr Spencer is a member of the AIC Offshore Committee, a past President of the Guernsey Society of Chartered and Certified Accountants and a past Chairman of the Guernsey Branch of the Institute of Directors. Mr Spencer also sits on the board of Directors of Real Estate Credit Investments Limited, JP Morgan Private Equity Limited, Ruffer Investment Company and SQN Asset Finance Income Fund Limited, each of which is listed on the London Stock Exchange, and Summit Germany Limited, which is listed on the London Stock Exchange’s Alternative Investment Market.',
+    bigURL: 'images/Bio_main_Christoper_Spencer.png'
+  },
+    Guido_van_Berkel: {
+    name: 'Guido van Berkel',
+    title: 'Director',
+    desc: 'Guido Van Berkel, a resident of Luxembourg, started his career in the financial industry more than 40 years ago and has held various senior positions with Bank Sarasin, Rabobank, Robeco Group and Citibank. Over the course of his career, he has worked in The Netherlands, Jersey, Switzerland, Luxembourg and Scandinavia. From 2001 until 2007 Mr Van Berkel was active on the Executive Board of Bank Sarasin in Switzerland and as such he acted as chairman of various Sarasin entities across Europe and Asia. Currently Mr Van Berkel is an independent director for a number of Luxembourg, British, Channel Islands and Dutch investment fund ranges and from the beginning of 2012 he has been chairman of BlackRock Luxembourg SA and BlackRock Fund Management Sàrl in Luxembourg as well as chairman of BlackRock Fund Netherlands BV.',
+    bigURL: 'images/Bio_main_Guido_van_Berkel.png'
+  },
+    Helen_Green: {
+    name: 'Helen Green',
+    title: 'Director & Chairman of the Risk Committee',
+    desc: 'Helen Green, a resident of Guernsey, has been employed by Saffery Champness, a top 15 firm of chartered accountants since 1984. Mrs Green qualified in 1987 as a chartered accountant and became a partner in the London office in 1997. Since 2000 she has been based in the Guernsey office where she is client liaison director responsible for trust and company administration. Mrs Green is a non-executive director of Acorn Income Fund Limited (of which she has been chairman since 2012), a non-executive director of Henderson Diversified Income Fund Limited, and was appointed as a non-executive director of City Natural Resources High Yield Trust plc, on 1 September 2015. All three companies are listed on the London Stock Exchange’s Main Market. Ms Green is also a non-executive director of Advance Frontier Markets Fund Limited and Landore Resources Limited, both of which are listed on the London Stock Exchange’s Alternative Investment Market.',
+    bigURL: 'images/Bio_main_Helen_Green.png'
   }
 }
