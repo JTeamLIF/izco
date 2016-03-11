@@ -97,13 +97,13 @@
     
       <div class="col-lg-3"></div>
       <div class="col-lg-3">
-        <div class="pieChartHolder"><img src="images/dummy_piechart.png" width="273" height="372"></div>
+        <div class="pieChartHolder"><img src="images/sector_piechart.png" width="273" height="372"></div>
       </div>
       <div class="col-lg-3">
-        <div class="pieChartHolder"><img src="images/dummy_piechart.png" width="273" height="372"></div>
+        <div class="pieChartHolder"><img src="images/concession_piechart.png" width="273" height="372"></div>
       </div>
       <div class="col-lg-3">
-        <div class="pieChartHolder"><img src="images/dummy_piechart.png" width="273" height="372"></div>
+        <div class="pieChartHolder"><img src="images/ownership_piechart.png" width="273" height="372"></div>
       </div>
       
     </div>
