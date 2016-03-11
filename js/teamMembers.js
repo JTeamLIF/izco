@@ -85,5 +85,11 @@ var data = {
     title: 'Director & Chairman of the Risk Committee',
     desc: '<p>Helen Green, a resident of Guernsey, has been employed by Saffery Champness, a top 15 firm of chartered accountants since 1984. Mrs Green qualified in 1987 as a chartered accountant and became a partner in the London office in 1997. Since 2000 she has been based in the Guernsey office where she is client liaison director responsible for trust and company administration. Mrs Green is a non-executive director of Acorn Income Fund Limited (of which she has been chairman since 2012), a non-executive director of Henderson Diversified Income Fund Limited, and was appointed as a non-executive director of City Natural Resources High Yield Trust plc, on 1 September 2015. All three companies are listed on the London Stock Exchange’s Main Market.</p><p> Ms Green is also a non-executive director of Advance Frontier Markets Fund Limited and Landore Resources Limited, both of which are listed on the London Stock Exchange’s Alternative Investment Market.</p>',
     bigURL: 'images/Bio_main_Helen_Green.png'
-  }
+  },
+    Gianluca_Mazzoni: {
+    name: 'Gianluca Mazzoni',
+    title: 'Deputy Investment Adviser',
+    desc: '<p>Gianluca Mazzoni recently joined JLCM, as Deputy Investment Adviser to JLIF in charge of Business Development.</p><p>He previously worked for Société Générale (then Access Capital Partners) developing significant experience in the origination and execution of global investment opportunities in equity infrastructure. Prior to this Gianluca worked in corporate finance, private equity and M&A across a wide range of sectors as part of The Boston Consulting Group and Bain & Co. He holds an MBA from Bocconi University (Italy) and Columbia Business School (USA) and an M.Sc. in Economics and Finance from Universita Politecnica delle Marche (Italy).</p>',
+    bigURL: 'images/Bio_main_Gianluca_Mazzoni.png'
+  }  
 }
