@@ -70,10 +70,7 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Investment policy</h1>
-        <h3>The Company’s investment policy is to invest predominantly in equity and/or subordinated debt issued in
-        respect of infrastructure projects that are predominantly PPP projects. The Fund will predominantly invest in
-        projects that have completed construction and that are in their operational phase. Investment Capital in projects
-        that are under construction will be limited to 30 per cent. of the Total Assets of the Fund (calculated at the time of investment).</h3>
+        <h3>JLIF’s investment policy is to invest predominantly in the equity and subordinated debt issued with respect to infrastructure projects that are predominantly PPP projects. The Company predominantly invests in projects that have completed construction and that are in their operational phase. Investment capital in projects that are under construction is limited to 30% of the Total Assets of the Fund (calculated at the time of investment).</h3>
         <h5>The Fund will predominantly invest in projects whose revenue streams are:</h5>
         <ul>
           <li>
@@ -86,13 +83,9 @@
             75% or more of payments from the relevant Project Entity does or does not, as appropriate, generally depend on the level of use of the project asset.</span>
           </li>
         </ul>
-        <p>Whilst it is envisaged that further acquisitions will be of operational PPP projects with availability based revenues, it may be possible that
-        a limited number of projects in construction or with “demand based” revenue mechanisms may be acquired. Investment Capital in projects whose revenue
-        streams are predominantly demand based will be limited to 15% of the Total Assets of the Fund (calculated at the time of investment). For the
-        purposes of this investment restriction the shadow toll mechanism for the investment in the M40 and M6/M74 motorway projects are not regarded as
-        carrying demand risk due to their relative insensitivity to traffic movement.</p>
-        <p>In addition, the Company may invest up to 10% of the Total Assets of the Fund (calculated at the time of investment) in infrastructure assets
-        that are not government-backed PPP assets but that have substantially the same risk profile and characteristics as PPP assets.</p>
+        <p>Whilst it is envisaged that further acquisitions will be of operational PPP projects with availability-based revenues, it may be possible that a limited number of projects in construction and/or with demand based revenue mechanisms may be acquired.</p>
+        <p>Investment capital in projects whose revenue streams are predominantly demand-based is limited to 15% of the Total Assets of the Fund (calculated at the time of investment). For the purposes of this restriction, the shadow toll mechanisms for the investments in the M40 and M6/M74 motorway projects are not regarded as carrying demand risk due to their relative insensitivity to traffic movement. </p>
+        <p>In addition, the Company may invest up to 10% of its Total Assets (calculated at the time of investment) in infrastructure assets that are not government-backed. </p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
