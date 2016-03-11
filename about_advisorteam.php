@@ -109,31 +109,28 @@
       <div class="col-md-12 inverstorAdvisorWrapper">
         <div class="col-lg-3"></div>
         <div class="col-lg-9" id="inverstorAdvisorTeam">
-          <img src="images/andrew-big.jpg">
+          <img id="mainImage" src="images/andrew-big.jpg">
             <div class="col-lg-3 inverstorAdvisorTitle">
-              <h1>Andrew Charlesworth</h1>
-              <h3>Investment Adviser</h3>
-              <div class="dropdown">
-                <span class="glyphicon glyphicon-triangle-bottom pull-right" style="margin-right: 10px;" aria-hidden="true"></span>
-              </div>
+              <h1 id="mainName">Andrew Charlesworth</h1>
+              <h3 id="mainTitle">Investment Adviser</h3>
             </div>
-            <div class="col-lg-8 inverstorAdvisorInfo">
+            <div id="mainDesc" class="col-lg-8 inverstorAdvisorInfo">
               <p>Andrew Charlesworth is a Director of JLCM, responsible for delivering the fund’s performance targets. He has been able to draw on 19 years of experience in infrastructure development and finance to help JLIF grow from a Portfolio Value of £259.0 million at launch to a Portfolio Value of £864.9 million, overseeing JLIF’s entry into the FTSE 250 index within just 11 months of its IPO. Andrew’s broad experience of the PPP market, having acted as advisor to authorities in procuring PPP projects and to senior lenders in funding them has ensured that the investments JLIF has made have been accretive to shareholder value, delivering above forecast returns.</p>
 
               <p>Prior to his current role, Andrew led significant parts of the primary investment business within John Laing, initially as CEO of Regenter (a John Laing social housing PPP joint venture), then as Local Authority PPP Director and lastly as the Financial and Commercial Director for the global John Laing Investments business. Andrew holds the CFA UK’s Investment Management Certificate (Part 1).</p>
             </div>
             <div class="col-lg-9 otherContactsWrapper">
-              <div class="teamMember">
+              <div id="Andrew_Charlesworth" class="teamMember">
                 <div class="emptyOverlay"></div>
                 <div class="teamMemberInfo">
-                  <h1>Paul Lester CBE</h1>
-                  <h3>Chairman</h3>
+                  <h1>Andrew Charlesworth</h1>
+                  <h3>Investment Adviser</h3>
                   <div class="dropup">
                     <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
                   </div>
                 </div>
               </div>
-              <div class="teamMember">
+              <div id="Joanne_Griffin" class="teamMember">
                 <div class="emptyOverlay"></div>
                 <div class="teamMemberInfo">
                   <h1>Joanne Griffin (née Gibbins)</h1>
@@ -143,7 +140,7 @@
                   </div>
                 </div>
               </div>
-              <div class="teamMember">
+              <div id="Jamie_Pritchard" class="teamMember">
                 <div class="emptyOverlay"></div>
                 <div class="teamMemberInfo">
                   <h1>Jamie Pritchard</h1>
@@ -165,6 +162,7 @@
 
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script src="js/teamMembers.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
