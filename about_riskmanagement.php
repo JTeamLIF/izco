@@ -63,8 +63,14 @@
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
-          <li class="level-1 parent-menu-active"><a href="about_riskmanagement.php">Risk management</a></li>
+          <li class="level-1 parent-menu-active"><a href="about_riskmanagement.php">Risk management</a>
+              <ul class="nav_sub">
+              <li class="level-2 parent-menu-active first"><a href="about_riskmanagement.php">Overview</a></li>
+              <li class="level-2"><a href="about_riskmanagement.php">Risk Committee</a></li>
+            </ul>
+          </li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
+          <li class="level-1"><a href="about_corporategovernance.php">Corporate governance</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
