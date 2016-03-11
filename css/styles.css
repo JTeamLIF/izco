@@ -1046,3 +1046,8 @@ ol li {
 	margin-top: 50px;
 	padding-left: 10px;
 }
+
+
+iframe {
+border: 0 none;
+}

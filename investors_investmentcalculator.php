@@ -76,8 +76,7 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Investment Calculator</h1>
-        <h3>h3</h3>
-        <p>paragraph</p>
+<iframe src="http://tools.euroland.com/tools/investmentcal2/?companycode=uk-jlif&lang=en-gb" width="100%" height="1200px" ></iframe>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">

@@ -74,8 +74,7 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>News email alerts</h1>
-        <h3>h3</h3>
-        <p>paragraph</p>
+<iframe src="http://tools.euroland.com/clienttools/error.htm?aspxerrorpath=/Clienttools/RNSSubscription/EmailAlertService.aspx" width="100%" height="860px" ></iframe>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
