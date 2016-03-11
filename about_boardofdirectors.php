@@ -89,9 +89,9 @@
               <h3 id="mainTitle">Chairman</h3>
             </div>
             <div id="mainDesc" class="col-lg-8 inverstorAdvisorInfo">
-              <p>Andrew Charlesworth is a Director of JLCM, responsible for delivering the fund’s performance targets. He has been able to draw on 19 years of experience in infrastructure development and finance to help JLIF grow from a Portfolio Value of £259.0 million at launch to a Portfolio Value of £864.9 million, overseeing JLIF’s entry into the FTSE 250 index within just 11 months of its IPO. Andrew’s broad experience of the PPP market, having acted as advisor to authorities in procuring PPP projects and to senior lenders in funding them has ensured that the investments JLIF has made have been accretive to shareholder value, delivering above forecast returns.</p>
-
-              <p>Prior to his current role, Andrew led significant parts of the primary investment business within John Laing, initially as CEO of Regenter (a John Laing social housing PPP joint venture), then as Local Authority PPP Director and lastly as the Financial and Commercial Director for the global John Laing Investments business. Andrew holds the CFA UK’s Investment Management Certificate (Part 1).</p>
+              <p>Paul Lester, a resident of the United Kingdom, was appointed as non-executive Chairman of Greenergy International Ltd on 1 October 2010, and Knight Square in April 2012. He has also been appointed Chairman Designate of Essentra Plc. He is a member of the Government’s Major Project Review Group. Mr Lester was chief executive of VT Group plc, the support services company, from July 2002 until its acquisition by Babcock International in July 2010. </p>
+              <p>Mr Lester was group managing director of Balfour Beatty plc, the international engineering, construction and services group, from 1997 to 2002, and chief executive of Graseby plc from 1990 to 1997. Mr Lester has also held senior management positions at Schlumberger and the Dowty Group plc. /<p>
+              <p>Mr Lester is a former president of the Society of Maritime Industries.<p>
             </div>
             <div class="col-lg-9 otherContactsWrapper">
               <div id="Paul_Lester" class="teamMember">
