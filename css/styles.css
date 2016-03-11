@@ -655,6 +655,13 @@ hr {
   max-width: 1280px;
 }
 
+.contentwrapper2 {
+	background-color:#F7F7F7;
+	padding: 0px;
+  margin-left: 15px;
+  max-width: 1280px;
+}
+
 .inline {
 	display: inline-block;
 	float: left;
@@ -869,7 +876,6 @@ ol li {
 	background-color: #666;
     color: #fff;
     font-size: 1.3em;
-
     height: 30px;
     line-height: 2em;
     width: 100%;
@@ -949,8 +955,13 @@ ol li {
     background-color: #FFF;
 }
 
-.col-md-12.chartWrapper {
-	height: 600px;
+.barchartWrapper {
+	height: 300px;
+	background-color:#f7f7f7;
+}
+
+.piechartWrapper {
+	height: 300px;
 	background-color:#f7f7f7;
 }
 
@@ -1016,4 +1027,22 @@ ol li {
 
 .streetLighting {
 	border-left: 20px solid #c7b299;
+}
+.barChartHolder, .pieChartHolder {
+	border-top: 1px solid #d8d8d8;
+    padding-bottom: 30px;
+    padding-top: 30px;
+	width: 93%;
+}
+
+.chartheadblock {
+	background-color: #666;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    height: 30px;
+    line-height: 2.5em;
+    width: 140px;
+	margin-top: 50px;
+	padding-left: 10px;
 }
