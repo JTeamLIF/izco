@@ -92,7 +92,7 @@
         <div class="col-lg-3 chartheadblock">Concession length</div>
       </div>
       <div class="col-lg-3">
-        <div class="col-lg-3 chartheadblock">Investment status</div>
+        <div class="col-lg-3 chartheadblock">Ownership analysis</div>
       </div>
     
       <div class="col-lg-3"></div>
