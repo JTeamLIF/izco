@@ -88,46 +88,19 @@
             <table class="table-striped publicationsTable">
               <tr>
                 <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                  <span class="date">9 Nov 2015</span>
+                  <span class="text">JLIF Interim Management Statement</span>
                   <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
+                  <span class="date">28 Aug 2015</span>
+                  <span class="text"> 	Interim Report</span>
                   <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
+             
             </table>
           </div>
           <div role="tabpanel" class="tab-pane" id="pastEvents">
