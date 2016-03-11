@@ -33,7 +33,7 @@ $(function () {
 	});
 
 	// 6 IMAGES HOMEPAGE - on click turn image on/off
-	$('.imageThumbnail').on('click', function(element) {
+	$('.imageThumbnail').on('click', function() {
 
 		clickedImageId = $(this).attr('id');
 		$('#headerImage').attr('class', 'image-bg-fluid-height-' + clickedImageId);
@@ -45,15 +45,14 @@ $(function () {
 		$(this).attr('src', src);
 	});
 
-
+	// ACCORDIAN INVESTMENT PORTFOLIO PAGE
   var allPanels = $('.accordion > dd').hide();
 
-  $('.accordion > dt').click(function() {
+  $('.accordion > dt').click(function () {
     allPanels.slideUp();
     $(this).next().slideDown();
     return false;
   });
-
 
 });
 

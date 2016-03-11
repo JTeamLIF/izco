@@ -5,6 +5,16 @@
   That's why wehave the coordinates stored here
 */
 
+var clearChartAd = function() {
+  var hideJS = setInterval(function() {
+    //console.log($('.amcharts-chart-div a'));
+    $('.amcharts-chart-div a').text('')
+    if ($('.amcharts-chart-div a').text() === '') {
+      clearInterval(hideJS);
+    }
+  }, 1);
+}
+
 var latlong = {};
 latlong["AG"] = {"latitude":52.484322, "longitude":-1.917348};
 latlong["AI"] = {"latitude":53.004112, "longitude":-2.214872};
@@ -76,10 +86,7 @@ for (var i = 0; i < mapData.length; i++) {
 AmCharts.ready(function() {
 
   window.map = new AmCharts.AmMap();
-
-  window.map.areasSettings = {
-    unlistedAreasColor: "#bdbdbd"
-  };
+  window.map.areasSettings = { unlistedAreasColor: "#bdbdbd" };
   window.map.backgroundColor = '#ff6600';
   window.map.imagesSettings.balloonText = "<span style='font-size:14px;'><b>[[title]]</b></span>";
 
@@ -88,38 +95,33 @@ AmCharts.ready(function() {
     images: []
   }
 
-  // create circle for each country
-
-
   // it's better to use circle square to show difference between values, not a radius
-    var maxSquare = maxBulletSize * maxBulletSize * 2 * Math.PI;
-    var minSquare = minBulletSize * minBulletSize * 2 * Math.PI;
+  var maxSquare = maxBulletSize * maxBulletSize * 2 * Math.PI;
+  var minSquare = minBulletSize * minBulletSize * 2 * Math.PI;
 
-    // create circle for each country
-    for (var i = 0; i < mapData.length; i++) {
-        var dataItem = mapData[i];
-        var value = dataItem.value;
-        // calculate size of a bubble
-        var square = (value - min) / (max - min) * (maxSquare - minSquare) + minSquare;
-        if (square < minSquare) {
-            square = minSquare;
-        }
-        var size = Math.sqrt(square / (Math.PI * 2));
-        var id = dataItem.code;
-
-        dataProvider.images.push({
-            type: "circle",
-            width: size,
-            height: size,
-            color: dataItem.color,
-            longitude: latlong[id].longitude,
-            latitude: latlong[id].latitude,
-            title: dataItem.name,
-            value: value
-        });
+  // create circle for each country
+  for (var i = 0; i < mapData.length; i++) {
+    var dataItem = mapData[i];
+    var value = dataItem.value;
+    // calculate size of a bubble
+    var square = (value - min) / (max - min) * (maxSquare - minSquare) + minSquare;
+    if (square < minSquare) {
+      square = minSquare;
     }
+    var size = Math.sqrt(square / (Math.PI * 2));
+    var id = dataItem.code;
 
-
+    dataProvider.images.push({
+      type: "circle",
+      width: size,
+      height: size,
+      color: dataItem.color,
+      longitude: latlong[id].longitude,
+      latitude: latlong[id].latitude,
+      title: dataItem.name,
+      value: value
+    });
+  }
 
   // the following code uses circle radius to show the difference
   /*
@@ -146,9 +148,11 @@ AmCharts.ready(function() {
   }*/
 
   window.map.dataProvider = dataProvider;
-    window.map.export = {
-      enabled: true
-    }
+  window.map.export = { enabled: true }
   window.map.projection = "Miller";
   window.map.write("chartdiv");
+  clearChartAd();
 });
+
+
+$('.amcharts-chart-div a').remove()
