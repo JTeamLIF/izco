@@ -76,70 +76,7 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Share Price History</h1>
-
-        <br>
-
-        <p>
-          <span class="blue">JLIF (LSE)</span>
-          - Date starting from 12/09/1996
-        </p>
-
-        <br>
-          <!-- Nav tabs -->
-        <ul class="nav nav-tabs publicationsTab" role="tablist">
-          <li role="presentation" class="active">
-            <a href="#historicalSharePrices" aria-controls="all" role="historicalSharePrices" data-toggle="tab">Historical Share Prices</a>
-          </li>
-          <li role="presentation">
-            <a href="#sharePriceDownload" aria-controls="sharePriceDownload" role="tab" data-toggle="tab">Share Price Download</a>
-          </li>
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="historicalSharePrices">
-            <br>
-            <br>
-            <p class="inline"> select the date to find price
-              <div class="input-group inline"  style="margin-left: 60px;">
-                <input type="text" class="form-control" placeholder="18/02/2016" aria-describedby="basic-addon1">
-              </div>
-              <img src="images/calendar-icon.jpg" class="inline calendarIconPadding">
-            </p>
-            <div class="clearfix"></div>
-            <br>
-            <p class="inline">Choose currency</p>
-            <div class="dropdown inline" style="margin-left: 128px;">
-              <button class="btn btn-default dropdown-toggle categoryDropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                <span class="title">Local Currency</span>
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-              </ul>
-            </div>
-            <div class="clearfix"></div>
-            <br><br>
-            <button type="button" class="btn btn-default navbar-btn inline search pull-right">Show data</button>
-            <div class="clearfix"></div>
-            <hr>
-            <h3>ANNUAL CLOSE PRICES</h3>
-            <img src="images/graph.jpg">
-            <br><br><br>
-            <div class="pull-right eurolandCopyright" style="text-align: right">
-            Supplied by &copy; <a href="Euroland.com">Euroland.com</a>
-            <br>
-            For terms of use and data vendors information, see <a href="#">Disclaimer</a>
-            <br>
-            <a href="#">Cookie policy</a>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="sharePriceDownload">
-
-          </div>
-        </div>
+<iframe src="http://tools.euroland.com/tools/splookup/?companycode=uk-jlif&lang=en-gb" width="100%" height="900px" ></iframe>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
