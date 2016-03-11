@@ -51,7 +51,7 @@
       <div class="col-lg-9 pull-right">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage"><a href="about_overview.php">About</a></span> |
-        <span class="activePage">Corporate social responsibility</span>
+        <span class="activePage">Corporate governance</span>
       </div>
     </div>
   </div>
@@ -64,12 +64,12 @@
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
-          <li class="level-1 parent-menu-active"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
-          <li class="level-1"><a href="about_corporategovernance.php">Corporate governance</a></li>
+          <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
+          <li class="level-1 parent-menu-active"><a href="about_corporategovernance.php">Corporate governance</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
-        <h1>Corporate social responsibility</h1>
+        <h1>Corporate governance</h1>
         <h3>h3</h3>
 
         <p>para</p>

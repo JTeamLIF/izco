@@ -84,7 +84,6 @@
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
-          <li class="level-1"><a href="about_corporategovernance.php">Corporate governance</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1" id="inverstorAdvisorTeam">
@@ -110,10 +109,10 @@
       <div class="col-md-12 inverstorAdvisorWrapper">
         <div class="col-lg-3"></div>
         <div class="col-lg-9" id="inverstorAdvisorTeam">
-          <img id="mainImage" src="images/andrew-big.jpg">
+          <img id="mainImage" src="images/Bio_main_Paul_Lester.png">
             <div class="col-lg-3 inverstorAdvisorTitle">
-              <h1 id="mainName">Andrew Charlesworth</h1>
-              <h3 id="mainTitle">Investment Adviser</h3>
+              <h1 id="mainName">Paul Lester CBE</h1>
+              <h3 id="mainTitle">Chairman</h3>
             </div>
             <div id="mainDesc" class="col-lg-8 inverstorAdvisorInfo">
               <p>Andrew Charlesworth is a Director of JLCM, responsible for delivering the fund’s performance targets. He has been able to draw on 19 years of experience in infrastructure development and finance to help JLIF grow from a Portfolio Value of £259.0 million at launch to a Portfolio Value of £864.9 million, overseeing JLIF’s entry into the FTSE 250 index within just 11 months of its IPO. Andrew’s broad experience of the PPP market, having acted as advisor to authorities in procuring PPP projects and to senior lenders in funding them has ensured that the investments JLIF has made have been accretive to shareholder value, delivering above forecast returns.</p>
@@ -121,31 +120,61 @@
               <p>Prior to his current role, Andrew led significant parts of the primary investment business within John Laing, initially as CEO of Regenter (a John Laing social housing PPP joint venture), then as Local Authority PPP Director and lastly as the Financial and Commercial Director for the global John Laing Investments business. Andrew holds the CFA UK’s Investment Management Certificate (Part 1).</p>
             </div>
             <div class="col-lg-9 otherContactsWrapper">
-              <div id="Andrew_Charlesworth" class="teamMember">
+              <div id="Paul_Lester" class="teamMember">
                 <div class="emptyOverlay"></div>
                 <div class="teamMemberInfo">
-                  <h1>Andrew Charlesworth</h1>
-                  <h3>Investment Adviser</h3>
+                  <h1>Paul Lester CBE</h1>
+                  <h3>Chairman</h3>
                   <div class="dropup">
                     <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
                   </div>
                 </div>
               </div>
-              <div id="Joanne_Griffin" class="teamMember">
+              <div id="David_MacLellan" class="teamMember">
                 <div class="emptyOverlay"></div>
                 <div class="teamMemberInfo">
-                  <h1>Joanne Griffin (née Gibbins)</h1>
-                  <h3>Director of Investments</h3>
+                  <h1>David MacLellan</h1>
+                  <h3>Deputy Chairman & Senior Independent Director</h3>
                   <div class="dropup">
                     <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
                   </div>
                 </div>
               </div>
-              <div id="Jamie_Pritchard" class="teamMember">
+              <div id="Talmai_Morgan" class="teamMember">
                 <div class="emptyOverlay"></div>
                 <div class="teamMemberInfo">
-                  <h1>Jamie Pritchard</h1>
-                  <h3>Director of Asset Management</h3>
+                  <h1>Talmai Morgan</h1>
+                  <h3>Director</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+               <div id="Christopher_Spencer" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Christopher Spencer</h1>
+                  <h3>Director & Chairman of the Audit Committee</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="Guido_van_Berkel" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Guido_van_Berkel</h1>
+                  <h3>Director</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="Helen_Green" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Helen Green</h1>
+                  <h3>Director & Chairman of the Risk Committee</h3>
                   <div class="dropup">
                     <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
                   </div>
