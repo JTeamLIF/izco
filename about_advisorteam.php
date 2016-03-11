@@ -151,6 +151,16 @@
                   </div>
                 </div>
               </div>
+              <div id="Gianluca_Mazzoni" class="teamMember">
+                <div class="emptyOverlay"></div>
+                <div class="teamMemberInfo">
+                  <h1>Gianluca Mazzoni</h1>
+                  <h3>Deputy Investment Adviser</h3>
+                  <div class="dropup">
+                    <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
       </div>
