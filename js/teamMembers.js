@@ -2,6 +2,7 @@ $(function () {
 
   // TEAM MEMEBERS
   turnEveryoneOff();
+  turnFirstPersonOn();
 
   // on a member click
   $('.teamMember').on('click', function () {
@@ -27,6 +28,11 @@ $(function () {
       var id = $(this).attr('id');
       $(this).css('background-image', 'url(images/Bio_tb_off_' + id + '.png)');
     });
+  }
+
+  function turnFirstPersonOn() {
+    var replacedLink = $('.teamMember').first().attr('style').replace('_off', '_on');
+    $('.teamMember').first().attr('style', replacedLink);
   }
 
 });
@@ -91,5 +97,5 @@ var data = {
     title: 'Deputy Investment Adviser',
     desc: '<p>Gianluca Mazzoni recently joined JLCM, as Deputy Investment Adviser to JLIF in charge of Business Development.</p><p>He previously worked for Société Générale (then Access Capital Partners) developing significant experience in the origination and execution of global investment opportunities in equity infrastructure. Prior to this Gianluca worked in corporate finance, private equity and M&A across a wide range of sectors as part of The Boston Consulting Group and Bain & Co. He holds an MBA from Bocconi University (Italy) and Columbia Business School (USA) and an M.Sc. in Economics and Finance from Universita Politecnica delle Marche (Italy).</p>',
     bigURL: 'images/Bio_main_Gianluca_Mazzoni.png'
-  }  
+  }
 }
