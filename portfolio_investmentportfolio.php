@@ -23,7 +23,7 @@
 <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
-<script src="js/mapData.js"></script>
+
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -97,53 +97,209 @@
       <div class="col-lg-9" style="background-color: #f7f7f7;">
         <div id="chartdiv"></div>
         <dl class="accordion">
-          <dt class="health">
+          <dt class="hea">
             Health
             <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true" style="font-size: 1em;"></span>
           </dt>
-          <dd>
-            <div class="contactCard">
+          <dd class="health">
+          </dd>
+          <dt class="edu">
+            Education
+            <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true" style="font-size: 1em;"></span>
+          </dt>
+          <dd class="education">
+            <div class="assetCard">
               <div class="pull-left">
-                image
+                <img class="mainImage" src="images/gallery/health/Gallery_main_Tunbridge-Wells-Hospital.png">
               </div>
-              <div class="pull-right contactInfo">
-                <h1>Asset title</h1>
-                <h3>Location</h3>
-
-                <p>AHV Access Health Vancouver Ltd, the project company, has contracted with Vancouver Coastal Health Authority
-                to design, build, finance and maintain the Gordon & Leslie Diamond Healthcare Centre, part of Vancouver General
-                Hospital, under a 30 year concession which runs until 2036.</p>
-
-                <span class="blue">Percentage ownership:</span> 100%
-
+              <div class="pull-right assetInfo">
+                <h1 class="mainName">Barnsley BSF</h1>
+                <h3 class="mainAddress">Barnsley S70 2JW</h3>
+                <p class="mainDesc">Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul
+                of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning
+                centres, one special school, and one special school extension) over three phases. Financial close on Phase
+                1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
+                completed in 2011 for all phases.</p>
+                <span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">100%</span>
+                <br><br>
               </div>
             </div>
+
+            <div id="Barnsley-BSF" class="smallAsset" data-code="BB">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_on_Barnsley-BSF.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Barnsley BSF</span>
+                <span class="smallAssetLocation">Barnsley S70 2JW</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Bristol-BSF" class="smallAsset" data-code="BR">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Bristol-BSF.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Bristol BSF</span>
+                <span class="smallAssetLocation">Avon BS4 4NN</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Peterborough-Schools" class="smallAsset" data-code="PS">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Peterborough-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Peterborough Schools</span>
+                <span class="smallAssetLocation">Peterborough PE3 6AP</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Bexley-Schools" class="smallAsset" data-code="BS">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Bexley-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Bexley Schools</span>
+                <span class="smallAssetLocation">Kent DA6 7AT</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Leeds-Combined-Secondary-Schools" class="smallAsset" data-code="LC">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Leeds-Combined-Secondary-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Leeds Combined Secondary Schools</span>
+                <span class="smallAssetLocation">Leeds LS1 9BS</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="North-Swindon-Schools" class="smallAsset" data-code="SS">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_North-Swindon-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">North Swindon Schools</span>
+                <span class="smallAssetLocation">Wiltshire SN25 4GY</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Newham-Schools" class="smallAsset" data-code="NS">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Newham-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Newham Schools</span>
+                <span class="smallAssetLocation">London E6 2RT</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Enfield-Schools" class="smallAsset" data-code="ES">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Enfield-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Enfield Schools</span>
+                <span class="smallAssetLocation">London E6 2RT</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Highland-School-Enfield" class="smallAsset" data-code="HS">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Highland-School-Enfield.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Highland School, Enfield</span>
+                <span class="smallAssetLocation">London, N21 1QQ</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Edinburgh-Schools" class="smallAsset" data-code="EC">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Edinburgh-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Edinburgh Schools</span>
+                <span class="smallAssetLocation">Edinburgh EH1 1YJ</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="South-Lanarkshire-Schools" class="smallAsset" data-code="SO">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_South-Lanarkshire-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">South Lanarkshire Schools</span>
+                <span class="smallAssetLocation">South Lanarkshire ML3 0AA</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div id="Glasgow-Schools" class="smallAsset" data-code="GS">
+              <div class="smallAssetLeft pull-left">
+                <img class="smallAssetImage" src="images/gallery/education/Gallery_tb_off_Glasgow-Schools.png">
+              </div>
+              <div class="smallAssetRight pull-right">
+                <span class="smallAssetTitle">Glasgow Schools</span>
+                <span class="smallAssetLocation">Glasgow G2 1DU</span>
+                <span class="smallAssetGlyph glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+              </div>
+            </div>
+
+
           </dd>
 
-          <dt class="justice">Justice & Emergency Services
+          <dt class="jus">Justice & Emergency Services
             <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
           </dt>
-          <dd></dd>
 
-          <dt class="transport">Transport
-            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
-          </dt>
-          <dd></dd>
+          <dd class="justice-and-emergency-services">
 
-          <dt class="govBuilding">Government Buildings
-            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
-          </dt>
-          <dd></dd>
+          </dd>
 
-          <dt class="Regeneration">Regeneration & Social Housing
+          <dt class="tra">Transport
             <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
           </dt>
-          <dd></dd>
 
-          <dt class="streetLighting">Street Lighting
+          <dd class="transport">
+
+          </dd>
+
+          <dt class="gov">Government Buildings
             <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
           </dt>
-          <dd></dd>
+
+          <dd class="government-buildings">
+
+          </dd>
+
+          <dt class="reg">Regeneration & Social Housing
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
+          </dt>
+
+          <dd class="regeneration-and-social-housing">
+
+          </dd>
+
+          <dt class="str">Street Lighting
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;">
+          </dt>
+
+          <dd class="street-lighting">
+
+          </dd>
 
         </dl>
       </div>
@@ -155,6 +311,7 @@
 </div>
 
 <script type="text/javascript" src="js/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="js/mapData.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
