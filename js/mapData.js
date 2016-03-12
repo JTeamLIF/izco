@@ -5,9 +5,42 @@
   That's why wehave the coordinates stored here
 */
 
+ $('.smallAssetGlyph').on('click', function () {
+
+  var assetDiv = $(this).parent('div').parent('div');
+  var parentDD = assetDiv.parent('dd');
+  var ddClassName = parentDD.attr('class');
+  var assetCode = assetDiv.data('code');
+  // first thing turn everyone off after click
+  turnAllAssetsOff(ddClassName);
+
+  // turn clicked person on - first gets id which is the persons name, then put name into url to load the correct image
+  var id = assetDiv.attr('id');
+  var $img = assetDiv.find('.smallAssetImage');
+  $img.attr('src', $img.attr('src').replace('off', 'on'));
+
+  //replace main div with data
+  var selectedAsset = mapData.filter( function(obj) {
+    return obj.code === assetCode;
+  });
+
+  parentDD.find('.mainImage').attr('src', 'images/gallery/' + ddClassName + '/Gallery_main_' + id + '.png');
+  parentDD.find('.mainName').html(selectedAsset[0].name);
+  parentDD.find('.mainAddress').html(selectedAsset[0].address);
+  parentDD.find('.mainDesc').html(selectedAsset[0].desc);
+  parentDD.find('.percentageOwned').html(selectedAsset[0].ownership + '%')
+});
+
+// function to turn everyone off
+function turnAllAssetsOff(category) {
+  $('.' + category + ' .smallAsset').each(function () {
+    var $img = $(this).find('.smallAssetImage')
+    $img.attr('src', $img.attr('src').replace('_on', '_off'));
+  });
+}
+
 var clearChartAd = function() {
   var hideJS = setInterval(function() {
-    //console.log($('.amcharts-chart-div a'));
     $('.amcharts-chart-div a').text('')
     if ($('.amcharts-chart-div a').text() === '') {
       clearInterval(hideJS);
@@ -77,65 +110,530 @@ latlong["MS"] = {"latitude":53.684341, "longitude":-1.503688};
 
 
 
-var mapData = [ 
-{"code":"AG" ,"name":"North Birmingham Mental Health","value":2000000,"color":"#0094d9"},
-{"code":"AI" ,"name":"North Staffordshire Hospital","value":2000000,"color":"#0094d9"},
-{"code":"AL" ,"name":"Kelowna and Vernon Hospitals","value":2000000,"color":"#0094d9"},
-{"code":"AM" ,"name":"Realise Health (LIFT) Colchester","value":2000000,"color":"#0094d9"},
-{"code":"NM" ,"name":"Northampton Mental Health","value":2000000,"color":"#0094d9"},
-{"code":"PH" ,"name":"Peterborough Hospital","value":2000000,"color":"#0094d9"},
-{"code":"TW" ,"name":"Tunbridge Wells Hospital","value":2000000,"color":"#0094d9"},
-{"code":"NE" ,"name":"Newcastle Hospital","value":2000000,"color":"#0094d9"},
-{"code":"RP" ,"name":"Roseberry Park Hospital","value":2000000,"color":"#0094d9"},
-{"code":"FV" ,"name":"Forth Valley Royal Hospital","value":2000000,"color":"#0094d9"},
-{"code":"VG" ,"name":"Vancouver General Hospital","value":2000000,"color":"#0094d9"},
-{"code":"QE" ,"name":"Queen Elizabeth Hospital","value":2000000,"color":"#0094d9"},
-{"code":"NH" ,"name":"Newham Hospital","value":2000000,"color":"#0094d9"},
-{"code":"KH" ,"name":"Kingston Hospital","value":2000000,"color":"#0094d9"},
-{"code":"AH" ,"name":"Abbotsford Hospital","value":2000000,"color":"#0094d9"},
-{"code":"BB" ,"name":"Barnsley BSF","value":2000000,"color":"#0094d9"},
-{"code":"BR" ,"name":"Bristol BSF","value":2000000,"color":"#0094d9"},
-{"code":"PS" ,"name":"Peterborough Schools","value":2000000,"color":"#0094d9"},
-{"code":"BS" ,"name":"Bexley Schools","value":2000000,"color":"#0094d9"},
-{"code":"LC" ,"name":"Leeds Combined Secondary Schools","value":2000000,"color":"#0094d9"},
-{"code":"SS" ,"name":"North Swindon Schools","value":2000000,"color":"#0094d9"},
-{"code":"NS" ,"name":"Newham Schools","value":2000000,"color":"#0094d9"},
-{"code":"ES" ,"name":"Enfield Schools","value":2000000,"color":"#0094d9"},
-{"code":"HS" ,"name":"Highland School, Enfield","value":2000000,"color":"#0094d9"},
-{"code":"EC" ,"name":"Edinburgh Schools","value":2000000,"color":"#0094d9"},
-{"code":"SO" ,"name":"South Lanarkshire Schools","value":2000000,"color":"#0094d9"},
-{"code":"GS" ,"name":"Glasgow Schools","value":2000000,"color":"#0094d9"},
-{"code":"LP" ,"name":"South East London Police Stations","value":2000000,"color":"#0094d9"},
-{"code":"FR" ,"name":"North East Fire and Rescue","value":2000000,"color":"#0094d9"},
-{"code":"CP" ,"name":"Cleveland Police Station and HQ","value":2000000,"color":"#0094d9"},
-{"code":"PT" ,"name":"Metropolitan Police Training Centre","value":2000000,"color":"#0094d9"},
-{"code":"GM" ,"name":"Greater Manchester Police Stations","value":2000000,"color":"#0094d9"},
-{"code":"AS" ,"name":"Avon and Somerset Courts","value":2000000,"color":"#0094d9"},
-{"code":"BM" ,"name":"Line 9 - Section II, Barcelona Metro","value":2000000,"color":"#0094d9"},
-{"code":"LU" ,"name":"LUL Connect","value":2000000,"color":"#0094d9"},
-{"code":"MM" ,"name":"M6/M74 Project","value":2000000,"color":"#0094d9"},
-{"code":"SW" ,"name":"Sirhowy Way","value":2000000,"color":"#0094d9"},
-{"code":"ER" ,"name":"E18 Road","value":2000000,"color":"#0094d9"},
-{"code":"MO" ,"name":"M40 Motorway","value":2000000,"color":"#0094d9"},
-{"code":"KS" ,"name":"Kirklees Social Housing","value":2000000,"color":"#0094d9"},
-{"code":"MP" ,"name":"Miles Platting Housing","value":2000000,"color":"#0094d9"},
-{"code":"IH" ,"name":"Islington II Housing","value":2000000,"color":"#0094d9"},
-{"code":"IJ" ,"name":"Islington I Housing","value":2000000,"color":"#0094d9"},
-{"code":"CH" ,"name":"Camden Housing","value":2000000,"color":"#0094d9"},
-{"code":"BH" ,"name":"Bentilee Hub Community Centre","value":2000000,"color":"#0094d9"},
-{"code":"CT" ,"name":"Canning Town Social Housing PFI","value":2000000,"color":"#0094d9"},
-{"code":"SH" ,"name":"Brockley Social Housing PFI","value":2000000,"color":"#0094d9"},
-{"code":"GT" ,"name":"Groningen Tax Office","value":2000000,"color":"#0094d9"},
-{"code":"KB" ,"name":"Kromhout Barracks","value":2000000,"color":"#0094d9"},
-{"code":"MD" ,"name":"Ministry of Defence Main Building","value":2000000,"color":"#0094d9"},
-{"code":"SL" ,"name":"Surrey Street Lighting","value":2000000,"color":"#0094d9"},
-{"code":"RC" ,"name":"Redcar & Cleveland Street Lighting","value":2000000,"color":"#0094d9"},
-{"code":"LS" ,"name":"Lambeth Street Lighting","value":2000000,"color":"#0094d9"},
-{"code":"BL" ,"name":"Barnet Street Lighting","value":2000000,"color":"#0094d9"},
-{"code":"EL" ,"name":"Enfield Street Lighting","value":2000000,"color":"#0094d9"},
-{"code":"WL" ,"name":"Walsall Street Lighting","value":2000000,"color":"#0094d9"},
-{"code":"WS" ,"name":"Wakefield Street Lighting","value":2000000,"color":"#0094d9"},
-{"code":"MS" ,"name":"Manchester Street Lighting","value":2000000,"color":"#0094d9"}  
+var mapData = [
+{
+   "code":"AG",
+   "name":"North Birmingham Mental Health",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"The project involves the design, build, finance and operation for new build premises and refurbishment of all the existing estate on the All Saints Hospital and Highcroft Hospital sites in north Birmingham. The project premises comprise seven specialist mental health facilities catering for the provision of low and medium secure mental health care services.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"AI",
+   "name":"North Staffordshire Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Healthcare Support (North Staffs) Ltd, the project company, entered into a contract to construct of a new acute hospital on the University of North Staffordshire's City General site and a new community hospital for Staffordshire and Stoke-on-Trent Partnership NHS Trust on the Haywood site.",
+   "ownership":75,
+   "address":""
+},
+{
+   "code":"AL",
+   "name":"Kelowna and Vernon Hospitals",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Infusion KVH General Partnership, the project company, has entered into a contract with the Interior Health Authority to design, build, finance and operate three new healthcare facilities over two sites in the Kelowna and Vernon region of British Columbia, Canada.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"AM",
+   "name":"Realise Health (LIFT) Colchester",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Realise Health Ltd/Investors in Health (C+T1) Ltd, the project company, has contracted with Realise Health LIFT for the provision of a primary care centre, a hospital and medical centre and hard FM service provision in Colchester, Essex under a 16 year concession which runs until 2029.",
+   "ownership":60,
+   "address":""
+},
+{
+   "code":"NM",
+   "name":"Northampton Mental Health",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"IIC Northampton Ltd, the project company, has contracted with Northampton Mental Health for the construction of 14,000 sqm. of high quality adult mental health facilities in Northamptonshire under a 24 year concession which runs until 2037.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"PH",
+   "name":"Peterborough Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Peterborough Progress Health the project company, has contracted with Peterborough and Stamford Hospitals NHS Foundation Trust; Peterborough Primary Care Partnership Trust; and Cambridgeshire and Peterborough Mental Health Partnership NHS Trust, to design, build, finance and operate a 612 bed acute hospital, a 39 bed city care centre and a 102 bed mental health facility under a 32 year concession which runs until 2042.",
+   "ownership":30,
+   "address":""
+},
+{
+   "code":"TW",
+   "name":"Tunbridge Wells Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Kent and East Sussex Weald Hospital Limited, the project company, has contracted with the Maidstone and Tunbridge Wells NHS Trust to design, build, finance and operate a new District General hospital incorporating 512 beds of which 412 are in single en suite rooms. The capital value of the construction was approximately £232m and the concession runs until 2042. The hospital benefits from a 24/7 Accident and Emergency department with a helicopter landing pad.",
+   "ownership":37.50,
+   "address":""
+},
+{
+   "code":"NE",
+   "name":"Newcastle Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Healthcare Support (Newcastle) Ltd, the project company, has contracted with Newcastle-upon-tyne Hospitals NHS Trust for the transfer of all acute healthcare services from the Newcastle General Hospital, to new, state-of-the-art facilities at the Royal Victoria Infirmary and the Freeman Hospital. The project comprises the construction of new buildings as well as ongoing maintenance of the new facilities under a 38 year concession which ends in May 2043.",
+   "ownership":15,
+   "address":""
+},
+{
+   "code":"RP",
+   "name":"Roseberry Park Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Three Valley Healthcare Limited ['TVH'], the project company, has contracted with Tees, Esk and Wear Valleys NHS Foundation Trust to design, build, finance and operate a mental health facility in Middlesborough under a 32 year concession which ends in 2040.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"FV",
+   "name":"Forth Valley Royal Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Forth Valley Health (FHL) has contracted with NHS Forth Valley Health Board to design, build, finance and maintain a new, 800-bed, acute hospital in Larbert, Forth Valley, Scotland under a concession which runs until August 2042.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"VG",
+   "name":"Vancouver General Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"AHV Access Health Vancouver Ltd, the project company, has contracted with Vancouver Coastal Health Authority to design, build, finance and maintain the Gordon & Leslie Diamond Healthcare Centre, part of Vancouver General Hospital, under a 30 year concession which runs until 2036.",
+   "ownership": 100,
+   "address":""
+},
+{
+   "code":"QE",
+   "name":"Queen Elizabeth Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Meridian Hospital Company plc, the project company, has contracted with South London Healthcare NHS Trust to design, build, finance and operate a part-newbuild, part-refurbished hospital building in Woolwich under a 30 year concession which runs until 2031.",
+   "ownership":27.50,
+   "address":""
+},
+{
+   "code":"NH",
+   "name":"Newham Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Healthcare Support (Newham) Ltd, the project company, has contracted with Newham Healthcare NHS Trust to design, build, finance and operate new premises and clinical facilities at Newham General Hospital under a 35 year concession which runs until 2039.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"KH",
+   "name":"Kingston Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Prime Care Solutions (Kingston) Ltd, the project company, has contracted with Kingston Hospital NHS Trust to design, build, finance and operate a new clinical building on the hospital site under a 32 year concession which runs until 2036.",
+   "ownership":60,
+   "address":""
+},
+{
+   "code":"AH",
+   "name":"Abbotsford Hospital",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Access Health Abbotsford Ltd (ÒAHAÓ), the project company, has contracted with Abbotsford Regional Hospital and Cancer Care Inc. to design, build, finance, maintain and operate a 300 bed facility in the primary acute care hospital to serve the Abbotsford area under a 33 year concession which runs until 2038.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"BB",
+   "name":"Barnsley BSF",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning centres, one special school, and one special school extension) over three phases. Financial close on Phase 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was completed in 2011 for all phases.",
+   "ownership": 40,
+   "address":""
+},
+{
+   "code":"BR",
+   "name":"Bristol BSF",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Bristol PFI Ltd, the project company, has contracted with Bristol BSF to design, build, finance and operate 4 new secondary schools/academies in Bristol under a 17 year concession which runs until 2030.",
+   "ownership":37.50,
+   "address":""
+},
+{
+   "code":"PS",
+   "name":"Peterborough Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"IIC BY Education (Peterborough) Schools Ltd, the project company, has contracted with Peterborough Schools to design, build, finance and operate an academy and two secondary schools and one primary school in Peterborough under a 24 year concession which runs until 2037.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"BS",
+   "name":"Bexley Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Investors in the Community (Bexley Schools) Ltd, the project company, has contracted with Bexley Schools to design, build, finance and operate 2 academies in the London Borough of Bexley under a 17 year concession which runs until 2030.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"LC",
+   "name":"Leeds Combined Secondary Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Investors in the Community (Leeds Schools) Holding Company Ltd, the project company, has contracted with Leeds Combined Secondary Schools to design, build, finance and operate 5 secondary schools and one primary school in Leeds under a 20 year concession which runs until 2033.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"SS",
+   "name":"North Swindon Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Education Support [Swindon] Ltd ['ESSL'], the project company, has contracted with Swindon Borough Council for the design, build, finance and operation of seven schools under a 25 year concession which runs until 2032.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"NS",
+   "name":"Newham Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Educational Support [Newham] Ltd ['ESNL'], the project company, has contracted with the London Borough of Newham to design, build, finance, refurbish and operate a specialist sports secondary school in the London Borough of Enfield under a 26 year concession which runs until August 2029.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"ES",
+   "name":"Enfield Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Education Support [Enfield 2] Limited ['ESE2L'], the project company, has contracted with the London Borough of Enfield to design, build, finance and operate three schools under a 25 year concession which runs until August 2029.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"HS",
+   "name":"Highland School, Enfield",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Education Support [Enfield] Ltd ['ESEL'], the project company, has contracted with the London Borough of Enfield to design, build, finance and operate Highlands Secondary School under a 25 year concession which runs until August 2025.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"EC",
+   "name":"Edinburgh Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"The Edinburgh Schools Partnership Ltd ['ESP'], the project company, has contracted with the City of Edinburgh Council to design, build, refurbish, finance and operate 18 schools (including 10 primary, 5 secondary and 2 special schools) and one community centre under a 32 year concession which runs until 2033.",
+   "ownership":20,
+   "address":""
+},
+{
+   "code":"SO",
+   "name":"South Lanarkshire Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"InspirED Education (South Lanarkshire) plc, the project company, has contracted with South Lanarkshire Council to design, build, finance and maintain 17 new and two refurbished schools under a 33 year concession which runs until 2039.",
+   "ownership":15,
+   "address":""
+},
+{
+   "code":"GS",
+   "name":"Glasgow Schools",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"3ED Glasgow Ltd, the project company, has contracted with Glasgow City Council to design, build/refurbish, finance and operate their entire secondary school estate of 29 schools under a 30 year concession which runs until 2030.",
+   "ownership":20,
+   "address":""
+},
+{
+   "code":"LP",
+   "name":"South East London Police Stations",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Access Health Abbotsford Ltd ('AHA'), the project company, has contracted with Abbotsford Regional Hospital and Cancer Care Inc. to design, build, finance, maintain and operate a 300 bed facility in the primary acute care hospital to serve the Abbotsford area under a 33 year concession which runs until 2038.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"FR",
+   "name":"North East Fire and Rescue",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Collaborative Services Support NE ['CSS'], the project company, has contracted with North East Fire and Rescue Authorities ['NEFRA'], to design, build, finance and operate 5 Community Fire Stations in the North East of England for the Tyne and Wear, Durham and Darlington and Northumberland Fire and Rescue Authorities under a 25 year concession, which ends in May 2035.",
+   "ownership":100,
+   "address":""
+
+},
+{
+   "code":"CP",
+   "name":"Cleveland Police Station and HQ",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Cleveland FM Services Limited, the project company, has contracted with Cleveland Police Authority to design, build, finance and operate two district headquarters and two town centre police stations under a 27 year concession which runs until 2032.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"PT",
+   "name":"Metropolitan Police Training Centre",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Services Support (Gravesend) Ltd, the project company, has contracted with the Metropolitan Police Authority to design, build, finance and operate the centre for firearms and public order training under a 27 year concession which runs until 2028.",
+   "ownership":27.08,
+   "address":""
+},
+{
+   "code":"GM",
+   "name":"Greater Manchester Police Stations",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Services Support (Manchester) Ltd, the project company, has contracted with the Greater Manchester Police Authority to design, build, finance and operate 16 police stations and a traffic headquarters",
+   "ownership":27.08,
+   "address":""
+},
+{
+   "code":"AS",
+   "name":"Avon and Somerset Courts",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Services Support (Avon & Somerset) Ltd, the project company, has contracted with the Ministry of Justice to design, build, finance, maintain and operate 11 magistratesÕ courts in Bristol, five magistratesÕ courts in Worle, Somerset and a regional administration facility at Worle for the Probation Service under a 30 year concession which runs until 2034.",
+   "ownership":40,
+   "address":""
+},
+{
+   "code":"BM",
+   "name":"Line 9 - Section II, Barcelona Metro",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Línia Nou Tram Dos, S.A. (the “Concessionaire”) and Línia Nou Manteniment, S.L., (the “Maintenance Company”) has contracted with IFERCAT, a public entity responsible for the Catalonian railway system (the “Grantor”) to design, build, finance, operate and maintain 15 metro stations along Section II of the Line 9 subway system in Barcelona, Spain (the “Project”) under a 26 year concession which runs until 2042. The Concessionaire is not required to operate or maintain the tracks and systems or rolling stock, such services being subcontracted to a third-party Maintenance Company under a long-term, fixed-price and back-to-back O&M contract, which in turn,outsources some of these services under a similar arrangement with other suitably qualified parties.",
+   "ownership":40,
+   "address":""
+},
+{
+   "code":"LU",
+   "name":"LUL Connect",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"CityLink Telecommunications (CityLink), the project company, has contracted with London Underground Limited (LUL) to operate and maintain radio communication for the London Underground following upgrade completed in 2008, under a concession which runs until 2019.",
+   "ownership":33.50,
+   "address":""
+},
+{
+   "code":"MM",
+   "name":"M6/M74 Project",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Autolink Concessionaires (M6) PLC (Autolink), the project company, has contracted with The Scottish Executive to design, build, finance and operate approximately 92km of the route from Gretna on the Scottish border to Millbank, 30 miles south of Glasgow, including the M74 motorways between Glasgow and the Scottish Border, under a concession which runs until April 2027.",
+   "ownership":11,
+   "address":""
+},
+{
+   "code":"SW",
+   "name":"Sirhowy Way",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Sirhowy Enterprise Way Ltd, the project company, has contracted with Caerphilly County Borough Council (ÒCCBCÓ) to design, build, finance and operate 4.3km of the A4048/A472 road, including a road bridge, between Blackwood and Pontllanfraith under a 30 year concession which runs until 2034.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"ER",
+   "name":"E18 Road",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Tiehytio Ykkostie Oy, the project company, has contracted with FINNRA (the Finnish Roads Authority) to design, build, finance and operate a 51km stretch of the E18 road under a 24 year concession which runs until 2029.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"MO",
+   "name":"M40 Motorway",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"UK Highways (M40) Ltd ('UKH'), the project company, has contracted with the Department for Transport (Highways Agency) to design, build, finance and operate 123km of the M40 motorway (from Junction 1a to Junction 15) under a 30 year concession which runs until 2026.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"KS",
+   "name":"Kirklees Social Housing",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"JLW Excellent Homes for Life Limited, the project company, has contracted with the Council of the Borough of Kirklees for the design, build, finance and operation of 466 new build social housing units across 27 sites in Kirklees, West Yorkshire, under a 20 year concession which runs until 2034.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"MP",
+   "name":"Miles Platting Housing",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Renaissance Miles Platting Ltd, the project company, has contracted with Miles Platting Social Housing for the refurbishment of 1,126 low rise occupied properties, 374 high rise occupied properties and the construction of 20 new care flats and 11 family houses in Manchester under a 24 year concession which runs until 2037.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"IH",
+   "name":"Islington II Housing",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"United House Solutions Limited ['UHSL'], the project company, has contracted with the London Borough of Islington to refurbish and maintain 4124 properties under a 16 year concession which runs until 2022.",
+   "ownership":45,
+   "address":""
+},
+{
+   "code":"IJ",
+   "name":"Islington I Housing",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"United House Solutions Limited ['UHSL'], the project company has contracted with the London Borough of Islington to refurbish and maintain 2348 properties under a 30 year concession which runs until 2033.",
+   "ownership":45,
+   "address":""
+},
+{
+   "code":"CH",
+   "name":"Camden Housing",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"United House Solutions Limited ['UHSL'], the project company has contracted with the London Borough of Camden to refurbish and maintain five tower blocks under a 20 year concession which runs until March 2021.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"BH",
+   "name":"Bentilee Hub Community Centre",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Regenter Bentilee District Centre Limited, the project company, has contracted with Stoke on Trent City Council to design, build, finance and operate the new £8 million Bentilee Hub joint service centre under a 27 year concession which runs until 2032.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"CT",
+   "name":"Canning Town Social Housing PFI",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Regenter LCEP Ltd, the project company, has contracted with London Borough of Newham for the renovation, maintenance and management of over 1,200 local authority homes in Canning Town under a 30 year concession which runs until 2035.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"SH",
+   "name":"Brockley Social Housing PFI",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Regenter B3 Ltd, the project company, has contracted with London Borough of Lewisham for the renovation, maintenance and management of 1,336 rented properties and 502 leasehold properties in Brockley under a 20 year concession which runs until 2027.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"GT",
+   "name":"Groningen Tax Office",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"The project involves the design, build, finance, maintenance and operation of 47,000sqm of office accommodation, 700 parking spaces and 9,000sqm of public gardens. The building is occupied by the National Centre for Student Registration as well as the regional Tax Office. The 20 year operating concession covers all facilities management services and lifecycle responsibilities.",
+   "ownership":40,
+   "address":""
+},
+{
+   "code":"KB",
+   "name":"Kromhout Barracks",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Komfort B.V., the project company, has contracted with the Dutch Ministry of Defence to design, build, finance and operate a new Û273m million headquarters for the Dutch army in Utrecht, Netherlands under a 25 year concession. The facility is designed to cater for 3,000 full time staff who will be based there.",
+   "ownership":40,
+   "address":""
+},
+{
+   "code":"MD",
+   "name":"Ministry of Defence Main Building",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Modus Services Ltd (“MSL”), the project company, has contracted with the Ministry of Defence to refurbish, finance and maintain its Whitehall headquarters and the Old War Office building under a 30 year concession which runs until 2030.",
+   "ownership":26,
+   "address":""
+},
+{
+   "code":"SL",
+   "name":"Surrey Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Surrey Lighting Services Limited, the project company, has contracted with Surrey County Council for the design, installation, refurbishment and maintenance of 87,762 lighting columns throughout the eleven districts of Surrey, under a 25 year concession which runs until 2035.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"RC",
+   "name":"Redcar & Cleveland Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Redcar and Cleveland Lighting Services Ltd, the project company, has contracted with Redcar & Cleveland Lighting for the installation and maintenance of street lighting in the Borough of Redcar & Cleveland under a 16 year concession which runs until 2029.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"LS",
+   "name":"Lambeth Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Lambeth Lighting Services Ltd, the project company, has contracted with Lambeth Street Lighting for the installation and maintenance of street lighting within the London Borough of Lambeth under a 16 year concession which runs until 2029.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"BL",
+   "name":"Barnet Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Barnet Lighting Services Ltd, the project company, has contracted with Barnet Lighting for the installation and maintenance of street lighting in the London borough of Barnet under an 18 year concession which runs until 2031.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"EL",
+   "name":"Enfield Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Enfield Lighting Services Ltd, the project company, has contracted with Enfield Lighting for the installation and maintenance of street lighting in the London Borough of Enfield under an 18 year concessions which runs until 2031.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"WL",
+   "name":"Walsall Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Walsall Public Lighting Ltd, the project company, has contracted with Walsall Metropolitan Borough Council to maintain its 24,000 street lights in the Walsall area under a 26 year concession which runs until 2028.",
+   "ownership":100,
+   "address":""
+},
+{
+   "code":"WS",
+   "name":"Wakefield Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Amey Highways Lighting (Wakefield) Ltd, the project company, has contracted with Wakefield Metropolitan District Council to maintain 35,000 street lights in the Wakefield District under a 25 year concession which runs until 2029.",
+   "ownership":50,
+   "address":""
+},
+{
+   "code":"MS",
+   "name":"Manchester Street Lighting",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Amey Highways Lighting (Manchester) Ltd, the project company, has contracted with Manchester City Council to finance, manage and maintain its stock of lighting columns and lit signs throughout its 1,444km road network, including the replacement of 41,698 columns within the first five years, under a 25 year concession which runs until 2029.",
+   "ownership":50,
+   "address":""
+}
 ];
 
 

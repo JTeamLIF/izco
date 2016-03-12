@@ -75,7 +75,7 @@ hr {
 .contactCard p {
 	color: #666666 !important;
 	font-size: 1.1em !important;
-	margin: 30px 0px;
+	margin-top: 30px;
 }
 
 .contactCard .contactInfo {
@@ -981,6 +981,7 @@ ol li {
   color: #ffffff;
   height: 56px;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .accordion dt, dd {
@@ -1005,33 +1006,38 @@ ol li {
  top: -1px;
 }
 
-.health {
+.hea {
 	border-left: 20px solid #0094d9;
 }
 
-.justice {
+.edu {
+	border-left: 20px solid #b2fff0;
+}
+
+.jus {
 	border-left: 20px solid #7cc576;
 }
 
-.transport {
+.tra {
 	border-left: 20px solid #f26c4f;
 }
 
-.govBuilding {
+.gov {
 	border-left: 20px solid #a864a8;
 }
 
-.Regeneration {
+.reg {
 	border-left: 20px solid #d0dd28;
 }
 
-.streetLighting {
+.str {
 	border-left: 20px solid #c7b299;
 }
+
 .barChartHolder, .pieChartHolder {
 	border-top: 1px solid #d8d8d8;
-    padding-bottom: 30px;
-    padding-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 	width: 93%;
 }
 
@@ -1047,8 +1053,88 @@ ol li {
 	padding-left: 10px;
 }
 
-
 iframe {
-border: 0 none;
+	border: 0 none;
+}
+
+.mainEducation {
+	width: 469px;
+	height: 298px;
+}
+
+.smallAsset {
+  background: #ffffff;
+  width: 45%;
+  height: 63px;
+  float:left;
+  margin: 10px 20px;
+}
+
+.smallAssetLeft {
+	width:20%;
+}
+
+.smallAssetRight {
+	width:80%;
+}
+
+.smallAssetTitle {
+  font-size: 1.2em;
+	font-weight: bold;
+  padding: 10px 0 0 0;
+  display: block;
+}
+
+.smallAssetLocation {
+	color: #999999;
+}
+
+.smallAssetGlyph {
+	float:right;
+  margin-right: 17px;
+  margin-top: -13px;
+}
+
+.mainName {
+	padding: 0;
+}
+
+.assetInfo {
+  width: 394px;
+  background: #ffffff;
+  height: 248px;
+  padding: 30px;
+}
+
+.assetCard {
+	height: 249px;
+	border: 1px solid #c6c6c6;
+	margin: 20px 0;
+}
+
+.assetCard img {
+	float: left;
+}
+
+.assetCard h1 {
+	margin: 0 !important;
+	color: #2a2a2a !important;
+	font-size: 1.2em !important;
+}
+
+.assetCard h3 {
+  color: #3b7cbd !important;
+  font-size: 1.1em !important;
+  font-style: italic;
+  margin: 5px 0 0 0 !important;
+  border-top: 1px solid #999999;
+  padding-top: 7px;
+}
+
+.assetCard p {
+  color: #666666 !important;
+  font-size: 1em !important;
+  margin-top: 20px;
+  line-height: 13px;
 }
 
