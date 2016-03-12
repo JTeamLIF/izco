@@ -99,7 +99,7 @@
         <dl class="accordion">
           <dt class="hea">
             Health
-            <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true" style="font-size: 1em;"></span>
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;"></span>
           </dt>
           <dd class="health">
            <div class="assetCard">
@@ -121,7 +121,7 @@
           </dd>
           <dt class="edu">
             Education
-            <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true" style="font-size: 1em;"></span>
+            <span class="glyphicon glyphicon-triangle-right pull-right" aria-hidden="true" style="font-size: 1em;"></span>
           </dt>
           <dd class="education">
             <div class="assetCard">

@@ -998,6 +998,7 @@ ol li {
 .accordion dd {
  border-top: 0;
  font-size: 12px;
+ overflow: hidden;
 }
 
 &:last-of-type {
