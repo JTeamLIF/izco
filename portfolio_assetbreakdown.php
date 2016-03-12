@@ -75,10 +75,9 @@
         <div class="col-lg-3 chartheadblock">Value per asset</div>
         <div class="col-lg-6"></div>
       </div>
-      
       <div class="col-lg-3"></div>
       <div class="col-lg-9">
-      <div class="barChartHolder"><img src="images/dummy_barchart.png" width="865" height="343" alt="dummy barchart"></div>
+        <div class="barChartHolder"><img src="images/dummy_barchart.png" width="865" height="343" alt="dummy barchart"></div>
       </div>
     </div>
   </div>
@@ -94,7 +93,6 @@
       <div class="col-lg-3">
         <div class="col-lg-3 chartheadblock">Ownership analysis</div>
       </div>
-    
       <div class="col-lg-3"></div>
       <div class="col-lg-3">
         <div class="pieChartHolder"><img src="images/sector_piechart.png" width="273" height="372"></div>
@@ -105,7 +103,6 @@
       <div class="col-lg-3">
         <div class="pieChartHolder"><img src="images/ownership_piechart.png" width="273" height="372"></div>
       </div>
-      
     </div>
   </div>
   <div class="row">
@@ -152,41 +149,31 @@
           
           <!-- Nav tabs -->
           <ul class="nav nav-tabs publicationsTab" role="tablist">
-            <li role="presentation" class="active"> <a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a> </li>
+            <li role="presentation" class="active"> <a href="#health" aria-controls="health" role="tab" data-toggle="tab">Health</a> </li>
+            <li role="presentation"> <a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a> </li>
+            <li role="presentation"> <a href="#justice" aria-controls="justice" role="tab" data-toggle="tab">Justice & Emergency Services</a> </li>
+            <li role="presentation"> <a href="#transport" aria-controls="transport" role="tab" data-toggle="tab">Transport</a> </li>
+            <li role="presentation"> <a href="#government" aria-controls="government" role="tab" data-toggle="tab">Government Buildings</a> </li>
+            <li role="presentation"> <a href="#regeneration" aria-controls="regeneration" role="tab" data-toggle="tab">Regeneration & Social Housing </a> </li>
+            <li role="presentation"> <a href="#lighting" aria-controls="lighting" role="tab" data-toggle="tab">Street Lighting</a> </li>
           </ul>
           
           <!-- Tab panes -->
           <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="all">
+            <div role="tabpanel" class="tab-pane active" id="health">
               <table class="table-striped publicationsTable">
-                <tr>
-                  <td><span class="date">28 Jan 2016</span> <span class="acquisition">Line 9 - Section II, Barcelona Metro</span> <span class="category">Transport</span></td>
-                </tr>
+                
                 <tr>
                   <td><span class="date">30 Jun 2015</span> <span class="acquisition">North Birmingham Mental Health</span> <span class="category">Health</span></td>
                 </tr>
-                <tr>
-                  <td><span class="date">19 Dec 2014</span> <span class="acquisition">Kirklees Social Housing</span> <span class="category">Regeneration & Social Housing</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">19 Dec 2014</span> <span class="acquisition">Surrey Street Lighting</span> <span class="category">Street Lighting</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">01 Oct 2014</span> <span class="acquisition">South East London Police Stations</span> <span class="category">Justice & Emergency Services</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">26 Sep 2014</span> <span class="acquisition">Groningen Tax Office</span> <span class="category">Government Buildings</span></td>
-                </tr>
+               
                 <tr>
                   <td><span class="date">20 Dec 2013</span> <span class="acquisition">North Staffordshire Hospital</span> <span class="category">Health</span></td>
                 </tr>
                 <tr>
                   <td><span class="date">28 Nov 2013</span> <span class="acquisition">Kelowna and Vernon HospitalsNorth Staffordshire Hospital</span> <span class="category">Health</span></td>
                 </tr>
-                <tr>
-                  <td><span class="date">15 Oct 2013</span> <span class="acquisition">Barnsley BSF</span> <span class="category">Education</span></td>
-                </tr>
-                  </tr>
+                
                 
                 <tr>
                   <td><span class="date">23 August 2013</span> <span class="acquisition">Northampton Mental Health</span> <span class="category">Health</span></td>
@@ -194,6 +181,66 @@
                 <tr>
                   <td><span class="date">23 Aug 2013</span> <span class="acquisition">Realise Health (LIFT) Colchester</span> <span class="category">Health</span></td>
                 </tr>
+               
+                  </tr>
+                
+                
+                  <td><span class="date">11 Apr 2013</span> <span class="acquisition">Peterborough Hospital</span> <span class="category">Health</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">12 Oct 2012</span> <span class="acquisition">Tunbridge Wells Hospital</span> <span class="category">Health</span></td>
+                </tr>
+                
+                  </tr>
+                
+                
+                  <td><span class="date">17 May 2012</span> <span class="acquisition">Newcastle Hospital</span> <span class="category">Health</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">25 Apr 2012</span> <span class="acquisition">Roseberry Park Hospital</span> <span class="category">Health</span></td>
+                </tr>
+                 
+                  </tr>
+                
+                
+                  <td><span class="date">26 Sep 2011</span> <span class="acquisition">Forth Valley Royal Hospital</span> <span class="category">Health</span></td>
+                </tr>
+                  
+                  </tr>
+                
+                
+                  <td><span class="date">13 Apr 2011</span> <span class="acquisition">Queen Elizabeth Hospital</span> <span class="category">Health</span></td>
+                </tr>
+                 
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Vancouver General Hospital</span> <span class="category">Health</span></td>
+                </tr>
+               
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Newham Hospital</span> <span class="category">Health</span></td>
+                </tr>
+               
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Kingston Hospital</span> <span class="category">Health</span></td>
+                </tr>
+               
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Abbotsford Hospital</span> <span class="category">Health</span></td>
+                </tr>
+                
+              </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="education">
+              <table class="table-striped publicationsTable">
+               
+                <tr>
+                  <td><span class="date">15 Oct 2013</span> <span class="acquisition">Barnsley BSF</span> <span class="category">Education</span></td>
+                </tr>
+                 
                 <tr>
                   <td><span class="date">23 Aug 2013</span> <span class="acquisition">Leeds Combined Secondary Schools</span> <span class="category">Education</span></td>
                 </tr>
@@ -203,12 +250,185 @@
                 <tr>
                   <td><span class="date">23 Aug 2013</span> <span class="acquisition">Bristol BSF</span> <span class="category">Education</span></td>
                 </tr>
+             
+                
+                  <td><span class="date">23 Aug 2013</span> <span class="acquisition">Peterborough Schools</span> <span class="category">Education</span></td>
+                </tr>
+               
+                  </tr>
+                
+                
+                  <td><span class="date">16 Dec 2011</span> <span class="acquisition">North Swindon Schools</span> <span class="category">Education</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">9 Dec 2011</span> <span class="acquisition">Enfield Schools</span> <span class="category">Education</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">9 Dec 2011</span> <span class="acquisition">Newham Schools</span> <span class="category">Education</span></td>
+                </tr>
+                  
+                  </tr>
+                
+                
+                  <td><span class="date">11 Nov 2011</span> <span class="acquisition">Edinburgh Schools</span> <span class="category">Education</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">11 Nov 2011</span> <span class="acquisition">Highland School, Enfield</span> <span class="category">Education</span></td>
+                </tr>
+                 
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">South Lanarkshire Schools</span> <span class="category">Education</span></td>
+                </tr>
+               
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Glasgow Schools</span> <span class="category">Education</span></td>
+                </tr>
+               
+                
+              </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="justice">
+              <table class="table-striped publicationsTable">
+             
+                <tr>
+                  <td><span class="date">01 Oct 2014</span> <span class="acquisition">South East London Police Stations</span> <span class="category">Justice & Emergency Services</span></td>
+                </tr>
+                
+                  </tr>
+                
+                
+                  <td><span class="date">21 Nov 2011</span> <span class="acquisition">North East Fire and Rescue</span> <span class="category">Justice & Emergency Services</span></td>
+                </tr>
+                 
+                  </tr>
+                
+                
+                  <td><span class="date">23 May 2011</span> <span class="acquisition">Cleveland Police Station and HQ</span> <span class="category">Justice & Emergency Services</span></td>
+                </tr>
+                  
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Metropolitan Police Training Centre</span> <span class="category">Justice & Emergency Services</span></td>
+                </tr>
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Greater Manchester Police Stations</span> <span class="category">Justice & Emergency Services</span></td>
+                </tr>
+               
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Avon and Somerset Courts</span> <span class="category">Justice & Emergency Services</span></td>
+                </tr>
+              </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="transport">
+              <table class="table-striped publicationsTable">
+                <tr>
+                  <td><span class="date">28 Jan 2016</span> <span class="acquisition">Line 9 - Section II, Barcelona Metro</span> <span class="category">Transport</span></td>
+                </tr>
+               
+                  </tr>
+                
+                
+                  <td><span class="date">8 Nov 2011</span> <span class="acquisition">M6/M74 Project</span> <span class="category">Transport</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">8 Nov 2011</span> <span class="acquisition">LUL Connect</span> <span class="category">Transport</span></td>
+                </tr>
+                 
+                  </tr>
+                
+                
+                  <td><span class="date">21 Dec 2010</span> <span class="acquisition">E18 Road</span> <span class="category">Transport</span></td>
+                </tr>
+                 
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Sirhowy Way</span> <span class="category">Transport</span></td>
+                </tr>
+               
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">M40 Motorway</span> <span class="category">Transport</span></td>
+                </tr>
+               
+              </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="government">
+              <table class="table-striped publicationsTable">
+               
+                <tr>
+                  <td><span class="date">26 Sep 2014</span> <span class="acquisition">Groningen Tax Office</span> <span class="category">Government Buildings</span></td>
+                </tr>
+               
+                  </tr>
+                
+                
+                  <td><span class="date">11 Oct 2012</span> <span class="acquisition">Kromhout Barracks</span> <span class="category">Government Buildings</span></td>
+                </tr>
+                 
+                <tr>
+                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Ministry of Defence Main Building</span> <span class="category">Government Buildings</span></td>
+                </tr>
+                
+              </table>
+            </div>
+<div role="tabpanel" class="tab-pane" id="regeneration">
+              <table class="table-striped publicationsTable">
+                
+                <tr>
+                  <td><span class="date">19 Dec 2014</span> <span class="acquisition">Kirklees Social Housing</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr>
+               
                 
                   <td><span class="date">23 Aug 2013</span> <span class="acquisition">Miles Platting Housing</span> <span class="category">Regeneration & Social Housing</span></td>
                 </tr>
                 
-                  <td><span class="date">23 Aug 2013</span> <span class="acquisition">Peterborough Schools</span> <span class="category">Education</span></td>
+                 
+                
+                
+                  <td><span class="date">19 Jan 2012</span> <span class="acquisition">Camden Housing</span> <span class="category">Regeneration & Social Housing</span></td>
                 </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">19 Jan 2012</span> <span class="acquisition">Islington I Housing</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">19 Jan 2012</span> <span class="acquisition">Islington II Housing</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr>
+                 
+                  </tr>
+                
+                
+                  <td><span class="date">13 Apr 2011</span> <span class="acquisition">Bentilee Hub Community Centre</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr>
+                 
+                  </tr>
+                
+                
+                  <td><span class="date">21 Dec 2010</span> <span class="acquisition">Canning Town Social Housing PFI</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr>
+                  </tr>
+                
+                
+                  <td><span class="date">21 Dec 20101</span> <span class="acquisition">Brockley Social Housing PFI</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr>
+               
+              </table>
+            </div>
+ <div role="tabpanel" class="tab-pane" id="lighting">
+              <table class="table-striped publicationsTable">
+                
+                <tr>
+                  <td><span class="date">19 Dec 2014</span> <span class="acquisition">Surrey Street Lighting</span> <span class="category">Street Lighting</span></td>
+                </tr>
+              
                 <tr>
                   <td><span class="date">23 Aug 2013</span> <span class="acquisition">Enfield Street Lighting</span> <span class="category">Street Lighting</span></td>
                 </tr>
@@ -225,121 +445,7 @@
                 
                   <td><span class="date">23 Aug 2013</span> <span class="acquisition">Redcar & Cleveland Street Lighting</span> <span class="category">Street Lighting</span></td>
                 </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">11 Apr 2013</span> <span class="acquisition">Peterborough Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">12 Oct 2012</span> <span class="acquisition">Tunbridge Wells Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">11 Oct 2012</span> <span class="acquisition">Kromhout Barracks</span> <span class="category">Government Buildings</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">17 May 2012</span> <span class="acquisition">Newcastle Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">25 Apr 2012</span> <span class="acquisition">Roseberry Park Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">19 Jan 2012</span> <span class="acquisition">Camden Housing</span> <span class="category">Regeneration & Social Housing</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">19 Jan 2012</span> <span class="acquisition">Islington I Housing</span> <span class="category">Regeneration & Social Housing</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">19 Jan 2012</span> <span class="acquisition">Islington II Housing</span> <span class="category">Regeneration & Social Housing</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">16 Dec 2011</span> <span class="acquisition">North Swindon Schools</span> <span class="category">Education</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">9 Dec 2011</span> <span class="acquisition">Enfield Schools</span> <span class="category">Education</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">9 Dec 2011</span> <span class="acquisition">Newham Schools</span> <span class="category">Education</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">21 Nov 2011</span> <span class="acquisition">North East Fire and Rescue</span> <span class="category">Justice & Emergency Services</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">11 Nov 2011</span> <span class="acquisition">Edinburgh Schools</span> <span class="category">Education</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">11 Nov 2011</span> <span class="acquisition">Highland School, Enfield</span> <span class="category">Education</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">8 Nov 2011</span> <span class="acquisition">M6/M74 Project</span> <span class="category">Transport</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">8 Nov 2011</span> <span class="acquisition">LUL Connect</span> <span class="category">Transport</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">26 Sep 2011</span> <span class="acquisition">Forth Valley Royal Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">23 May 2011</span> <span class="acquisition">Cleveland Police Station and HQ</span> <span class="category">Justice & Emergency Services</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">13 Apr 2011</span> <span class="acquisition">Bentilee Hub Community Centre</span> <span class="category">Regeneration & Social Housing</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">13 Apr 2011</span> <span class="acquisition">Queen Elizabeth Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">21 Dec 2010</span> <span class="acquisition">E18 Road</span> <span class="category">Transport</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">21 Dec 2010</span> <span class="acquisition">Canning Town Social Housing PFI</span> <span class="category">Regeneration & Social Housing</span></td>
-                </tr>
-                  </tr>
-                
-                
-                  <td><span class="date">21 Dec 20101</span> <span class="acquisition">Brockley Social Housing PFI</span> <span class="category">Regeneration & Social Housing</span></td>
-                </tr>
+                 
                 <tr>
                   <td><span class="date">30 Nov 2010</span> <span class="acquisition">Walsall Street Lighting</span> <span class="category">Street Lighting</span></td>
                 </tr>
@@ -349,47 +455,13 @@
                 <tr>
                   <td><span class="date">30 Nov 2010</span> <span class="acquisition">Manchester Street Lighting</span> <span class="category">Street Lighting</span></td>
                 </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Vancouver General Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Sirhowy Way</span> <span class="category">Transport</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">South Lanarkshire Schools</span> <span class="category">Education</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Newham Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Metropolitan Police Training Centre</span> <span class="category">Justice & Emergency Services</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Greater Manchester Police Stations</span> <span class="category">Justice & Emergency Services</span></td>
-                </tr>
+               
                 <tr>
                   <td><span class="date">30 Nov 2010</span> <span class="acquisition">Walsall Street Lighting</span> <span class="category">Street Lighting</span></td>
                 </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Kingston Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Glasgow Schools</span> <span class="category">Education</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">M40 Motorway</span> <span class="category">Transport</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Abbotsford Hospital</span> <span class="category">Health</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Ministry of Defence Main Building</span> <span class="category">Government Buildings</span></td>
-                </tr>
-                <tr>
-                  <td><span class="date">30 Nov 2010</span> <span class="acquisition">Avon and Somerset Courts</span> <span class="category">Justice & Emergency Services</span></td>
-                </tr>
+               
               </table>
-            </div>
+            </div>                       
           </div>
         </div>
       </div>
