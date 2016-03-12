@@ -632,7 +632,7 @@ hr {
 
 .content1 ul {
 	list-style-position: outside;
-  padding: 15px;
+/*  padding: 15px;*/
  	font-size: 1.3em;
 }
 
@@ -728,10 +728,10 @@ hr {
 .publicationsTab li a {
 	color: #666666;
   background: #f0f0f0;
-  margin: 0 5px !important;
+/*  margin: 0 5px !important;*/
   border-radius: 0;
   border: 1px solid #d8d8d8;
-  padding: 5px 30px !important;
+  padding: 5px 20px !important;
 }
 
 .publicationsTab li.active a {
@@ -1051,3 +1051,4 @@ ol li {
 iframe {
 border: 0 none;
 }
+
