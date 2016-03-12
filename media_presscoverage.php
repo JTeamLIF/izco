@@ -116,31 +116,31 @@
               <tr>
                 <td>
                   <span class="date">01 Feb 2016</span>
-                  <span class="text"><a href="/newsarticles/Midas_Share_Tip_Update_010216_for_website.pdf" target="_blank">Midas Share Tips Update</a></span>
+                  <span class="text"><a href="docs/newsarticles/Midas_Share_Tip_Update_010216_for_website.pdf" target="_blank">Midas Share Tips Update</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">12 May 2015</span>
-                  <span class="text"><a href="/newsarticles/JLIF,_The_Telegraph_pdf..pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
+                  <span class="text"><a href="docs/newsarticles/JLIF,_The_Telegraph_pdf..pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">12 Nov 2013</span>
-                  <span class="text"><a href="/newsarticles/City_AM_JLIF_on_top_article_121113_for_website.pdf" target="_blank">JLIF on top</a></span>
+                  <span class="text"><a href="docs/newsarticles/City_AM_JLIF_on_top_article_121113_for_website.pdf" target="_blank">JLIF on top</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">24 Jul 2013</span>
-                  <span class="text"><a href="/newsarticles/IJ_article_240713.pdf" target="_blank">Infrastructure Journal Article</a></span>
+                  <span class="text"><a href="docs/newsarticles/IJ_article_240713.pdf" target="_blank">Infrastructure Journal Article</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">25 Apr 2013</span>
-                  <span class="text"><a href="/newsarticles/Shares_Magazine_article_Funds_-_John_Laing_PDF_April_2013.pdf" target="_blank">Shares Magazine Article</a></span>
+                  <span class="text"><a href="docs/newsarticles/Shares_Magazine_article_Funds_-_John_Laing_PDF_April_2013.pdf" target="_blank">Shares Magazine Article</a></span>
                 </td>
               </tr>
               <tr>
@@ -153,37 +153,37 @@
                <tr>
                 <td>
                   <span class="date">03 Oct 2012</span>
-                  <span class="text"><a href="/newsarticles/Questor_share_tip_031012.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
+                  <span class="text"><a href="docs/newsarticles/Questor_share_tip_031012.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">29 Aug 2012</span>
-                  <span class="text"><a href="/newsarticles/questor-share-tip-jlif_290812.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
+                  <span class="text"><a href="docs/newsarticles/questor-share-tip-jlif_290812.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">09 May 2012</span>
-                  <span class="text"><a href="/newsarticles/Questor_share_tip_090512.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
+                  <span class="text"><a href="docs/newsarticles/Questor_share_tip_090512.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">15 Mar 2012</span>
-                  <span class="text"><a href="/newsarticles/Investors_Chronicle_Press_Report_150312.pdf.pdf" target="_blank">Investors Chronicle Market Overview - JLIF</a></span>
+                  <span class="text"><a href="docs/newsarticles/Investors_Chronicle_Press_Report_150312.pdf.pdf" target="_blank">Investors Chronicle Market Overview - JLIF</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">15 Mar 2012</span>
-                  <span class="text"><a href="/newsarticles/Dow_Jones_Press_Report_150312.docx" target="_blank">Dow Jones: JLIF Posts Jump in FY Profit</a></span>
+                  <span class="text"><a href="docs/newsarticles/Dow_Jones_Press_Report_150312.docx" target="_blank">Dow Jones: JLIF Posts Jump in FY Profit</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">15 Mar 2012</span>
-                  <span class="text"><a href="/newsarticles/Press_Release_AOL_150312.pdf" target="_blank">AOL: Pick of the early market news - JLIF</a></span>
+                  <span class="text"><a href="docs/newsarticles/Press_Release_AOL_150312.pdf" target="_blank">AOL: Pick of the early market news - JLIF</a></span>
                 </td>
               </tr> 
               
@@ -191,31 +191,31 @@
               <tr>
                 <td>
                   <span class="date">20 Jan 2012</span>
-                  <span class="text"><a href="/newsarticles/Questor_Share_tip_Buy_JLIF_200112.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
+                  <span class="text"><a href="docs/newsarticles/Questor_Share_tip_Buy_JLIF_200112.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">08 Dec 2011</span>
-                  <span class="text"><a href="/newsarticles/John_Laing_Infrastructure_Fund_Limited_To_Enter_FTSE_250.pdf" target="_blank">John Laing Infrastructure Fund to Enter FTSE 250</a></span>
+                  <span class="text"><a href="docs/newsarticles/John_Laing_Infrastructure_Fund_Limited_To_Enter_FTSE_250.pdf" target="_blank">John Laing Infrastructure Fund to Enter FTSE 250</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">28 Oct 2011</span>
-                  <span class="text"><a href="/newsarticles/Euro_Week_JLIF_Article_-281011.pdf" target="_blank">Euro Week: Safety first as JLIF scores £131m success</a></span>
+                  <span class="text"><a href="docs/newsarticles/Euro_Week_JLIF_Article_-281011.pdf" target="_blank">Euro Week: Safety first as JLIF scores £131m success</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">12 Oct 2011</span>
-                  <span class="text"><a href="/newsarticles/Questor_share_tip__DailyTelegrah_121011.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
+                  <span class="text"><a href="docs/newsarticles/Questor_share_tip__DailyTelegrah_121011.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">09 Oct 2011</span>
-                  <span class="text"><a href="/newsarticles/MIDAS_UPDATE.pdf" target="_blank">MIDAS Update - New JLIF Shares Offer</a></span>
+                  <span class="text"><a href="docs/newsarticles/MIDAS_UPDATE.pdf" target="_blank">MIDAS Update - New JLIF Shares Offer</a></span>
                 </td>
               </tr>
               <tr>
@@ -228,37 +228,37 @@
                <tr>
                 <td>
                   <span class="date">21 Aug 2011</span>
-                  <span class="text"><a href="/newsarticles/The_Sunday_Times-_21_August_2011-_Best_Way_to_Beat_Inflation-_Without_Too_Much_Risk.pdf" target="_blank">Best Way to Beat Inflation Without Too Much Risk</a></span>
+                  <span class="text"><a href="docs/newsarticles/The_Sunday_Times-_21_August_2011-_Best_Way_to_Beat_Inflation-_Without_Too_Much_Risk.pdf" target="_blank">Best Way to Beat Inflation Without Too Much Risk</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">08 Jul 2011</span>
-                  <span class="text"><a href="/newsarticles/Investors_Chronicle-_8th_July_2011-_Tap_into_Global_Infrastructure.pdf" target="_blank">Tap into Global Infrastructure</a></span>
+                  <span class="text"><a href="docs/newsarticles/Investors_Chronicle-_8th_July_2011-_Tap_into_Global_Infrastructure.pdf" target="_blank">Tap into Global Infrastructure</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">23 May 2011</span>
-                  <span class="text"><a href="/newsarticles/Infra_News-_23_May_2011-_John_Laing_Infra_Fund_Opportunities.htm" target="_blank">John Laing Infra Fund Opportunities</a></span>
+                  <span class="text"><a href="docs/newsarticles/Infra_News-_23_May_2011-_John_Laing_Infra_Fund_Opportunities.htm" target="_blank">John Laing Infra Fund Opportunities</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">01 May 2011</span>
-                  <span class="text"><a href="/newsarticles/Project_Finance-_1_May_2011-_Adjusted_Finance.pdf" target="_blank">Adjusted Finance</a></span>
+                  <span class="text"><a href="docs/newsarticles/Project_Finance-_1_May_2011-_Adjusted_Finance.pdf" target="_blank">Adjusted Finance</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">11 Apr 2011</span>
-                  <span class="text"><a href="/newsarticles/Investment_Advisor-_11_April_2011-_Laind_fund_invests_in_PPP_and_PFI.pdf" target="_blank">Laing fund invests in PPP and PFI</a></span>
+                  <span class="text"><a href="docs/newsarticles/Investment_Advisor-_11_April_2011-_Laind_fund_invests_in_PPP_and_PFI.pdf" target="_blank">Laing fund invests in PPP and PFI</a></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="date">08 Apr 2011</span>
-                  <span class="text"><a href="/newsarticles/Investors_Chronicle-_8_April_2011-_John_Laing_pays_out.pdf" target="_blank">John Laing Pays Out</a></span>
+                  <span class="text"><a href="docs/newsarticles/Investors_Chronicle-_8_April_2011-_John_Laing_pays_out.pdf" target="_blank">John Laing Pays Out</a></span>
                 </td>
               </tr>                           
             </table>
