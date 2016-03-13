@@ -1,6 +1,6 @@
   <footer>
     <div class="row">
-      <div class="col-md-12 footer noPadding">
+      <div class="col-md-12 footer">
         <div class="col-lg-2">
           <div class="logofooter"> <img class="img-responsive logofooter" src="images/logo_footer.png" alt="logo"> </div>
         </div>
