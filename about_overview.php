@@ -64,7 +64,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav">
+        <ul class="nav_left">
           <li class="level-1 parent-menu-active"><a href="#">Overview</a>
             <ul class="nav_sub">
               <li class="level-2 parent-menu-active first"><a href="about_overview.php#whatWeDo">About</a></li>
