@@ -2,7 +2,11 @@
     <div class="row">
       <div class="col-md-12 footer">
         <div class="col-lg-2">
-          <div class="logofooter"> <img class="img-responsive logofooter" src="images/logo_footer.png" alt="logo"> </div>
+          <div class="logofooter">
+            <a href="index.php">
+              <img class="img-responsive logofooter" src="images/logo_footer.png" alt="logo">
+            </a>
+          </div>
         </div>
         <div class="col-lg-2">
           <ul id="nav_footer">
