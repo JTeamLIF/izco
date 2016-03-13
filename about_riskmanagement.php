@@ -60,7 +60,7 @@
           <li class="level-1 parent-menu-active"><a href="about_riskmanagement.php">Risk management</a>
             <ul class="nav_sub">
               <li class="level-2 parent-menu-active first"><a href="about_riskmanagement.php">Overview</a></li>
-              <li class="level-2"><a href="about_riskmanagement.php">Risk Committee</a></li>
+              <li class="level-2"><a href="about_riskmanagement.php#riskcommittee">Risk Committee</a></li>
             </ul>
           </li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
@@ -83,7 +83,7 @@
           <li> <span>Taxation</span> </li>
           <li> <span>Compliance and Legal</span> </li>
         </ul>
-        <h1>Risk committee</h1>
+        <h1><a id="riskcommittee"></a>Risk committee</h1>
         <h3>The Risk Committee, which reports to the Board, is mandated to review the effectiveness of the Company’s (and that of the Investment Adviser, Administrator and other third party service providers as it deems fit) internal control policies and procedures for the identification, assessment and reporting of risks.</h3>
         <h5>Internal control and financial reporting </h5>
         <p>The Board is responsible for the Company’s systems of internal control and for reviewing its effectiveness, and the Board has, therefore, established a set of ongoing processes designed to meet the particular needs of the Company in managing the risks to which it is exposed. </p>
