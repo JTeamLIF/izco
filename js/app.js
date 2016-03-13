@@ -26,6 +26,35 @@ $(function () {
 		});
 	});
 
+  $.each(twitterFeed, function(index, data) {
+    $('.twitterfeed').append(
+      '<div class="tweets" id="twitterID-' + index + '" style="display:none;">' +
+        '<div class="twitterdate"> JLIF <a href="http://twitter.com/jlifund"> @jlifund </a>' + moment(data.created_at).format('LL') + '</div>' +
+        '<div class="twitterarticle">' + data.text + '</div>' +
+      '</div>'
+    );
+    $('#twitterID-0').css('display', 'block');
+  });
+
+  $('#goBack').on('click', function () {
+    var previousItem = $('.tweets:visible').prev();
+    $('.tweets:visible').css('display', 'none');
+    if (!previousItem.hasClass('tweets')) {
+      previousItem = $('.tweets').last();
+    }
+    previousItem.css('display', 'block');
+  });
+
+  $('#goForward').on('click', function () {
+    var nextItem = $('.tweets:visible').next();
+    $('.tweets:visible').css('display', 'none');
+    if (!nextItem.hasClass('tweets')) {
+      nextItem = $('.tweets').first();
+    }
+    nextItem.css('display', 'block');
+  })
+
+
 	$('.glyphicon-triangle-bottom').on('click', function() {
 		var div = $(this).closest('.overSlideShowDiv');
 		var topGlyphIcon = $(this).closest('.overSlideShowDiv').find('.glyphicon-triangle-top');
@@ -55,6 +84,9 @@ $(function () {
 	$('.imageThumbnail').on('click', function() {
 
 		clickedImageId = $(this).attr('id');
+    $('.overSlideShowDiv').css('display', 'none');
+    $('[data-id="' + clickedImageId + '"]').fadeIn();
+
 		$('#headerImage').attr('class', 'image-bg-fluid-height-' + clickedImageId);
 		$('.imageThumbnail').each(function () {
 			var src = $(this).attr('src').replace('on', 'off');
