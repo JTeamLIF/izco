@@ -300,18 +300,19 @@ hr {
 	float: left;
 }
 .twitter {
-	/*  background: #3b7cbd;*/
-	height: 100px;
 	color: #ffffff;
 }
+
 .footer {
-	height: 190px;
 	color: #333333;
+	padding: 20px;
 }
+
 .underFooter {
-	/*  background: #efefef;*/
 	height: 50px;
+	background: #efefef;
 }
+
 .copyright {
 	color: #666666;
 	padding-top: 18px;
@@ -565,16 +566,15 @@ hr {
 /*END OF MENU STYLES*/
 
 #nav_footer {
-	margin: 0; /*removes indent IE and Opera*/
-	padding: 0; /*removes indent Mozilla and NN7*/
+	padding: 10px 0px;
 	list-style-type: none;
-	/*	border-top: 2px solid #ffffff;*/
-	margin-top: 36px;
 }
+
 .footer a {
 	color: #333333;
 	text-decoration: none;
 }
+
 .footertitle a {
 	color: #1A629A;
 	text-decoration: none;
@@ -1142,3 +1142,11 @@ iframe {
 .twitterdate a {
   color: #9FBFDB;
 }
+
+/* mobile only styles */
+@media only all and (max-width: 460px) {
+	.utilities {
+		display: none;
+	}
+}
+
