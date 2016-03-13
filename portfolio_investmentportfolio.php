@@ -18,8 +18,6 @@
 
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-
 <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
@@ -272,8 +270,8 @@
 </div>
 
 <script type="text/javascript" src="js/jquery-jvectormap-2.0.3.min.js"></script>
-<script src="js/mapData.js"></script>
-
+<script type="text/javascript" src="js/mapData.js"></script>
+<script type="text/javascript" src="js/investmentPortfolio.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
 </body>
