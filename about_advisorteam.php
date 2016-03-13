@@ -72,7 +72,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav">
+        <ul class="nav_left">
           <li class="level-1 first"><a href="about_overview.php">Overview</a></li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
           <li class="level-1 parent-menu-active"><a href="about_advisorteam.php">The team</a>

@@ -8,12 +8,12 @@
 	padding-bottom:40px;
 }
 
-.nav li a {
+.nav_left li a {
 	margin: 0; /*removes indent IE and Opera*/
 	padding: 0; /*removes indent Mozilla and NN7*/
 }
 
-.menu_left .nav {
+.menu_left .nav_left {
 /*	padding-top: 56px;*/
 	font-size: 1em;
     line-height: 2.4em;
@@ -38,46 +38,46 @@
 	padding-left: 16px;
 }
 
-.nav .level-1.parent-menu-active .nav_sub .level-2 a {
+.nav_left .level-1.parent-menu-active .nav_sub .level-2 a {
 	background-color: #FFF;
 }
 
-.nav .level-1.parent-menu-active .nav_sub .level-2 a:hover {
+.nav_left .level-1.parent-menu-active .nav_sub .level-2 a:hover {
 	background-color: #0094D9;
 	color:#fff;
 }
 
-.nav .level-1.parent-menu-active a {
+.nav_left .level-1.parent-menu-active a {
 	background-color: #0E4C7D;
 	color:#FFFFFF;
 }
-.nav .level-1 a:hover{
+.nav_left .level-1 a:hover{
 	background-color: #0E4C7D;
 	color:#FFFFFF;
 }
 
-.nav .level-1.parent-menu-active .nav_sub .level-2.parent-menu-active a {
+.nav_left .level-1.parent-menu-active .nav_sub .level-2.parent-menu-active a {
 	background-color: #0094D9;
 }
-.nav .level-1.parent-menu-active .nav_sub .level-2 a {
+.nav_left .level-1.parent-menu-active .nav_sub .level-2 a {
 	color: #666;
 }
-.nav .level-1.parent-menu-active .nav_sub .level-2.parent-menu-active a {
+.nav_left .level-1.parent-menu-active .nav_sub .level-2.parent-menu-active a {
 	color: #FFF;
 	background-image: url(../images/menu_left_sub_on.png);
 	background-repeat: no-repeat;
 	background-position: 16px 0px;
 }
-.nav .level-1.parent-menu-active .nav_sub .level-2 a {
+.nav_left .level-1.parent-menu-active .nav_sub .level-2 a {
 	padding-left: 50px;
 }
-.nav .level-1.first a {
+.nav_left .level-1.first a {
 	border-top-width: 2px;
 	border-top-style: solid;
 	border-top-color: #999;
 }
 
-.nav .level-1.first.parent-menu-active .nav_sub .level-2 a {
+.nav_left .level-1.first.parent-menu-active .nav_sub .level-2 a {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #999;

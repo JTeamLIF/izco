@@ -58,7 +58,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav">
+        <ul class="nav_left">
           <li class="level-1 first parent-menu-active"><a href="media_presscoverage.php">Press Coverage</a></li>
           <!--<li class="level-1"><a href="media_videocoverage.php">Video Coverage</a></li>-->
         </ul>

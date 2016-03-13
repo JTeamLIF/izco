@@ -58,7 +58,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav">
+        <ul class="nav_left">
 
           <li class="level-1 first parent-menu-active"><a href="investors_shareprice.php">Share Information</a>
             <ul class="nav_sub">
