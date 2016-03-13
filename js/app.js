@@ -1,9 +1,28 @@
+var initialStartSlide = 1;
+
+function slideShow(initialStartSlide)	{
+	$thumbnail = $('#' + (initialStartSlide + 1) );
+	console.log($thumbnail);
+	$thumbnail.click()
+};
+
+var slideShowInterval = setInterval( function() {
+	slideShow(initialStartSlide);
+	initialStartSlide++;
+	initialStartSlide >= 6 ? initialStartSlide = 0 : initialStartSlide = initialStartSlide;
+}, 5000);
+
 $(function () {
+
 	$('.imageThumbnail').each(function (item) {
-		$(this).on('click', function() {
-			var thumbID = $(this).attr('id');
-			$('.overSlideShowDiv').css('display', 'none');
-			$('[data-id="' + thumbID + '"]').fadeIn();
+		$(this).click(function (e) {
+			if (e.which === undefined) {
+				var thumbID = $(this).attr('id');
+				$('.overSlideShowDiv').css('display', 'none');
+				$('[data-id="' + thumbID + '"]').fadeIn();
+			} else {
+				clearInterval(slideShowInterval);
+			}
 		});
 	});
 
@@ -29,7 +48,7 @@ $(function () {
 
 	$('#myTabs a').click(function (e) {
   	e.preventDefault()
-  	$(this).tab('show')
+  	$(this).tab('show');
 	});
 
 	// 6 IMAGES HOMEPAGE - on click turn image on/off
