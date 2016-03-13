@@ -24,6 +24,9 @@
 </head>
 
 <body>
+
+<?php require_once('twitterapi/index_new.php'); ?>
+
 <div class="im-centered">
   <!-- Navigation -->
   <div class="row">
@@ -221,12 +224,18 @@
         <div class="logotwitter"> <img class="img-responsive logotwitter" src="images/twitterlogo.png" alt="logo"> </div>
       </div>
       <div class="col-lg-6 twitterfeed">
-        <div class="twitterdate">JLIF @jlifund November 11 </div>
-        <div class="twitterarticle">Net Asset Value per share of 110.0 pence cum-div as at 31 Mar 2015 (106.6 pence ex-div) #JLIF</div>
       </div>
-      <div class="col-lg-1 twitterbuttons"><span class="glyphicon glyphicon-triangle-left pull-left" aria-hidden="true"></span><span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></div>
+      <div class="col-lg-1 twitterbuttons">
+        <span id="goBack" class="glyphicon glyphicon-triangle-left pull-left" aria-hidden="true"></span>
+        <span id="goForward" class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+      </div>
       <div class="col-lg-3 twitterlink">
-        <div href="#" class="btn-viewAssetGallery"> <a href="https://twitter.com/jlfund?lang=en-gb" target="_blank"><span class="spn-viewAssetGallery">Follow us</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <a href="https://twitter.com/jlfund?lang=en-gb" target="_blank">
+            <span class="spn-viewAssetGallery">Follow us</span>
+            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -236,10 +245,11 @@
 </div>
 
 <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
