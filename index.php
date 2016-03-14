@@ -71,11 +71,9 @@
         <div class="dropup">
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
-        <h1>Vancouver General Hospital 2</h1>
+        <h1>Barnsley BSF</h1>
         <!--<h3>Just One of our long term investments</h3>-->
-        <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
-          turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
-          dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
+        <p>Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning centres, one special school, and one special school extension) over three phases. Financial close on Phase 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was completed in 2011 for all phases.</p>
         <div href="#" class="btn-viewAssetGallery">
           <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
@@ -90,11 +88,9 @@
         <div class="dropup">
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
-        <h1>Vancouver General Hospital 3</h1>
+        <h1>Leeds Combined Secondary Schools</h1>
         <!--<h3>Just One of our long term investments</h3>-->
-        <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
-          turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
-          dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
+        <p>Investors in the Community (Leeds Schools) Holding Company Ltd, the project company, has contracted with Leeds Combined Secondary Schools to design, build, finance and operate 5 secondary schools and one primary school in Leeds under a 20 year concession which runs until 2033.</p>
         <div href="#" class="btn-viewAssetGallery">
           <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
@@ -143,11 +139,9 @@
         <div class="dropup">
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
-        <h1>Vancouver General Hospital 6</h1>
+        <h1>Newcastle Hospital</h1>
         <!--<h3>Just One of our long term investments</h3>-->
-        <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
-          turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
-          dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
+        <p>Healthcare Support (Newcastle) Ltd, the project company, has contracted with Newcastle-upon-tyne Hospitals NHS Trust for the transfer of all acute healthcare services from the Newcastle General Hospital, to new, state-of-the-art facilities at the Royal Victoria Infirmary and the Freeman Hospital. The project comprises the construction of new buildings as well as ongoing maintenance of the new facilities under a 38 year concession which ends in May 2043.</p>
         <div href="#" class="btn-viewAssetGallery">
           <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
@@ -182,11 +176,11 @@
         <div class="upcomingeventscontent">
           <div class="newsitem">
             <p class="newsdate">09 Nov 2015</p>
-            <p>Annual General Meeting</p>
+            <p>JLIF Interim Management Statement</p>
           </div>
           <div class="newsitem">
-            <p class="newsdate">09 Nov 2015</p>
-            <p>Annual General Meeting</p>
+            <p class="newsdate">28 Aug 2015</p>
+            <p>Interim Report</p>
           </div>
           <div href="#" class="btn-viewAssetGallery">
             <a href="investors_financialcalendar.php"><span class="spn-viewAssetGallery">View all events</span>
@@ -200,12 +194,12 @@
         </div>
         <div class="regnewscontent">
           <div class="newsitem">
-            <p class="newsdate">09 Nov 2015</p>
-            <p>Annual General Meeting</p>
+            <p class="newsdate">07 Mar 2016</p>
+            <p>Results of Placing</p>
           </div>
           <div class="newsitem">
-            <p class="newsdate">09 Nov 2015</p>
-            <p>Annual General Meeting</p>
+            <p class="newsdate">29 Feb 2016</p>
+            <p>Agreement and Completion of Acquisition</p>
           </div>
           <div href="#" class="btn-viewAssetGallery"> <a href="investors_latestregulatorynews.php"><span class="spn-viewAssetGallery">View all news</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a> </div>
         </div>

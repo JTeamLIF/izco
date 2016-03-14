@@ -10,7 +10,7 @@ var slideShowInterval = setInterval( function() {
   slideShow(initialStartSlide);
   initialStartSlide++;
   initialStartSlide >= 6 ? initialStartSlide = 0 : initialStartSlide = initialStartSlide;
-}, 5000);
+}, 15000);
 
 $(function () {
   $.each(twitterFeed, function(index, data) {
