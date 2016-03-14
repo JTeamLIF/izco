@@ -70,10 +70,10 @@
         </ul>
       </div>
       <div class="col-lg-6 content1">
-        <h1>Milestones since inception</h1>
-        <h3>Lorem ipsum dolor sit amet, at per causae denique reprehendunt, tempor populo commodo cu qui. Eum doctus verterem id.</h3>
-        <p>Cum eu exerci propriae adversarium. Aliquip theophrastus vel ea, nec movet essent iriure no. Usu ut augue oratio, nam ne illum aliquid conceptam, impetus reformidans ei est. Ex atqui putant mediocritatem est. Eam sumo scaevola platonem at, id eros doctus persecuti ius, quo sint legimus in. Ex quodsi maiestatis has, est ex posidonium complectitur.</p>
-        <p>Adhuc senserit qui et, vis et expetenda evertitur, ei sale salutatus his. Dicat assum senserit sea ut, sed ad omnis numquam fierent. Ullum omnes saepe ne quo. Ius at velit nihil nonumes, pro cu ludus graece abhorreant.</p>
+        <h1>Financial and Operational Highlights </h1>
+        <h3>2015 was quieter than previous years in terms of growth of the Portfolio by acquisition, in part due to market conditions, particularly in the UK, and in part due to our focus on developing new relationships with vendors in overseas markets. We have continued to grow the Portfolio through active management, and again exceeded the level of growth that would be expected from the discount rate unwind. </h3>
+        <p>Our Portfolio is currently valued at £867.8 million, an increase of £66.8 million against last year’s rebased portfolio value, the fifth consecutive year since launch that the Company has outperformed by this measure.</p>
+        <p>We identified and executed value enhancements that either increased revenues or decreased costs, whilst continuing to provide the high level of service expected by our public sector clients. During 2015 this included cost savings resulting from careful and prudent management of lifecycle allowances, and other efficiencies relating to insurance and SPV management costs.</p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
