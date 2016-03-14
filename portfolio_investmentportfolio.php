@@ -34,8 +34,9 @@
 <?php $categorytitle = 'Portfolio'; ?>
 <body>
 <div class="im-centered">
+ <?php include("inc/mobile_navigation.php"); ?>
   <!-- Navigation -->
-  <div class="row">
+  <div class="row hidden-xs">
     <div class="col-md-12">
       <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
@@ -67,7 +68,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav_left">
+        <ul class="nav_left hidden-xs">
 
           <li class="level-1 parent-menu-active"><a href="portfolio_investmentportfolio.php">Investment Portfolio</a></li>
           <li class="level-1 "><a href="portfolio_assetbreakdown.php">Asset Breakdown</a></li>
