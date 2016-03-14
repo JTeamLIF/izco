@@ -25,8 +25,9 @@
 <?php $categorytitle = 'Cookie Policy'; ?>
 <body>
 <div class="im-centered">
+ <?php include("inc/mobile_navigation.php"); ?>
   <!-- Navigation -->
-  <div class="row">
+  <div class="row hidden-xs">
     <div class="col-md-12">
       <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
@@ -57,7 +58,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav_left">
+        <ul class="nav_left hidden-xs">
           <li class="level-1 first"><a href="termsandconditions.php">Terms &amp; Conditions</a></li>
           <li class="level-1"><a href="disclaimer.php">Disclaimer</a></li>
           <li class="level-1"><a href="privacypolicy.php">Privacy Policy</a></li>

@@ -24,9 +24,10 @@
 </head>
 <?php $categorytitle = 'About'; ?>
 <body>
-<div class="im-centered"> 
+<div class="im-centered">
+ <?php include("inc/mobile_navigation.php"); ?> 
   <!-- Navigation -->
-  <div class="row">
+  <div class="row hidden-xs">
     <div class="col-md-12">
       <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
@@ -52,7 +53,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav_left">
+        <ul class="nav_left hidden-xs">
           <li class="level-1 first"><a href="about_overview.php">Overview</a></li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
           <li class="level-1"><a href="about_advisorteam.php">The team</a></li>

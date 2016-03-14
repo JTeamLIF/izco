@@ -25,8 +25,9 @@
 <?php $categorytitle = 'Investors'; ?>
 <body>
 <div class="im-centered">
+ <?php include("inc/mobile_navigation.php"); ?>
   <!-- Navigation -->
-  <div class="row">
+  <div class="row hidden-xs">
     <div class="col-md-12">
       <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
@@ -58,7 +59,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav_left">
+        <ul class="nav_left hidden-xs">
 
           <li class="level-1 first parent-menu-active"><a href="investors_shareprice.php">Share Information</a>
             <ul class="nav_sub">
