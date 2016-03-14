@@ -59,12 +59,31 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Contact</h1>
-        <h3>Suspendisse id ante. Morbi pellentesque placerat mauris. Nulla id magna vel turpis mollis egestas. Suspendisse adipiscing nulla eget augue. Nunc eu arcu. Curabitur vestibulum dictum justo. Mauris sodales lobortis turpis. Nam eu libero. Duis condimentum. Quisque nulla nunc, pellentesque sed, suscipit non, pharetra sed, dui.</h3>
+        <h3>JLIF is a Guernsey Registered Company, with its Registered Office at Heritage Hall, Le Marchant Street, St Peter Port, Guernsey GY1 4HY. For enquiries concerning the Company, please contact:</h3>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
         <br>
         <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 contentwrapper1">
+      <div class="col-md-12 contactWrapper">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3 contactleft">
+          <div class="col-lg-3 contactheadblock">Investment Advisers</div>
+          <div class="contactdetails"> <strong>John Laing Capital Management Limited</strong><br>
+            1 Kingsway<br>
+            London, WC2B 6AN<br>
+            <br>
+            <span class = "phonenumber">Telephone:</span> +44 (0)20 7901 3326<br>
+            <span class = "phonenumber">Email:</span> <a href="mailto:info@jlif.com">info@jlif.com</a> </div>
+        </div>
+        <div class="col-lg-3 contactright">
+          <div class="col-lg-3 contactmap"><img src="images/contactmap_adviser.png" width="284" height="232" alt="jlif administrators"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -107,25 +126,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12 contentwrapper1">
-      <div class="col-md-12 contactWrapper">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-3 contactleft">
-          <div class="col-lg-3 contactheadblock">Investment Advisers</div>
-          <div class="contactdetails"> <strong>John Laing Capital Management Limited</strong><br>
-            1 Kingsway<br>
-            London, WC2B 6AN<br>
-            <br>
-            <span class = "phonenumber">Telephone:</span> +44 (0)20 7901 3326<br>
-            <span class = "phonenumber">Email:</span> <a href="mailto:info@jlif.com">info@jlif.com</a> </div>
-        </div>
-        <div class="col-lg-3 contactright">
-          <div class="col-lg-3 contactmap"><img src="images/contactmap_adviser.png" width="284" height="232" alt="jlif administrators"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-md-12 contactWrapper">
