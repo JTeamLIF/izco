@@ -149,13 +149,20 @@
           
           <!-- Nav tabs -->
           <ul class="nav nav-tabs publicationsTab" role="tablist">
-            <li role="presentation" class="active"> <a href="#health" aria-controls="health" role="tab" data-toggle="tab">Health</a> </li>
+            
+              <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Select Category
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
             <li role="presentation"> <a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a> </li>
             <li role="presentation"> <a href="#justice" aria-controls="justice" role="tab" data-toggle="tab">Justice & Emergency Services</a> </li>
             <li role="presentation"> <a href="#transport" aria-controls="transport" role="tab" data-toggle="tab">Transport</a> </li>
             <li role="presentation"> <a href="#government" aria-controls="government" role="tab" data-toggle="tab">Government Buildings</a> </li>
             <li role="presentation"> <a href="#regeneration" aria-controls="regeneration" role="tab" data-toggle="tab">Regeneration & Social Housing </a> </li>
-            <li role="presentation"> <a href="#lighting" aria-controls="lighting" role="tab" data-toggle="tab">Street Lighting</a> </li>
+            <li role="presentation"> <a href="#lighting" aria-controls="lighting" role="tab" data-toggle="tab">Street Lighting</a> </li>    
+    </ul>
+  </li>
+
           </ul>
           
           <!-- Tab panes -->

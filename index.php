@@ -54,13 +54,11 @@
         <div class="dropup">
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
-        <h1>Vancouver General Hospital</h1>
-        <h3>Just One of our long term investments</h3>
-        <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
-          turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
-          dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
+        <h1>Groningen Tax Office</h1>
+        <!--<h3>Just One of our long term investments</h3>-->
+        <p>The project involves the design, build, finance, maintenance and operation of 47,000sqm of office accommodation, 700 parking spaces and 9,000sqm of public gardens. The building is occupied by the National Centre for Student Registration as well as the regional Tax Office. The 20 year operating concession covers all facilities management services and lifecycle responsibilities.</p>
         <div href="#" class="btn-viewAssetGallery">
-          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
@@ -74,12 +72,12 @@
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
         <h1>Vancouver General Hospital 2</h1>
-        <h3>Just One of our long term investments</h3>
+        <!--<h3>Just One of our long term investments</h3>-->
         <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
@@ -93,12 +91,12 @@
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
         <h1>Vancouver General Hospital 3</h1>
-        <h3>Just One of our long term investments</h3>
+        <!--<h3>Just One of our long term investments</h3>-->
         <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
@@ -111,13 +109,11 @@
         <div class="dropup">
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
-        <h1>Vancouver General Hospital 4</h1>
-        <h3>Just One of our long term investments</h3>
-        <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
-          turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
-          dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
+        <h1>Peterborough Hospital</h1>
+        <!--<h3>Just One of our long term investments</h3>-->
+        <p>Peterborough Progress Health the project company, has contracted with Peterborough and Stamford Hospitals NHS Foundation Trust; Peterborough Primary Care Partnership Trust; and Cambridgeshire and Peterborough Mental Health Partnership NHS Trust, to design, build, finance and operate a 612 bed acute hospital, a 39 bed city care centre and a 102 bed mental health facility under a 32 year concession which runs until 2042.</p>
         <div href="#" class="btn-viewAssetGallery">
-          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
@@ -130,13 +126,11 @@
         <div class="dropup">
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
-        <h1>Vancouver General Hospital 5</h1>
-        <h3>Just One of our long term investments</h3>
-        <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
-          turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
-          dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
+        <h1>Kromhout Barracks</h1>
+        <!--<h3>Just One of our long term investments</h3>-->
+        <p>Komfort B.V., the project company, has contracted with the Dutch Ministry of Defence to design, build, finance and operate a new Û273m million headquarters for the Dutch army in Utrecht, Netherlands under a 25 year concession. The facility is designed to cater for 3,000 full time staff who will be based there.</p>
         <div href="#" class="btn-viewAssetGallery">
-          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
@@ -150,12 +144,12 @@
           <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true"></span>
         </div>
         <h1>Vancouver General Hospital 6</h1>
-        <h3>Just One of our long term investments</h3>
+        <!--<h3>Just One of our long term investments</h3>-->
         <p>Ultricies sit amet ut aliquet elementum nisi nascetur, habitasse. Risus natoque tempor. Enim odio massa ultricies,
           turpis sit, placerat, cursus est vel, odio dis vel dictumst enim enim porta tortor! In hac pulvinar et, sed, egestas,
           dolor elementum egestas placerat, tincidunt nunc vel turpis quis! Sed?</p>
         <div href="#" class="btn-viewAssetGallery">
-          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">View asset gallery</span>
+          <a href="portfolio_investmentportfolio.php"><span class="spn-viewAssetGallery">Investment portfolio</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
         </div>
         <div class="dropdown">
@@ -166,7 +160,7 @@
     <div class="col-md-6"></div>
   </header>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 homeLower">
       <div class="col-md-6 thumbs noPadding">
         <div class="col-md-2 fixedWidth noPadding">
           <img id="1" class="imageThumbnail" src="images/H_tb_on_1.png">

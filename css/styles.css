@@ -2,9 +2,14 @@
 	font-family: DINPro-Medium;
 	src: url(../fonts/DINPro-Medium.ttf);
 }
+@font-face {
+	font-family: DINPro-Regular;
+	src: url(../fonts/DINPro-Regular_13937.ttf);
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
+	background-color: #FAFAFA;
 }
 
 hr {
@@ -13,9 +18,10 @@ hr {
 
 .logo {
 	padding: 27px;
+	background-color: #FFF;
 }
 .logofooter {
-	padding: 20px 25px 25px 0;
+	padding: 8px 25px 25px 0;
 }
 .logotwitter {
 	padding: 15px 25px 25px 5px;
@@ -53,6 +59,7 @@ hr {
 	border: 1px solid #c6c6c6;
 	margin: 40px 0;
   display: inline-flex;
+  position:relative;
 }
 
 .contactCard img {
@@ -215,9 +222,9 @@ hr {
 	height: 74px;
 }
 .searchBarDiv .form-group {
-	margin: 0 auto;
-	padding: 20px;
-	width: 80%;
+	
+	padding: 20px 20px 20px 55px;
+	width: 100%;
 	height: 75px;
 }
 .btn-search {
@@ -233,7 +240,7 @@ hr {
 	color: #ffffff;
 }
 .searchBar {
-	width: 76%;
+	width: 80%;
 	height: 35px;
 	font-size: 1.3em;
 	padding-left: 20px;
@@ -248,17 +255,20 @@ hr {
 	height: 322px;
 	padding-left: 0;
 	padding-right: 0;
+	border-left: 1px solid #fff
 }
 .regnewscontent {
 	background: #e5e5e5;
 	height: 266px;
 	padding: 25px;
+	
 }
 .regnews {
 	background: #e5e5e5;
 	height: 322px;
 	padding-left: 0;
 	padding-right: 0;
+	border-left: 1px solid #fff
 }
 .upcomingeventstitle {
 	background: #333333;
@@ -361,7 +371,7 @@ hr {
 	border: none;
 	background: none;
 	text-align: left;
-	padding-left: 15px;
+/*	padding-left: 15px;*/
 	cursor: pointer;
 }
 .overSlideShowTextDiv .spn-viewAssetGallery {
@@ -383,7 +393,7 @@ hr {
 	font-size: 1.5em;
 	height: 30px;
 	width: 30px;
-	top: 0;
+	top: 0px;
 	cursor: pointer
 }
 
@@ -457,7 +467,7 @@ hr {
 .twitterbuttons {
 	background-color: #3b7cbd;
 	height: 100px;
-	padding-top: 30px;
+	padding-top: 42px;
 	padding-right: 0px;
 }
 .twitterlink {
@@ -465,7 +475,7 @@ hr {
 }
 .twitterdate {
 	font-size: 1em;
-	padding-top: 12px;
+	padding-top: 20px;
 }
 .twitterarticle {
 	border-top: 1px solid #ffffff;
@@ -493,7 +503,7 @@ hr {
 	text-align: left;
 	/*  padding-left: 15px;*/
 	cursor: pointer;
-	padding-top: 30px;
+	padding-top: 42px;
 }
 .twitterlink .spn-viewAssetGallery {
 	border: 1px solid #ffffff;
@@ -507,6 +517,7 @@ hr {
 .im-centered {
 	margin: auto;
 	max-width: 1280px;
+	background-color: #FFF;
 }
 /*MENU STYLES*/
 
@@ -585,8 +596,10 @@ hr {
 .breadcrumb {
 	height: 43px;
 	background: #ffffff;
-	margin: 10px 0;
+	margin: 0 0 0 15px;
 	line-height: 28px;
+
+    max-width: 1280px;
 }
 .content1, .rightcol1 {
 /*	height: 500px;*/
@@ -626,14 +639,14 @@ hr {
 }
 
 .content1 h5 {
-	font-size: 1.5em;
-	color: #666666;
+	font-size: 1.2em;
+	color: #000;
 }
 
 .content1 ul {
 	list-style-position: outside;
 /*  padding: 15px;*/
- 	font-size: 1.3em;
+ 	font-size: 1.2em;
 }
 
 .content1 li span {
@@ -646,7 +659,7 @@ hr {
 
 .content1 p {
 	color: #666666;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 .contentwrapper1 {
 	background-color:#E9E9E9;
@@ -728,6 +741,15 @@ hr {
 .publicationsTab li a {
 	color: #666666;
   background: #f0f0f0;
+/*  margin: 0 5px !important;*/
+  border-radius: 0;
+  border: 1px solid #d8d8d8;
+  padding: 5px 20px !important;
+}
+
+.publicationsTab li a:hover {
+	color: #666666;
+  background: #ddd;
 /*  margin: 0 5px !important;*/
   border-radius: 0;
   border: 1px solid #d8d8d8;
@@ -908,11 +930,11 @@ ol li {
 .main-text
 {
     position: absolute;
-    top: 105px;
+    top: 115px;
    /* width: 96.66666666666666%;*/
     color: #FFF;
-	font-size: 4em;
-	font-family: 'DINPro-Medium', Arial, Helvetica, sans-serif;
+	font-size: 5em;
+	font-family: 'DINPro-Regular', Arial, Helvetica, sans-serif;
 	font-weight: 100;
 	padding: 23px 42px;
 }
@@ -1080,7 +1102,7 @@ iframe {
 }
 
 .smallAssetTitle {
-  font-size: 1.2em;
+  font-size: 1.1em;
 	font-weight: bold;
   padding: 10px 0 0 0;
   display: block;
@@ -1103,7 +1125,7 @@ iframe {
 .assetInfo {
   width: 394px;
   background: #ffffff;
-  height: 248px;
+  height: 247px;
   padding: 30px;
 }
 
@@ -1111,6 +1133,7 @@ iframe {
 	height: 249px;
 	border: 1px solid #c6c6c6;
 	margin: 20px 0;
+	position:relative;
 }
 
 .assetCard img {
@@ -1143,6 +1166,11 @@ iframe {
   color: #9FBFDB;
 }
 
+.homeLower {
+  border-top: 1px solid #fff;
+}
+
+
 /* mobile only styles */
 @media only all and (max-width: 460px) {
 	.utilities {
@@ -1150,3 +1178,11 @@ iframe {
 	}
 }
 
+.pull-right.contactInfo .btn-viewAssetGallery {
+	position: absolute;
+	bottom: 25px;
+}
+.percentagecontainer {
+	position: absolute;
+	bottom: 10px;
+}

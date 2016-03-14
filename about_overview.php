@@ -14,6 +14,7 @@
 <!-- Custom CSS -->
 <link href="css/full-width-pics.css" rel="stylesheet">
 <link href="css/styles_menu_left.css" rel="stylesheet">
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -53,7 +54,7 @@
           <a href="index.php">Home</a>
         </span> |
         <span class="previousPage">
-          <a href="about_overview.php">About</a>
+          <a href="about_overview.php">Overview</a>
         </span> |
         <span class="activePage">
           <a href="about_overview.php#whatWeDo">About</a>
@@ -134,10 +135,10 @@
   </div>
 
   <div class="row">
-    <div class="col-md-12 contentwrapper1">
-      <div class="col-lg-3 menu_left whoWeAre">
+    <div class="col-md-12 contentwrapper1" style="background-color: #f7f7f7;">
+      <div class="col-lg-3 menu_left whoWeAre" style="background-color: #f7f7f7;">
       </div>
-      <div class="col-lg-6 content1 whoWeAre">
+      <div class="col-lg-6 content1 whoWeAre" style="background-color: #f7f7f7;">
         <h1>The investment adviser</h1>
         <h3>John Laing Capital Management Limited (“JLCM”), a wholly owned subsidiary of John Laing, acts as the Investment Adviser to the Company and as the Operator of JLIF Limited Partnership. </h3>
         <p>JLCM was incorporated in England and Wales on 19 May 2004 under the Companies Act 1985 (registered number 5132286) and has been authorised and regulated in the UK by the Financial Services Authority (now the Financial Conduct Authority) since December 2004. JLCM has the ability to call on and utilise the substantial experience of the John Laing Group in the management of the Fund.</p>
@@ -177,7 +178,7 @@
 
       </div>
 
-      <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre">
+      <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre" style="background-color: #f7f7f7;">
         <div href="#" class="btn-viewAssetGallery">
           <span class="spn-viewAssetGallery"><a href="about_boardofdirectors.php">View board of directors</span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>

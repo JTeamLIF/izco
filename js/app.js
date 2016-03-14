@@ -20,7 +20,7 @@ $(function () {
 		console.log(topGlyphIcon);
 		topGlyphIcon.show();
 		div.css('position', 'absolute');
-		div.animate({ marginTop:'325px' })
+		div.animate({ marginTop:'360px' })
 	});
 
 	$('.glyphicon-triangle-top').on('click', function() {
