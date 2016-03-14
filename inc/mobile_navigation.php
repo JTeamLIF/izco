@@ -32,7 +32,7 @@
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Investors<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="investors_shareprice.php">Share Price</a></li>
-                  <li><a href="investors_sharepricehistory.php">Share Price History</a></li>
+                  <!--<li><a href="investors_sharepricehistory.php">Share Price History</a></li>-->
                   <li><a href="investors_investmentcalculator.php">Investment Calculator</a></li>
                   <li><a href="investors_sharealerts.php">Share Alerts</a>
                   <li><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
