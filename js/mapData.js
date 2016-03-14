@@ -797,6 +797,9 @@ AmCharts.ready(function() {
 
   var dataProvider = {
     mapVar: AmCharts.maps.worldLow,
+	zoomLevel: 10, 
+  	zoomLongitude: -0.1341,
+  	zoomLatitude: 49.1712,
     images: []
   }
 

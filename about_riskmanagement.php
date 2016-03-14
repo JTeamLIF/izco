@@ -83,6 +83,20 @@
           <li> <span>Taxation</span> </li>
           <li> <span>Compliance and Legal</span> </li>
         </ul>
+
+      </div>
+      <div class="col-lg-3 rightcol1">
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <br>
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 contentwrapper1"  style="background-color: #f7f7f7;">
+      <div class="col-lg-3 menu_left"  style="background-color: #f7f7f7;">
+      </div>
+      <div class="col-lg-6 content1"  style="background-color: #f7f7f7;">
         <h1><a id="riskcommittee"></a>Risk committee</h1>
         <h3>The Risk Committee, which reports to the Board, is mandated to review the effectiveness of the Company’s (and that of the Investment Adviser, Administrator and other third party service providers as it deems fit) internal control policies and procedures for the identification, assessment and reporting of risks.</h3>
         <h5>Internal control and financial reporting </h5>
@@ -92,10 +106,8 @@
         <p> The Board considers that an internal audit function specific to the Company is unnecessary and that the systems and procedures employed by the Investment Adviser and Operator, including their own internal audit functions, provide sufficient assurance that a sound system of internal control, which safeguards the Company’s assets, is maintained.</p>
         <p> Investment Advisory services are provided to the Company by John Laing Capital Management Limited (“JLCM”). The Board is responsible for setting the overall Investment Policy and monitors the action of the Investment Adviser and Operator at regular Board meetings. The Board has also delegated administration and company secretarial services to Heritage International Fund Managers Limited but retains accountability for all functions it delegates. </p>
       </div>
-      <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
-        <br>
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+      <div class="col-lg-3 rightcol1"  style="background-color: #f7f7f7;">
+
       </div>
     </div>
   </div>

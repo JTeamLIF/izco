@@ -111,8 +111,8 @@
                 premises and refurbishment of all the existing estate on the All Saints Hospital and Highcroft Hospital
                 sites in north Birmingham. The project premises comprise seven specialist mental health facilities catering
                 for the provision of low and medium secure mental health care services.</p>
-                <span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span>
+                <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">100%</span></div>
                 <br><br>
               </div>
             </div>
@@ -134,8 +134,8 @@
                 centres, one special school, and one special school extension) over three phases. Financial close on Phase
                 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
                 completed in 2011 for all phases.</p>
-                <span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span>
+                <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">100%</span></div>
                 <br><br>
               </div>
             </div>
@@ -157,8 +157,8 @@
                 with Abbotsford Regional Hospital and Cancer Care Inc. to design, build, finance, maintain and
                 operate a 300 bed facility in the primary acute care hospital to serve the Abbotsford area under
                 a 33 year concession which runs until 2038.</p>
-                <span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">50%</span>
+                <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">50%</span></div>
                 <br><br>
               </div>
             </div>
@@ -181,8 +181,8 @@
                 centres, one special school, and one special school extension) over three phases. Financial close on Phase
                 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
                 completed in 2011 for all phases.</p>
-                <span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span>
+                <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">100%</span></div>
                 <br><br>
               </div>
             </div>
@@ -205,8 +205,8 @@
                 centres, one special school, and one special school extension) over three phases. Financial close on Phase
                 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
                 completed in 2011 for all phases.</p>
-                <span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span>
+                <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">100%</span></div>
                 <br><br>
               </div>
             </div>
@@ -229,8 +229,8 @@
                 centres, one special school, and one special school extension) over three phases. Financial close on Phase
                 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
                 completed in 2011 for all phases.</p>
-                <span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span>
+                <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">100%</span></div>
                 <br><br>
               </div>
             </div>
@@ -253,8 +253,8 @@
                 centres, one special school, and one special school extension) over three phases. Financial close on Phase
                 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
                 completed in 2011 for all phases.</p>
-                <span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span>
+                <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
+                <span class="percentageOwned">100%</span></div>
                 <br><br>
               </div>
             </div>
