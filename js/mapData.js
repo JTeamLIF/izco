@@ -437,7 +437,7 @@ var mapData = [
    "name":"Line 9 - Section II, Barcelona Metro",
    "value":2000000,
    "color":"#0094d9",
-   "desc":"Línia Nou Tram Dos, S.A. (the “Concessionaire”) and Línia Nou Manteniment, S.L., (the “Maintenance Company”) has contracted with IFERCAT, a public entity responsible for the Catalonian railway system (the “Grantor”) to design, build, finance, operate and maintain 15 metro stations along Section II of the Line 9 subway system in Barcelona, Spain (the “Project”) under a 26 year concession which runs until 2042. The Concessionaire is not required to operate or maintain the tracks and systems or rolling stock, such services being subcontracted to a third-party Maintenance Company under a long-term, fixed-price and back-to-back O&M contract, which in turn,outsources some of these services under a similar arrangement with other suitably qualified parties.",
+   "desc":"Línia Nou Tram Dos, S.A. (the “Concessionaire”) and Línia Nou Manteniment, S.L., (the “Maintenance Company”) has contracted with IFERCAT, a public entity responsible for the Catalonian railway system (the “Grantor”) to design, build, finance, operate and maintain 15 metro stations along Section II of the Line 9 subway system in Barcelona, Spain (the “Project”) under a 26 year concession which runs until 2042.",
    "ownership":40,
    "address":"Spain",
    "category":"transport",

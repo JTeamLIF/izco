@@ -25,7 +25,7 @@
 
 <body>
 <div class="im-centered">
-  <div class="row visible-sm visible-xs">
+  <div class="row visible-xs">
     <div class="col-md-12"> 
       
       <!-- Static navbar -->
@@ -39,40 +39,40 @@
 
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li class="level-2"><a href="about_overview.php#whatWeDo">About</a></li>
-                  <li class="level-2"><a href="about_overview.php#whoWeAre">The investment adviser</a></li>
-                  <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
-                  <li class="level-2"><a href="about_advisorteam.php">Investor adviser team</a></li>
-                  <li class="level-2"><a href="about_boardofdirectors.php">Board of directors</a></li>
-                  <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
-                  <li class="level-2"><a href="about_riskmanagement.php">Risk management</a></li>
-                  <li class="level-2"><a href="about_riskmanagement.php#riskcommittee">Risk committee</a></li>
-                  <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
-                  <li class="level-1"><a href="about_corporategovernance.php">Corporate governance</a></li>
+                  <li><a href="about_overview.php#whatWeDo">About</a></li>
+                  <li><a href="about_overview.php#whoWeAre">The investment adviser</a></li>
+                  <li><a href="about_keyevents.php">Key events</a></li>
+                  <li><a href="about_advisorteam.php">Investor adviser team</a></li>
+                  <li><a href="about_boardofdirectors.php">Board of directors</a></li>
+                  <li><a href="about_investmentpolicy.php">Investment policy</a></li>
+                  <li><a href="about_riskmanagement.php">Risk management</a></li>
+                  <li><a href="about_riskmanagement.php#riskcommittee">Risk committee</a></li>
+                  <li><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
+                  <li><a href="about_corporategovernance.php">Corporate governance</a></li>
                 </ul>
               </li>
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li class="level-1"><a href="portfolio_investmentportfolio.php">Investment Portfolio</a></li>
-                  <li class="level-1"><a href="portfolio_assetbreakdown.php">Asset Breakdown</a></li>
+                  <li><a href="portfolio_investmentportfolio.php">Investment Portfolio</a></li>
+                  <li><a href="portfolio_assetbreakdown.php">Asset Breakdown</a></li>
                 </ul>
               </li>
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Investors<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li class="level-2"><a href="investors_shareprice.php">Share Price</a></li>
-                  <li class="level-2"><a href="investors_sharepricehistory.php">Share Price History</a></li>
-                  <li class="level-2"><a href="investors_investmentcalculator.php">Investment Calculator</a></li>
-                  <li class="level-2"><a href="investors_sharealerts.php">Share Alerts</a>
-                  <li class="level-1"><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
-                  <li class="level-1"><a href="investors_dividends.php">Dividends</a></li>
-                  <li class="level-1"><a href="investors_publications.php">Publications</a></li>
-                  <li class="level-1"><a href="investors_financialcalendar.php">Financial Calendar</a></li>
+                  <li><a href="investors_shareprice.php">Share Price</a></li>
+                  <li><a href="investors_sharepricehistory.php">Share Price History</a></li>
+                  <li><a href="investors_investmentcalculator.php">Investment Calculator</a></li>
+                  <li><a href="investors_sharealerts.php">Share Alerts</a>
+                  <li><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
+                  <li><a href="investors_dividends.php">Dividends</a></li>
+                  <li><a href="investors_publications.php">Publications</a></li>
+                  <li><a href="investors_financialcalendar.php">Financial Calendar</a></li>
                 </ul>
               </li>
               <li><a href="media_presscoverage.php">Media</a></li>
           	  <li><a href="contact.php">Contact</a></li>
             </ul>
-<div class="col-sm-3 col-md-3 pull-right">
+<div class="col-sm-3 col-md-3">
         <form class="navbar-form" role="search">
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
@@ -87,11 +87,12 @@
         </div>
         <!--/.container-fluid --> 
       </nav>
+      <?php include("inc/latest-share-price.php"); ?>
     </div>
   </div>
   
   <!-- Navigation -->
-  <div class="row hidden-sm hidden-xs">
+  <div class="row hidden-xs">
     <div class="col-md-12">
       <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
@@ -122,8 +123,8 @@
   </div>
   <div class="row">
     <div class="col-md-12 contentwrapper1">
-      <div class="col-lg-3 menu_left hidden-sm hidden-xs">
-        <ul class="nav_left">
+      <div class="col-lg-3 menu_left">
+        <ul class="nav_left hidden-xs">
           <li class="level-1 first"><a href="about_overview.php">Overview</a></li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
           <li class="level-1 parent-menu-active"><a href="about_advisorteam.php">The team</a>

@@ -46,9 +46,10 @@
         <div class="col-lg-2">
           <ul id="nav_footer">
             <li class="footertitle"><a href="contact.php">Contact</a></li>
+            <li><a href="contact.php">Investment advisers</a></li>
             <li><a href="contact.php">Administrators</a></li>
             <li><a href="contact.php">Shareholder enquiries</a></li>
-            <li><a href="contact.php">Investment advisers</a></li>
+            
             <li><a href="contact.php">Public relations</a></li>
           </ul>
         </div>

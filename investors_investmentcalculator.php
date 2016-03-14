@@ -63,7 +63,7 @@
           <li class="level-1 first parent-menu-active"><a href="investors_shareprice.php">Share Information</a>
             <ul class="nav_sub">
               <li class="level-2"><a href="investors_shareprice.php">Share Price</a></li>
-              <li class="level-2"><a href="investors_sharepricehistory.php">Share Price History</a></li>
+              <!--<li class="level-2"><a href="investors_sharepricehistory.php">Share Price History</a></li>-->
               <li class="level-2 parent-menu-active"><a href="investors_investmentcalculator.php">Investment Calculator</a></li>
               <li class="level-2"><a href="investors_sharealerts.php">Share Alerts</a>
             </ul>

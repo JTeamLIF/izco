@@ -52,7 +52,7 @@
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage">Investors</span> |
         <span class="previousPage">Regulatory news</span> |
-        <span class="activePage">Latest & archived regulatory news</span>
+        <span class="activePage">Latest and archived news</span>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@
           <li class="level-1 parent-menu-active"><a href="investors_latestregulatorynews.php">Regulatory news</a>
           <ul class="nav_sub">
 
-              <li class="level-2 parent-menu-active"><a href="investors_latestregulatorynews.php">Latest & archived regulatory news</a></li>
+              <li class="level-2 parent-menu-active"><a href="investors_latestregulatorynews.php">Latest and archived news</a></li>
               <li class="level-2"><a href="investors_newsemailalerts.php">News email alerts</a>
             </ul></li>
           <li class="level-1"><a href="investors_dividends.php">Dividends</a></li>
@@ -74,7 +74,7 @@
         </ul>
       </div>
       <div class="col-lg-6 content1">
-        <h1>Latest & archived regulatory news</h1>
+        <h1>Latest and archived news</h1>
 <iframe src="http://tools.euroland.com/tools/pressreleases/?companycode=uk-jlif&lang=en-gb" width="100%" height="860px" ></iframe>
       </div>
       <div class="col-lg-3 rightcol1">

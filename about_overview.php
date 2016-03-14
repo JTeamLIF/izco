@@ -112,7 +112,7 @@
        <div class="col-lg-3"></div>
        <div class="col-md-3 statistics">
         <div>
-          <p class="heading">Market capitisation</p>
+          <p class="heading">Market capitalisation</p>
           <p class="price">£991.5m</p>
           <p class="time">As at 3:15pm . 21 Oct 15</p>
         </div>

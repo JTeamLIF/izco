@@ -64,7 +64,7 @@
           <li class="level-1 parent-menu-active"><a href="investors_latestregulatorynews.php">Regulatory news</a>
           <ul class="nav_sub">
 
-              <li class="level-2"><a href="investors_latestregulatorynews.php">Latest & archived regulatory news</a></li>
+              <li class="level-2"><a href="investors_latestregulatorynews.php">Latest and archived news</a></li>
               <li class="level-2 parent-menu-active"><a href="investors_newsemailalerts.php">News email alerts</a>
             </ul></li>
           <li class="level-1"><a href="investors_dividends.php">Dividends</a></li>
