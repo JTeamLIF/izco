@@ -103,7 +103,7 @@
           <dd class="health">
            <div class="assetCard">
               <div class="pull-left">
-                <img class="mainImage" src="images/gallery/health/Gallery_tb_on_North-Birmingham-Mental-Health.png">
+                <img class="mainImage" src="images/gallery/health/Gallery_main_North-Birmingham-Mental-Health.png">
               </div>
               <div class="pull-right assetInfo">
                 <h1 class="mainName">North Birmingham Mental Health</h1>
@@ -125,7 +125,7 @@
           <dd class="education">
             <div class="assetCard">
               <div class="pull-left">
-                <img class="mainImage" src="images/gallery/health/Gallery_main_Tunbridge-Wells-Hospital.png">
+                <img class="mainImage" src="images/gallery/education/Gallery_main_Barnsley-BSF.png">
               </div>
               <div class="pull-right assetInfo">
                 <h1 class="mainName">Barnsley BSF</h1>
@@ -136,7 +136,7 @@
                 1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
                 completed in 2011 for all phases.</p>
                 <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span></div>
+                <span class="percentageOwned">40%</span></div>
                 <br><br>
               </div>
             </div>
@@ -172,18 +172,14 @@
           <dd class="transport">
             <div class="assetCard">
               <div class="pull-left">
-                <img class="mainImage" src="images/gallery/health/Gallery_main_Tunbridge-Wells-Hospital.png">
+                <img class="mainImage" src="images/gallery/transport/Gallery_main_Line-9---Section-II,-Barcelona-Metro.png">
               </div>
               <div class="pull-right assetInfo">
-                <h1 class="mainName">Barnsley BSF</h1>
-                <h3 class="mainAddress">Barnsley S70 2JW</h3>
-                <p class="mainDesc">Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul
-                of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning
-                centres, one special school, and one special school extension) over three phases. Financial close on Phase
-                1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
-                completed in 2011 for all phases.</p>
+                <h1 class="mainName">Line 9 - Section II, Barcelona Metro</h1>
+                <h3 class="mainAddress">Spain</h3>
+                <p class="mainDesc">Línia Nou Tram Dos, S.A. (the “Concessionaire”) and Línia Nou Manteniment, S.L., (the “Maintenance Company”) has contracted with IFERCAT, a public entity responsible for the Catalonian railway system (the “Grantor”) to design, build, finance, operate and maintain 15 metro stations along Section II of the Line 9 subway system in Barcelona, Spain (the “Project”) under a 26 year concession which runs until 2042.</p>
                 <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span></div>
+                <span class="percentageOwned">40%</span></div>
                 <br><br>
               </div>
             </div>
@@ -196,18 +192,14 @@
           <dd class="government-buildings">
             <div class="assetCard">
               <div class="pull-left">
-                <img class="mainImage" src="images/gallery/health/Gallery_main_Tunbridge-Wells-Hospital.png">
+                <img class="mainImage" src="images/gallery/government-buildings/Gallery_main_Groningen-Tax-Office.png">
               </div>
               <div class="pull-right assetInfo">
-                <h1 class="mainName">Barnsley BSF</h1>
-                <h3 class="mainAddress">Barnsley S70 2JW</h3>
-                <p class="mainDesc">Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul
-                of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning
-                centres, one special school, and one special school extension) over three phases. Financial close on Phase
-                1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
-                completed in 2011 for all phases.</p>
+                <h1 class="mainName">Groningen Tax Office</h1>
+                <h3 class="mainAddress">Netherlands</h3>
+                <p class="mainDesc">The project involves the design, build, finance, maintenance and operation of 47,000sqm of office accommodation, 700 parking spaces and 9,000sqm of public gardens. The building is occupied by the National Centre for Student Registration as well as the regional Tax Office. The 20 year operating concession covers all facilities management services and lifecycle responsibilities.</p>
                 <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span></div>
+                <span class="percentageOwned">40%</span></div>
                 <br><br>
               </div>
             </div>
@@ -220,16 +212,12 @@
           <dd class="regeneration-and-social-housing">
             <div class="assetCard">
               <div class="pull-left">
-                <img class="mainImage" src="images/gallery/health/Gallery_main_Tunbridge-Wells-Hospital.png">
+                <img class="mainImage" src="images/gallery/regeneration-and-social-housing/Gallery_main_Kirklees-Social-Housing.png">
               </div>
               <div class="pull-right assetInfo">
-                <h1 class="mainName">Barnsley BSF</h1>
-                <h3 class="mainAddress">Barnsley S70 2JW</h3>
-                <p class="mainDesc">Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul
-                of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning
-                centres, one special school, and one special school extension) over three phases. Financial close on Phase
-                1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
-                completed in 2011 for all phases.</p>
+                <h1 class="mainName">Kirklees Social Housing</h1>
+                <h3 class="mainAddress">United Kingdom</h3>
+                <p class="mainDesc">JLW Excellent Homes for Life Limited, the project company, has contracted with the Council of the Borough of Kirklees for the design, build, finance and operation of 466 new build social housing units across 27 sites in Kirklees, West Yorkshire, under a 20 year concession which runs until 2034.</p>
                 <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
                 <span class="percentageOwned">100%</span></div>
                 <br><br>
@@ -244,18 +232,14 @@
           <dd class="street-lighting">
             <div class="assetCard">
               <div class="pull-left">
-                <img class="mainImage" src="images/gallery/health/Gallery_main_Tunbridge-Wells-Hospital.png">
+                <img class="mainImage" src="images/gallery/street-lighting/Gallery_main_Surrey-Street-Lighting.png">
               </div>
               <div class="pull-right assetInfo">
-                <h1 class="mainName">Barnsley BSF</h1>
-                <h3 class="mainAddress">Barnsley S70 2JW</h3>
-                <p class="mainDesc">Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul
-                of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning
-                centres, one special school, and one special school extension) over three phases. Financial close on Phase
-                1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
-                completed in 2011 for all phases.</p>
+                <h1 class="mainName">Surrey Street Lighting</h1>
+                <h3 class="mainAddress">United Kingdom</h3>
+                <p class="mainDesc">Surrey Lighting Services Limited, the project company, has contracted with Surrey County Council for the design, installation, refurbishment and maintenance of 87,762 lighting columns throughout the eleven districts of Surrey, under a 25 year concession which runs until 2035.</p>
                 <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">100%</span></div>
+                <span class="percentageOwned">50%</span></div>
                 <br><br>
               </div>
             </div>
