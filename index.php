@@ -175,12 +175,12 @@
         </div>
         <div class="upcomingeventscontent">
           <div class="newsitem">
-            <p class="newsdate">09 Nov 2015</p>
-            <p>JLIF Interim Management Statement</p>
+            <p class="newsdate">16 May 2016</p>
+            <p>Annual General Meeting</p>
           </div>
           <div class="newsitem">
-            <p class="newsdate">28 Aug 2015</p>
-            <p>Interim Report</p>
+            <p class="newsdate">13 May 2016</p>
+            <p>2nd half-year Dividend Payment</p>
           </div>
           <div href="#" class="btn-viewAssetGallery">
             <a href="investors_financialcalendar.php"><span class="spn-viewAssetGallery">View all events</span>
