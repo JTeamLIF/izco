@@ -113,12 +113,12 @@ Many cookies are designed to give you optimal usage of the web. For example, we 
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
         <br>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
       </div>

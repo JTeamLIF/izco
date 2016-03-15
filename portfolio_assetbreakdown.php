@@ -63,9 +63,15 @@
         <h3>The original Seed Portfolio of 19 assets was acquired for a total of £259.0 million using a weighted average discount rate of 8.35%. Since then, JLIF has made over £685 million of additional investments in assets from both John Laing and the wider secondary market. JLIF's Portfolio as at 31 December 2015 was valued at £867.8 million using a weighted average discount rate of 7.82%. The total the number of assets in the Portfolio currently stands at 59.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
       </div>
     </div>
   </div>

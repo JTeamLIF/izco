@@ -71,18 +71,17 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Financial and Operational Highlights </h1>
-        <h3>2015 was quieter than previous years in terms of growth of the Portfolio by acquisition, in part due to market conditions, particularly in the UK, and in part due to our focus on developing new relationships with vendors in overseas markets. We have continued to grow the Portfolio through active management, and again exceeded the level of growth that would be expected from the discount rate unwind. </h3>
-        <p>Our Portfolio is currently valued at £867.8 million, an increase of £66.8 million against last year’s rebased portfolio value, the fifth consecutive year since launch that the Company has outperformed by this measure.</p>
+        <h3>2015 was quieter than previous years in terms of growth of the Portfolio by acquisition, in part due to market conditions, particularly in the UK, and in part due to our focus on developing new relationships with vendors in overseas markets. We have continued to grow the Portfolio through active management, and again exceeded the level of growth that would be expected from the discount rate unwind. Our Portfolio is currently valued at £867.8 million, an increase of £66.8 million against last year’s rebased portfolio value, the fifth consecutive year since launch that the Company has outperformed by this measure.</h3>
         <p>We identified and executed value enhancements that either increased revenues or decreased costs, whilst continuing to provide the high level of service expected by our public sector clients. During 2015 this included cost savings resulting from careful and prudent management of lifecycle allowances, and other efficiencies relating to insurance and SPV management costs.</p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
         <br>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">Link title</span>
+          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
       </div>
