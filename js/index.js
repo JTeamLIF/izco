@@ -13,6 +13,9 @@ var slideShowInterval = setInterval( function() {
 }, 15000);
 
 $(function () {
+
+  $('#headerImage').fadeTo(1500, 1);
+
   $.each(twitterFeed, function(index, data) {
     $('.twitterfeed').append(
       '<div class="tweets" id="twitterID-' + index + '" style="display:none;">' +
