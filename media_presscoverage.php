@@ -123,7 +123,7 @@
               <tr>
                 <td>
                   <span class="date">12 May 2015</span>
-                  <span class="text"><a href="docs/newsarticles/JLIF,_The_Telegraph_pdf..pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
+                  <span class="text"><a href="docs/newsarticles/JLIF_The_Telegraph_pdf.pdf" target="_blank">Questor Share Tip - Daily Telegraph</a></span>
                 </td>
               </tr>
               <tr>
@@ -147,7 +147,7 @@
               <tr>
                 <td>
                   <span class="date">12 Nov 2012</span>
-                  <span class="text"><a href="/news/StockMarketWire_121112.pdf" target="_blank">JLIF continues strong performance</a></span>
+                  <span class="text"><a href="docs/newsarticles/StockMarketWire_121112.pdf" target="_blank">JLIF continues strong performance</a></span>
                 </td>
               </tr>
 
@@ -172,7 +172,7 @@
               <tr>
                 <td>
                   <span class="date">15 Mar 2012</span>
-                  <span class="text"><a href="docs/newsarticles/Investors_Chronicle_Press_Report_150312.pdf.pdf" target="_blank">Investors Chronicle Market Overview - JLIF</a></span>
+                  <span class="text"><a href="docs/newsarticles/Investors_Chronicle_Press_Report_150312.pdf" target="_blank">Investors Chronicle Market Overview - JLIF</a></span>
                 </td>
               </tr>
               <tr>
@@ -222,7 +222,7 @@
               <tr>
                 <td>
                   <span class="date">31 Aug 2011</span>
-                  <span class="text"><a href="/news/The_Times-_31_August_2011-_Riots_Boost_John_Laing_and_CNBC_Interview.pdf" target="_blank">Riots Boost John Laing</a></span>
+                  <span class="text"><a href="docs/newsarticles/The_Times-_31_August_2011-_Riots_Boost_John_Laing_and_CNBC_Interview.pdf" target="_blank">Riots Boost John Laing</a></span>
                 </td>
               </tr>
 
