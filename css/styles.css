@@ -1093,6 +1093,11 @@ iframe {
   height: 63px;
   float:left;
   margin: 10px 20px;
+  cursor: pointer;
+}
+
+.smallAssetActive {
+  background: #E5E5E5;
 }
 
 .smallAssetLeft {
@@ -1384,7 +1389,7 @@ iframe {
   .navbar {
     margin-bottom: 0 !important;
   }
-  
+
   .navbar {
 
 
