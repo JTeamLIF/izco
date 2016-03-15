@@ -31,7 +31,7 @@ $categorytitle = 'Portfolio';
 include("inc/mobile_navigation.php");
 ?>
   <!-- Navigation -->
-  <div class="row hidden-xs">
+  <div class="row hidden-xs hidden-sm hidden-md">
     <div class="col-md-12">
       <?php
 include("inc/logo-and-search-bar.php");
