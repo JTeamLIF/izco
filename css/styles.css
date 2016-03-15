@@ -1236,19 +1236,23 @@ iframe {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
-
+  .main-text {
+    top: 55px !important;
+  }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 
-
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 1199px) {
-		
+
+  .main-text {
+    top: 75px;
+  }
+
 
 	.utilities {
 		display: none;
@@ -1391,7 +1395,7 @@ iframe {
   .navbar {
     margin-bottom: 0 !important;
   }
-  
+
   .navbar {
     min-height: 70px;
     padding-top: 8px;
