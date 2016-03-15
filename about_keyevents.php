@@ -71,8 +71,8 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Financial and Operational Highlights </h1>
-        <h3>2015 was quieter than previous years in terms of growth of the Portfolio by acquisition, in part due to market conditions, particularly in the UK, and in part due to our focus on developing new relationships with vendors in overseas markets. We have continued to grow the Portfolio through active management, and again exceeded the level of growth that would be expected from the discount rate unwind. Our Portfolio is currently valued at £867.8 million, an increase of £66.8 million against last year’s rebased portfolio value, the fifth consecutive year since launch that the Company has outperformed by this measure.</h3>
-        <p>We identified and executed value enhancements that either increased revenues or decreased costs, whilst continuing to provide the high level of service expected by our public sector clients. During 2015 this included cost savings resulting from careful and prudent management of lifecycle allowances, and other efficiencies relating to insurance and SPV management costs.</p>
+        <h3>JLIF has grown consistently since launch. The Company has successfully raised over £800 million of primary equity since 2010, whilst delivering a 53% total return for shareholders over that time. The focus continues to be on delivering a stable and secure income for its shareholders by investing in low risk, high yielding assets.</h3>
+        <p>JLIF continues to grow the Portfolio through active management, identifying and executing value enhancements whilst continuing to provide the high level of service expected by its public sector clients. JLIF’s Portfolio is currently valued at £867.8 million.</p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
