@@ -49,7 +49,7 @@
 </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
+      <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage"><a href="about_overview.php">About</a></span> |
         <span class="activePage">Key Events</span>

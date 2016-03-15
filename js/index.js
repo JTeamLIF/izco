@@ -20,7 +20,7 @@ $(function () {
         '<div class="twitterarticle">' + data.text + '</div>' +
       '</div>'
     );
-    $('#twitterID-0').css('display', 'block');
+    $('#twitterID-0').fadeIn(1500);
   });
 
   $('#goBack').on('click', function () {
@@ -29,7 +29,7 @@ $(function () {
     if (!previousItem.hasClass('tweets')) {
       previousItem = $('.tweets').last();
     }
-    previousItem.css('display', 'block');
+    previousItem.fadeIn(1500);
   });
 
   $('#goForward').on('click', function () {
@@ -38,6 +38,6 @@ $(function () {
     if (!nextItem.hasClass('tweets')) {
       nextItem = $('.tweets').first();
     }
-    nextItem.css('display', 'block');
+    nextItem.fadeIn(1500);
   });
 });

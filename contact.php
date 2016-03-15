@@ -25,7 +25,7 @@
 <?php $categorytitle = 'Contact'; ?>
 <body>
 <div class="im-centered">
- <?php include("inc/mobile_navigation.php"); ?> 
+ <?php include("inc/mobile_navigation.php"); ?>
   <!-- Navigation -->
   <div class="row hidden-xs">
     <div class="col-md-12">
@@ -48,7 +48,7 @@
 </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right"> <span class="previousPage"><a href="index.php">Home</a></span> | <span class="activePage">Contact</span> | <span class="activePage">Administrators</span> </div>
+      <div class="col-lg-9 pull-right breadcrumbLinks"> <span class="previousPage"><a href="index.php">Home</a></span> | <span class="activePage">Contact</span> | <span class="activePage">Administrators</span> </div>
     </div>
   </div>
   <div class="row">
@@ -127,7 +127,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-md-12 contactWrapper">
@@ -147,16 +147,16 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Footer -->
   <?php include("inc/footer.php"); ?>
 </div>
 
-<!-- jQuery --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script> 
-<script src="js/app.js"></script> 
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
 
-<!-- Bootstrap Core JavaScript --> 
+<!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@ $(function () {
 			if (e.which === undefined) {
 				var thumbID = $(this).attr('id');
 				$('.overSlideShowDiv').css('display', 'none');
-				$('[data-id="' + thumbID + '"]').fadeIn();
+				$('[data-id="' + thumbID + '"]').fadeIn(1500);
 			} else {
 				clearInterval(slideShowInterval);
 			}
@@ -44,9 +44,11 @@ $(function () {
 
 		clickedImageId = $(this).attr('id');
     $('.overSlideShowDiv').css('display', 'none');
-    $('[data-id="' + clickedImageId + '"]').fadeIn();
+    $('[data-id="' + clickedImageId + '"]').fadeIn(1500);
 
+    $('#headerImage').css('display', 'none');
 		$('#headerImage').attr('class', 'image-bg-fluid-height-' + clickedImageId);
+		$('#headerImage').fadeIn(1500);
 		$('.imageThumbnail').each(function () {
 			var src = $(this).attr('src').replace('on', 'off');
 			$(this).attr('src', src);
