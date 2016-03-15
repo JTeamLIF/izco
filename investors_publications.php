@@ -49,7 +49,7 @@
 </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
+      <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage">Investors</span> |
         <span class="activePage">Publications</span>
@@ -124,7 +124,7 @@
           </li>
           <li role="presentation">
             <a href="#reportResult" aria-controls="reportResult" role="tab" data-toggle="tab">Reports & Results</a>
-          </li>          
+          </li>
         </ul>
 
         <!-- Tab panes -->
@@ -233,7 +233,7 @@
                   <span class="text"><a href="docs/factsheets/JLIF_factsheet_v5[1].pdf" target="_blank">JLIF Factsheet September 2011</a></span>
                 </td>
               </tr>
-                                          
+
             </table>
           </div>
           <div role="tabpanel" class="tab-pane" id="presentations">
@@ -255,7 +255,7 @@
                   <span class="date">24 Mar 2014</span>
                   <span class="text"><a href="docs/presentations/2013_Annual_Results_Presentation_-_final_v4[1].pdf" target="_blank">Presentation (Results) to Analysts - March 2014</a></span>
                 </td>
-              </tr>             
+              </tr>
               <tr>
                 <td>
                   <span class="date">18 Mar 2013</span>
@@ -299,7 +299,7 @@
                 </td>
               </tr>
 
-              
+
             </table>
           </div>
 			<div role="tabpanel" class="tab-pane" id="prospectus">
@@ -429,9 +429,9 @@
                   <span class="text"><a href="docs/reportsandresults/JLIF_Final_Results_2011_Press_Release[1].pdf" target="_blank">JLIF - Final Results for the Year ended 31 December 2011</a></span>
                 </td>
               </tr>
-                                                                                                   
+
             </table>
-          </div>                    
+          </div>
         </div>
 
 

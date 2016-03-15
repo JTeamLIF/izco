@@ -49,7 +49,7 @@
 </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
+      <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage">Investors</span> |
         <span class="activePage">Financial Calendar</span>
@@ -101,7 +101,7 @@
                   <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
                 </td>
               </tr>
-             
+
             </table>
           </div>
           <div role="tabpanel" class="tab-pane" id="pastEvents">

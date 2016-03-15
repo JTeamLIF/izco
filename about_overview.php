@@ -50,7 +50,7 @@
 </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
+      <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage">
           <a href="index.php">Home</a>
         </span> |
@@ -146,7 +146,7 @@
 
 
       <div class="contactCard">
-        <div class="pull-left">
+        <div class="pull-left contactPicture">
           <img src="images/paul.jpg">
         </div>
         <div class="pull-right contactInfo">
@@ -162,7 +162,7 @@
       </div>
 
       <div class="contactCard">
-        <div class="pull-left">
+        <div class="pull-left contactPicture">
           <img src="images/andrew.jpg">
         </div>
         <div class="pull-right contactInfo">

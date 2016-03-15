@@ -49,7 +49,7 @@
 </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
+      <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage">Media</span> |
         <span class="activePage">Press Coverage</span>
@@ -150,7 +150,7 @@
                   <span class="text"><a href="/news/StockMarketWire_121112.pdf" target="_blank">JLIF continues strong performance</a></span>
                 </td>
               </tr>
-              
+
                <tr>
                 <td>
                   <span class="date">03 Oct 2012</span>
@@ -186,9 +186,9 @@
                   <span class="date">15 Mar 2012</span>
                   <span class="text"><a href="/newsarticles/Press_Release_AOL_150312.pdf" target="_blank">AOL: Pick of the early market news - JLIF</a></span>
                 </td>
-              </tr> 
-              
-              
+              </tr>
+
+
               <tr>
                 <td>
                   <span class="date">20 Jan 2012</span>
@@ -225,7 +225,7 @@
                   <span class="text"><a href="/news/The_Times-_31_August_2011-_Riots_Boost_John_Laing_and_CNBC_Interview.pdf" target="_blank">Riots Boost John Laing</a></span>
                 </td>
               </tr>
-              
+
                <tr>
                 <td>
                   <span class="date">21 Aug 2011</span>
@@ -261,7 +261,7 @@
                   <span class="date">08 Apr 2011</span>
                   <span class="text"><a href="/newsarticles/Investors_Chronicle-_8_April_2011-_John_Laing_pays_out.pdf" target="_blank">John Laing Pays Out</a></span>
                 </td>
-              </tr>                           
+              </tr>
             </table>
           </div>
         </div>

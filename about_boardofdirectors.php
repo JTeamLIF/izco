@@ -25,7 +25,7 @@
 <?php $categorytitle = 'About'; ?>
 <body>
 <div class="im-centered">
- <?php include("inc/mobile_navigation.php"); ?> 
+ <?php include("inc/mobile_navigation.php"); ?>
   <!-- Navigation -->
   <div class="row hidden-xs">
     <div class="col-md-12">
@@ -48,7 +48,7 @@
 </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right"> <span class="previousPage"> <a href="index.php">Home</a> </span> | <span class="previousPage"> <a href="about_overview.php">About</a> </span> | <span class="activePage"> <a href="about_boardofdirectors.php">Board of directors</a> </span> </div>
+      <div class="col-lg-9 pull-right breadcrumbLinks"> <span class="previousPage"> <a href="index.php">Home</a> </span> | <span class="previousPage"> <a href="about_overview.php">About</a> </span> | <span class="activePage"> <a href="about_boardofdirectors.php">Board of directors</a> </span> </div>
     </div>
   </div>
   <div class="row">
@@ -161,7 +161,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Footer -->
   <?php include("inc/footer.php"); ?>
 </div>
@@ -170,7 +170,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script src="js/teamMembers.js"></script>
 
-<!-- Bootstrap Core JavaScript --> 
+<!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

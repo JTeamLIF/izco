@@ -56,7 +56,7 @@
   </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right">
+      <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage">previous pages</span> |
         <span class="activePage">active page</span>
       </div>
