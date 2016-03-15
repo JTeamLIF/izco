@@ -19,6 +19,11 @@ $(function () {
 
     allPanels.slideUp();
     $(this).next().slideDown();
+
+    $('html, body').animate({
+      scrollTop: $('.assetCard:visible').offset().top
+    }, 1500);
+
     return false;
   });
 
