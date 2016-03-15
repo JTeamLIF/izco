@@ -78,7 +78,7 @@
       </div>
       <div class="col-lg-3"></div>
       <div class="col-lg-9">
-        <div class="barChartHolder"><img src="images/dummy_barchart.png" width="865" height="343" alt="dummy barchart"></div>
+        <div class="barChartHolder"><img class="img-responsive" src="images/dummy_barchart.png" width="865" height="343" alt="dummy barchart"></div>
       </div>
     </div>
   </div>
@@ -86,24 +86,16 @@
     <div class="col-md-12 contentwrapper2">
       <div class="col-lg-3"></div>
       <div class="col-lg-3">
-        <div class="col-lg-3 chartheadblock">Value per sector</div>
+        <div class="chartheadblock">Value per sector</div><div class="pieChartHolder"><img src="images/sector_piechart.png" width="273" height="372"></div>
       </div>
       <div class="col-lg-3">
-        <div class="col-lg-3 chartheadblock">Concession length</div>
+        <div class="chartheadblock">Concession length</div><div class="pieChartHolder"><img src="images/concession_piechart.png" width="273" height="372"></div>
       </div>
       <div class="col-lg-3">
-        <div class="col-lg-3 chartheadblock">Ownership analysis</div>
+        <div class="chartheadblock">Ownership analysis</div><div class="pieChartHolder"><img src="images/ownership_piechart.png" width="273" height="372"></div>
       </div>
       <div class="col-lg-3"></div>
-      <div class="col-lg-3">
-        <div class="pieChartHolder"><img src="images/sector_piechart.png" width="273" height="372"></div>
-      </div>
-      <div class="col-lg-3">
-        <div class="pieChartHolder"><img src="images/concession_piechart.png" width="273" height="372"></div>
-      </div>
-      <div class="col-lg-3">
-        <div class="pieChartHolder"><img src="images/ownership_piechart.png" width="273" height="372"></div>
-      </div>
+
     </div>
   </div>
   <div class="row">
