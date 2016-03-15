@@ -63,9 +63,15 @@
         <h3>JLIF is a Guernsey Registered Company, with its Registered Office at Heritage Hall, Le Marchant Street, St Peter Port, Guernsey GY1 4HY. For enquiries concerning the Company, please contact:</h3>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
       </div>
     </div>
   </div>

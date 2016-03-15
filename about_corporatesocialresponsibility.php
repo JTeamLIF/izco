@@ -72,9 +72,15 @@
         <p>JLIF is an investment company and as such holds equity interests in its underlying investments. The approach that it has used to consolidate its greenhouse gas (“GHG”) emissions reflects this structure and aggregates JLIF’s equity share of emissions from each asset. In collating its data JLIF has considered the GHG emissions from the facilities that is manages for the public sector. However, JLIF does not have direct control over the energy usage of the facilities it manages as these are controlled by their public sector end-users. As such JLIF has limited ability to directly influence or reduce the energy consumption of the facilities.</p>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
       </div>
     </div>
   </div>

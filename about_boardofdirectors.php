@@ -63,7 +63,7 @@
               <li class="level-2 parent-menu-active"> <a href="about_boardofdirectors.php">Board of directors</a> </li>
             </ul>
           </li>
-          <li class="level-1"> <a href="about_investmentpolicy.php">Invvestment policy</a> </li>
+          <li class="level-1"> <a href="about_investmentpolicy.php">Investment policy</a> </li>
           <li class="level-1"> <a href="about_riskmanagement.php">Risk management</a> </li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
           <li class="level-1"><a href="about_corporategovernance.php">Corporate governance</a></li>
@@ -74,9 +74,15 @@
         <h3>The Board consists of six Non-Executive Directors, all of whom are independent of the Company’s Investment Adviser. As the Company has no Executive Directors, the provision of the UK Corporate Governance Code relating to the combining of the roles of Chairman and Chief Executive Officer does not apply to the Company.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
       </div>
     </div>
   </div>

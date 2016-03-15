@@ -79,9 +79,15 @@
         <h3>JLIF benefits from experienced investment advisers who have significant knowledge and expertise in infrastructure. Utilising this extensive PPP knowledge they will seek to deliver further value from the diversified Portfolio by enhancing the value of the assets.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery">Link title</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery">
+          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
+          </div>
       </div>
     </div>
   </div>
