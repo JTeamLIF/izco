@@ -1278,6 +1278,18 @@ iframe {
 }
 
 
+  .dropdown {
+    display: none;
+  }
+
+  .overSlideShowTextDiv {
+    padding: 10px;
+    width: 400px;
+  }
+
+  .navbar {
+    margin-bottom: 0 !important;
+  }
 
 }
 
