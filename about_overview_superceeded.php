@@ -27,7 +27,7 @@
 <div class="im-centered">
  <?php include("inc/mobile_navigation.php"); ?>
   <!-- Navigation -->
-  <div class="row hidden-xs">
+  <div class="row hidden-xs hidden-sm hidden-md">
     <div class="col-md-12">
       <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
@@ -65,7 +65,7 @@
   <div class="row">
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
-        <ul class="nav_left hidden-xs">
+        <ul class="nav_left hidden-xs hidden-sm hidden-md">
           <li class="level-1 parent-menu-active"><a href="#">Overview</a>
             <ul class="nav_sub">
               <li class="level-2 parent-menu-active first"><a href="about_overview.php#whatWeDo">What we do</a></li>
