@@ -6,7 +6,10 @@ $(function () {
 
   $('.accordion > dt').click(function () {
 
-    $(this).next().find('.smallAsset').first().click();
+    var firstAssetInClickeddt = $(this).next().find('.smallAsset').first();
+    firstAssetInClickeddt.addClass('smallAssetActive');
+    var $img = firstAssetInClickeddt.find('.smallAssetImage');
+    $img.attr('src', $img.attr('src').replace('off', 'on'));
 
     //is this the open accordian?
     if ($(this).next().css('display') === 'block') {
@@ -45,7 +48,9 @@ $(function () {
     var selectedAsset = mapData.filter( function(obj) {
       return obj.code === assetCode;
     });
-
+    $('html, body').animate({
+      scrollTop: $('.assetCard:visible').offset().top
+    }, 1500);
     parentDD.find('.mainImage').attr('src', 'images/gallery/' + ddClassName + '/Gallery_main_' + id + '.png');
     parentDD.find('.mainName').html(selectedAsset[0].name);
     parentDD.find('.mainAddress').html(selectedAsset[0].address);
