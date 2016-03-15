@@ -30,7 +30,7 @@
                 </div>
 
             </div>
-            <div class="main-text">
+            <div class="main-text hidden-xs hidden-sm">
                 <div class="col-md-12 text-center">
                     <h1><?php echo $categorytitle; ?></h1>
 
