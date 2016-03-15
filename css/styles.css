@@ -1314,6 +1314,14 @@ iframe {
   .navbar {
     margin-bottom: 0 !important;
   }
+  
+  .navbar {
+
+
+    min-height: 70px;
+    padding-top: 8px;
+
+}
 
 }
 
@@ -1335,7 +1343,7 @@ iframe {
 	background-image: url(../images/logo_mobile.png);
 	background-repeat: no-repeat;
 	background-position: center center;
-	width: 100px;
+	width: 110px;
 	background-color: #fff;
 }
 .navbar-form .input-group .input-group-btn .btn.btn-default {
