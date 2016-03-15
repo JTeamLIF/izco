@@ -7,7 +7,7 @@ $(function () {
 			if (e.which === undefined) {
 				var thumbID = $(this).attr('id');
 				$('.overSlideShowDiv').css('display', 'none');
-				$('[data-id="' + thumbID + '"]').fadeIn(1500);
+				$('[data-id="' + thumbID + '"]').fadeIn(2500);
 			} else {
 				clearInterval(slideShowInterval);
 			}
@@ -44,11 +44,16 @@ $(function () {
 
 		clickedImageId = $(this).attr('id');
     $('.overSlideShowDiv').css('display', 'none');
-    $('[data-id="' + clickedImageId + '"]').fadeIn(1500);
-
-    $('#headerImage').css('display', 'none');
+    $('[data-id="' + clickedImageId + '"]').fadeIn(2500);
+		$cloned = $('#headerImage').clone();
+		$cloned.css('position', 'absolute');
+		$cloned.css('height', '500px');
+		$cloned.css('width', '100%');
+		$cloned.css('left', 0);
+		$('#headerImage').prepend($cloned);
+		$cloned.fadeOut(1500, function() { $(this).remove() });
 		$('#headerImage').attr('class', 'image-bg-fluid-height-' + clickedImageId);
-		$('#headerImage').fadeIn(1500);
+		$('#headerImage').fadeTo(1500, 1);
 		$('.imageThumbnail').each(function () {
 			var src = $(this).attr('src').replace('on', 'off');
 			$(this).attr('src', src);
