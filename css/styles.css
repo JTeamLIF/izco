@@ -1172,9 +1172,79 @@ iframe {
   border-top: 1px solid #fff;
 }
 
+.pull-right.contactInfo .btn-viewAssetGallery {
+	/*position: absolute;*/
+	bottom: 25px;
+}
+.percentagecontainer {
+	position: absolute;
+	bottom: 10px;
+}
 
-/* mobile only styles */
-@media only all and (max-width: 460px) {
+.navbar-brand{
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	background-image: url(../images/logo_mobile.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 110px;
+	background-color: #fff;
+}
+.navbar-form .input-group .input-group-btn .btn.btn-default {
+	-moz-user-select: none;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 2px 8px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+	background-color: #e6e6e6;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+}
+
+.dropdown-menu {
+  font-size: 12px;
+  list-style: outside none none;
+  text-align: left;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #0e4c7d;
+}
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 1199px) {
+
 	.utilities {
 		display: none;
 	}
@@ -1325,56 +1395,3 @@ iframe {
 
 }
 
-.pull-right.contactInfo .btn-viewAssetGallery {
-	/*position: absolute;*/
-	bottom: 25px;
-}
-.percentagecontainer {
-	position: absolute;
-	bottom: 10px;
-}
-
-.navbar-brand{
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	font-size: 18px;
-	line-height: 20px;
-	background-image: url(../images/logo_mobile.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	width: 110px;
-	background-color: #fff;
-}
-.navbar-form .input-group .input-group-btn .btn.btn-default {
-	-moz-user-select: none;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857;
-  margin-bottom: 0;
-  padding: 2px 8px;
-  text-align: center;
-  vertical-align: middle;
-  white-space: nowrap;
-	background-color: #e6e6e6;
-}
-
-.navbar-default {
-  background-color: #fff;
-  border-color: #e7e7e7;
-}
-
-.dropdown-menu {
-  font-size: 12px;
-  list-style: outside none none;
-  text-align: left;
-}
-
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #0e4c7d;
-}

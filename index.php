@@ -30,7 +30,7 @@
 <div class="im-centered">
  <?php include("inc/mobile_navigation.php"); ?>
   <!-- Navigation -->
-  <div class="row hidden-xs">
+  <div class="row hidden-xs hidden-sm hidden-md">
     <div class="col-md-12">
     <?php include("inc/logo-and-search-bar.php"); ?>
       <div class="col-md-3 menu" id="menu_top_left">
