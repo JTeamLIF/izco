@@ -19,7 +19,7 @@ $(function () {
   $.each(twitterFeed, function(index, data) {
     $('.twitterfeed').append(
       '<div class="tweets" id="twitterID-' + index + '" style="display:none;">' +
-        '<div class="twitterdate"> JLIF <a href="http://twitter.com/jlifund"> @jlifund </a>' + moment(data.created_at).format('LL') + '</div>' +
+        '<div class="twitterdate"> JLIF <a href="http://twitter.com/jlfund" target="blank"> @jlfund </a>' + moment(data.created_at).format('LL') + '</div>' +
         '<div class="twitterarticle">' + data.text + '</div>' +
       '</div>'
     );
