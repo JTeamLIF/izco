@@ -21,7 +21,7 @@
   if (isset($_GET['count'])) {
     $count = $_GET['count'];
   } else {
-    $count = 5;
+    $count = 10;
   }
 
   $getfield = "?screen_name=$user&count=$count";
