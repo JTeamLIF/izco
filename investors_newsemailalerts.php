@@ -75,7 +75,7 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>News email alerts</h1>
-<iframe src="http://tools.euroland.com/InvestorTools/RNSSubscription/EmailAlertService.aspx?cid=48044&companycode=uk-hik&lang=en-gb" width="100%" height="860px" ></iframe>
+<iframe src="http://tools.euroland.com/Investortools/RNSSubscription/EmailAlertService.aspx?cid=60172&companycode=uk-jlif&lang=en-gb" width="100%" height="860px" ></iframe>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
