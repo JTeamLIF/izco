@@ -94,15 +94,14 @@
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery">View structure</span>
+          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
         </div>
         <br>
         <div href="#" class="btn-viewAssetGallery">
           <span class="spn-viewAssetGallery">
-            <a href="investors_publications.php">View annual report
-          </span>
-          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></a></span>
+            <a href="docs/reportsandresults/JLIF Annual Report 2015.pdf" target="_blank">View annual report</a></span>
+          <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
         </div>
       </div>
     </div>

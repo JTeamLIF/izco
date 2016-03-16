@@ -75,7 +75,7 @@ include("inc/internal_carousel.php");
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
         <br>
-        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
+        <div href="#" class="btn-viewAssetGallery"> <span class="spn-viewAssetGallery"><a href="docs/reportsandresults/JLIF Annual Report 2015.pdf" target="_blank">View annual report</a></span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span> </div>
       </div>
     </div>
   </div>

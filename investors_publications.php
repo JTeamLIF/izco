@@ -335,6 +335,18 @@
              <table class="table-striped publicationsTable">
               <tr>
                 <td>
+                  <span class="date">16 Mar 2016</span>
+                  <span class="text"><a href="docs/reportsandresults/JLIF Annual Report 2015.pdf" target="_blank">JLIF Annual Report 2015</a></span>
+                </td>
+              </tr>             
+<!--              <tr>
+                <td>
+                  <span class="date">16 Mar 2016</span>
+                  <span class="text"><a href="docs/reportsandresults/JLIF - Preliminary Results for the Year ended 31 Dec 2015.pdf" target="_blank">JLIF - Preliminary Results 31 Dec 2015</a></span>
+                </td>
+              </tr> -->            
+              <tr>
+                <td>
                   <span class="date">9 Nov 2015</span>
                   <span class="text"><a href="docs/reportsandresults/JLIF_Quarterly_Update_Statement_Nov_2015[1].pdf" target="_blank">JLIF Quarterly Update Statement November 2015</a></span>
                 </td>
@@ -445,7 +457,7 @@
           </div>
         <br>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
+          <span class="spn-viewAssetGallery"><a href="docs/reportsandresults/JLIF Annual Report 2015.pdf" target="_blank">View annual report</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
       </div>
