@@ -339,12 +339,12 @@
                   <span class="text"><a href="docs/reportsandresults/JLIF Annual Report 2015.pdf" target="_blank">JLIF Annual Report 2015</a></span>
                 </td>
               </tr>             
-<!--              <tr>
+<tr>
                 <td>
                   <span class="date">16 Mar 2016</span>
                   <span class="text"><a href="docs/reportsandresults/JLIF - Preliminary Results for the Year ended 31 Dec 2015.pdf" target="_blank">JLIF - Preliminary Results 31 Dec 2015</a></span>
                 </td>
-              </tr> -->            
+              </tr>           
               <tr>
                 <td>
                   <span class="date">9 Nov 2015</span>
