@@ -34,7 +34,7 @@
         <ul id="nav_main">
           <li class="top_menu_active"><a href="about_overview.php">About</a></li>
           <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
-          <li><a href="investors_shareprice.php">Investors</a></li>
+          <li><a href="investors_sharedata.php">Investors</a></li>
           <li><a href="media_presscoverage.php">Media</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>

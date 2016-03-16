@@ -34,7 +34,7 @@
         <ul id="nav_main">
           <li><a href="about_overview.php">About</a></li>
           <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
-          <li class="top_menu_active"><a href="investors_shareprice.php">Investors</a></li>
+          <li class="top_menu_active"><a href="investors_sharedata.php">Investors</a></li>
           <li><a href="media_presscoverage.php">Media</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
@@ -61,7 +61,7 @@
       <div class="col-lg-3 menu_left">
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
 
-          <li class="level-1 first"><a href="investors_shareprice.php">Share Information</a></li>
+          <li class="level-1 first"><a href="investors_sharedata.php">Share Information</a></li>
           <li class="level-1"><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
           <li class="level-1"><a href="investors_dividends.php">Dividends</a></li>
           <li class="level-1 parent-menu-active"><a href="investors_publications.php">Publications</a></li>
@@ -297,7 +297,7 @@
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
+          <span class="spn-viewAssetGallery"><a href="investors_sharedata.php">View share information</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
         <br>
