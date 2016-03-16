@@ -34,7 +34,7 @@
         <ul id="nav_main">
           <li><a href="about_overview.php">About</a></li>
           <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
-          <li class="top_menu_active"><a href="investors_shareprice.php">Investors</a></li>
+          <li class="top_menu_active"><a href="investors_sharedata.php">Investors</a></li>
           <li><a href="media_presscoverage.php">Media</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
@@ -61,9 +61,10 @@
       <div class="col-lg-3 menu_left">
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
 
-          <li class="level-1 first parent-menu-active"><a href="investors_shareprice.php">Share Information</a>
+          <li class="level-1 first parent-menu-active"><a href="investors_sharedata.php">Share Information</a>
             <ul class="nav_sub">
-              <li class="level-2"><a href="investors_shareprice.php">Share Price</a></li>
+            <li class="level-2"><a href="investors_sharedata.php">Share Data</a></li>
+              <li class="level-2"><a href="investors_shareprice.php">Share Price Monitor</a></li>
               <!--<li class="level-2"><a href="investors_sharepricehistory.php">Share Price History</a></li>-->
               <li class="level-2 parent-menu-active"><a href="investors_investmentcalculator.php">Investment Calculator</a></li>
               <li class="level-2"><a href="investors_sharealerts.php">Share Alerts</a>

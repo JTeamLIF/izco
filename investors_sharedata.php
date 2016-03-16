@@ -22,7 +22,7 @@
   <![endif]-->
 
 </head>
-
+<?php $categorytitle = 'Investors'; ?>
 <body>
 <div class="im-centered">
  <?php include("inc/mobile_navigation.php"); ?>
@@ -34,33 +34,25 @@
         <ul id="nav_main">
           <li><a href="about_overview.php">About</a></li>
           <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
-          <li><a href="investors_sharedata.php">Investors</a></li>
+          <li class="top_menu_active"><a href="investors_sharedata.php">Investors</a></li>
           <li><a href="media_presscoverage.php">Media</a></li>
-          <li class="top_menu_active"><a href="contact.php">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
     <?php include("inc/latest-share-price.php"); ?>
 
     </div>
   </div>
-  </section>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="bannerimage">
-        <div class="clearPageTitle">
-        </div>
-        <div class="pageTitle">
-          Contact
-        </div>
-      </div>
-    </div>
-  </div>
+</section>
+<?php include("inc/internal_carousel.php"); ?>
+<div id="push">
+</div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
       <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage"><a href="index.php">Home</a></span> |
-        <span class="activePage">Contact</span> |
-        <span class="activePage">Public Relations</span>
+        <span class="activePage">Investors</span> |
+        <span class="activePage">Share Data</span>
       </div>
     </div>
   </div>
@@ -68,20 +60,29 @@
     <div class="col-md-12 contentwrapper1">
       <div class="col-lg-3 menu_left">
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
-          <li class="level-1 first"><a href="contact_administrators.php">Administrators</a></li>
-          <li class="level-1"><a href="contact_shareholderenquiries.php">Shareholder enquiries</a>
-          <li class="level-1"><a href="contact_investmentadvisers.php">Investment Advisers</a></li>
-          <li class="level-1 parent-menu-active"><a href="contact_publicrelations.php">Public Relations</a></li>
+
+          <li class="level-1 first parent-menu-active"><a href="investors_sharedata.php">Share Information</a>
+            <ul class="nav_sub">
+            <li class="level-2 parent-menu-active"><a href="investors_sharedata.php">Share Data</a></li>
+              <li class="level-2"><a href="investors_shareprice.php">Share Price Monitor</a></li>
+              <!--<li class="level-2"><a href="investors_sharepricehistory.php">Share Price History</a></li>-->
+              <li class="level-2"><a href="investors_investmentcalculator.php">Investment Calculator</a></li>
+              <li class="level-2"><a href="investors_sharealerts.php">Share Alerts</a>
+            </ul>
+          </li>
+          <li class="level-1"><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
+          <li class="level-1"><a href="investors_dividends.php">Dividends</a></li>
+          <li class="level-1"><a href="investors_publications.php">Publications</a></li>
+          <li class="level-1"><a href="investors_financialcalendar.php">Financial Calendar</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
-        <h1>Public Relations</h1>
-        <h3>h3</h3>
-        <p>paragraph</p>
+        <h1>Share Data</h1>
+<iframe src="http://tools.euroland.com/tools/shareseries/?companycode=uk-jlif&lang=en-gb" width="100%" height="1050px" ></iframe>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery"><a href="investors_sharedata.php">View share information</a></span>
+          <span class="spn-viewAssetGallery"><a href="portfolio_investmentportfolio.php">View portfolio</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
         <br>

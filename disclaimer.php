@@ -34,7 +34,7 @@
         <ul id="nav_main">
           <li><a href="about_overview.php">About</a></li>
           <li><a href="portfolio_investmentportfolio.php">Portfolio</a></li>
-          <li><a href="investors_shareprice.php">Investors</a></li>
+          <li><a href="investors_sharedata.php">Investors</a></li>
           <li><a href="media_presscoverage.php">Media</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
@@ -82,7 +82,7 @@ Any person accessing the website should carefully review the Terms of Use of the
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery"><a href="investors_shareprice.php">View share information</a></span>
+          <span class="spn-viewAssetGallery"><a href="investors_sharedata.php">View share information</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
         <br>
