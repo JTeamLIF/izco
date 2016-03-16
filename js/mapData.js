@@ -64,8 +64,7 @@ latlong["EL"] = {"latitude":51.654711, "longitude":-0.080011};
 latlong["WL"] = {"latitude":52.586229, "longitude":-1.981446};
 latlong["WS"] = {"latitude":53.684341, "longitude":-1.503688};
 latlong["MS"] = {"latitude":53.684341, "longitude":-1.503688};
-
-
+latlong["FU"] = {"latitude":51.517450, "longitude":-0.126323};
 
 var mapData = [
 {
@@ -706,6 +705,17 @@ var mapData = [
    "address":"United Kingdom",
    "category":"street-lighting",
    "id":"Manchester-Street-Lighting"
+},
+{
+   "code":"FU",
+   "name":"British Transport Police PPP",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"The project involves the Design, Build, Finance and Operation of two new police stations in West Ham and Tottenham Court Road, as well as the operation and management of a further five existing stations across London. This is under a 23-year concession which runs until February 2022.",
+   "ownership":100,
+   "address":"United Kingdom",
+   "category":"justice-and-emergency-services",
+   "id":"British-Transport-Police-PPP"
 }
 ];
 
