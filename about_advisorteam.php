@@ -53,7 +53,7 @@
   </div>
   <div class="row">
     <div class="col-md-12 breadcrumb">
-      <div class="col-lg-9 pull-right breadcrumbLinks"> <span class="previousPage"> <a href="index.php">Home</a> </span> | <span class="previousPage"> <a href="about_overview.php">About</a> </span> | <span class="activePage"> <a href="about_advisorteam.php">Investor adviser team</a> </span> </div>
+      <div class="col-lg-9 pull-right breadcrumbLinks"> <span class="previousPage"> <a href="index.php">Home</a> </span> | <span class="previousPage"> <a href="about_overview.php">About</a> </span> | <span class="activePage"> <a href="about_advisorteam.php">Investment adviser team</a> </span> </div>
     </div>
   </div>
   <div class="row">
@@ -62,10 +62,11 @@
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
           <li class="level-1 first"><a href="about_overview.php">Overview</a></li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
-          <li class="level-1 parent-menu-active"><a href="about_advisorteam.php">The team</a>
+          <li class="level-1 parent-menu-active"><a href="about_boardofdirectors.php">The team</a>
             <ul class="nav_sub">
-              <li class="level-2 parent-menu-active first"><a href="about_advisorteam.php">Investor adviser team</a></li>
               <li class="level-2"><a href="about_boardofdirectors.php">Board of directors</a></li>
+              <li class="level-2 parent-menu-active first"><a href="about_advisorteam.php">Investment adviser team</a></li>
+              
             </ul>
           </li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
@@ -75,8 +76,8 @@
         </ul>
       </div>
       <div class="col-lg-6 content1" id="inverstorAdvisorTeam">
-        <h1>Investor adviser team</h1>
-        <h3>JLIF benefits from experienced investment advisers who have significant knowledge and expertise in infrastructure. Utilising this extensive PPP knowledge they will seek to deliver further value from the diversified Portfolio by enhancing the value of the assets.</h3>
+        <h1>Investment adviser team</h1>
+        <h3>JLIF benefits from an experienced investment adviser that has significant knowledge and expertise in infrastructure management and investments. This extensive knowledge is used to deliver additional value to the Portfolio both by enhancing existing projects and by selectively making acquisitions.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">

@@ -74,7 +74,7 @@
             </ul>
           </li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
-          <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
+          <li class="level-1"><a href="about_boardofdirectors.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
@@ -113,22 +113,22 @@
        <div class="col-md-3 statistics">
         <div>
           <p class="heading">Market capitalisation</p>
-          <p class="price">£991.5m</p>
-          <p class="time">As at 3:15pm . 21 Oct 15</p>
+          <p class="price">£950.8m</p>
+          <p class="time">As at 3:15pm . 21 December 15</p>
         </div>
       </div>
        <div class="col-md-3 statistics">
         <div>
-          <p class="heading">Total net assets</p>
-          <p class="price">£875.8m</p>
-          <p class="time">As at 3:15pm . 21 Oct 15</p>
+          <p class="heading">Net assets</p>
+          <p class="price">£883.1m</p>
+          <p class="time">As at 3:15pm . 21 December 15</p>
         </div>
       </div>
        <div class="col-md-3 statistics">
         <div>
           <p class="heading">NAV per share</p>
-          <p class="price">107.8p</p>
-          <p class="time">As at 3:15pm . 21 Oct 15</p>
+          <p class="price">108.4p</p>
+          <p class="time">As at 3:15pm . 21 December 15</p>
         </div>
       </div>
     </div>
@@ -142,40 +142,6 @@
         <h1>The investment adviser</h1>
         <h3>John Laing Capital Management Limited (“JLCM”), a wholly owned subsidiary of John Laing, acts as the Investment Adviser to the Company and as the Operator of JLIF Limited Partnership. </h3>
         <p>JLCM was incorporated in England and Wales on 19 May 2004 under the Companies Act 1985 (registered number 5132286) and has been authorised and regulated in the UK by the Financial Services Authority (now the Financial Conduct Authority) since December 2004. JLCM has the ability to call on and utilise the substantial experience of the John Laing Group in the management of the Fund.</p>
-
-
-      <div class="contactCard">
-        <div class="pull-left contactPicture">
-          <img src="images/paul.jpg">
-        </div>
-        <div class="pull-right contactInfo">
-          <h1>Paul Lester CBE</h1>
-          <h3>Chairman</h3>
-
-          <p>Paul Lester, a resident of the United Kingdom,was appointed as non-executive Chairman of four organisations: Greenergy International Ltd on 1 October 2010, Peverel in April 2012, Paribas in October 2012 and Signia Wealth Ltd in January 2014...</p>
-          <div href="#" class="btn-viewAssetGallery">
-            <span class="spn-viewAssetGallery"><a href="about_boardofdirectors.php">Read more</span>
-            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="contactCard">
-        <div class="pull-left contactPicture">
-          <img src="images/andrew.jpg">
-        </div>
-        <div class="pull-right contactInfo">
-          <h1>Andrew Charlesworth</h1>
-          <h3>Investment Adviser</h3>
-
-          <p>Andrew Charlesworth is a Director of JLCM, responsible for delivering the fund’s performance targets. He has been able to draw on 19 years of experience in infrastructure development and finance to help JLIF grow from a Portfolio Value of £259.0 million at launch...</p>
-          <div href="#" class="btn-viewAssetGallery">
-            <span class="spn-viewAssetGallery"><a href="about_advisorteam.php">Read more</span>
-            <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a>
-          </div>
-        </div>
-      </div>
-
       </div>
 
       <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre" style="background-color: #f7f7f7;">

@@ -62,7 +62,7 @@
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
           <li class="level-1 first"><a href="about_overview.php">Overview</a></li>
           <li class="level-1 parent-menu-active"><a href="about_keyevents.php">Key events</a></li>
-          <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
+          <li class="level-1"><a href="about_boardofdirectors.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
@@ -71,8 +71,8 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Financial and Operational Highlights </h1>
-        <h3>JLIF has grown consistently since launch. The Company has successfully raised over £800 million of primary equity since 2010, whilst delivering a 53% total return for shareholders over that time. The focus continues to be on delivering a stable and secure income for its shareholders by investing in low risk, high yielding assets.</h3>
-        <p>JLIF continues to grow the Portfolio through active management, identifying and executing value enhancements whilst continuing to provide the high level of service expected by its public sector clients. JLIF’s Portfolio is currently valued at £867.8 million.</p>
+        <h3>JLIF has grown consistently since launch. The Company has successfully raised over £900 million of primary equity since November 2010, whilst delivering a 50.2% total return for shareholders over that time. JLIF’s focus continues to be on delivering a stable and secure income for its shareholders by investing in low risk, high yielding assets.</h3>
+        <p>JLIF continues to grow the Portfolio through active management, identifying and executing value enhancements on its existing Portfolio and also by acquisition of interests in new projects. JLIF’s Portfolio was valued at £867.8 million as at 31 December 2015.</p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
