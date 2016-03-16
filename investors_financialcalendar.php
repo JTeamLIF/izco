@@ -85,7 +85,26 @@
 
         <!-- Tab panes -->
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="upcomingEvents">
+        <div role="tabpanel" class="tab-pane active" id="upcomingEvents">
+             <table class="table-striped publicationsTable">
+              <tr>
+                <td>
+                  <span class="date">16 May 2016</span>
+                  <span class="text">Annual General Meeting</span>
+                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">13 May 2016</span>
+                  <span class="text">2nd half-year Dividend Payment</span>
+                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
+                </td>
+              </tr>
+
+            </table>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="pastEvents">
             <table class="table-striped publicationsTable">
               <tr>
                 <td>
@@ -104,52 +123,7 @@
 
             </table>
           </div>
-          <div role="tabpanel" class="tab-pane" id="pastEvents">
-             <table class="table-striped publicationsTable">
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">25 Feb 2016</span>
-                  <span class="text">Lorem ipsum dolor sit amet, justo nihil accumsan ut has</span>
-                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
-                </td>
-              </tr>
-            </table>
-          </div>
+          
         </div>
       </div>
       <div class="col-lg-3 rightcol1">
