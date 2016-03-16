@@ -14,8 +14,8 @@
                   <li><a href="about_overview.php#whatWeDo">About</a></li>
                   <li><a href="about_overview.php#whoWeAre">The investment adviser</a></li>
                   <li><a href="about_keyevents.php">Key events</a></li>
-                  <li><a href="about_advisorteam.php">Investor adviser team</a></li>
                   <li><a href="about_boardofdirectors.php">Board of directors</a></li>
+                  <li><a href="about_advisorteam.php">Investment adviser team</a></li>                  
                   <li><a href="about_investmentpolicy.php">Investment policy</a></li>
                   <li><a href="about_riskmanagement.php">Risk management</a></li>
                   <li><a href="about_riskmanagement.php#riskcommittee">Risk committee</a></li>

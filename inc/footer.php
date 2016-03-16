@@ -13,7 +13,7 @@
             <li class="footertitle"><a href="about_overview.php">About</a></li>
             <li><a href="about_overview.php">Overview</a></li>
             <li><a href="about_keyevents.php">Key events</a></li>
-            <li><a href="about_advisorteam.php">The team</a></li>
+            <li><a href="about_boardofdirectors.php">The team</a></li>
             <li><a href="about_investmentpolicy.php">Investment policy</a></li>
             <li><a href="about_riskmanagement.php">Risk management</a></li>
             <li><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>

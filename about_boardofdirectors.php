@@ -57,10 +57,11 @@
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
           <li class="level-1 first"> <a href="about_overview.php">Overview</a> </li>
           <li class="level-1"> <a href="about_keyevents.php">Key events</a> </li>
-          <li class="level-1 parent-menu-active"> <a href="about_advisorteam.php">The team</a>
+          <li class="level-1 parent-menu-active"> <a href="about_boardofdirectors.php">The team</a>
             <ul class="nav_sub">
-              <li class="level-2 first"> <a href="about_advisorteam.php">Investor adviser team</a> </li>
-              <li class="level-2 parent-menu-active"> <a href="about_boardofdirectors.php">Board of directors</a> </li>
+            <li class="level-2 parent-menu-active"> <a href="about_boardofdirectors.php">Board of directors</a> </li>
+            <li class="level-2 first"> <a href="about_advisorteam.php">Investment adviser team</a> </li>
+              
             </ul>
           </li>
           <li class="level-1"> <a href="about_investmentpolicy.php">Investment policy</a> </li>

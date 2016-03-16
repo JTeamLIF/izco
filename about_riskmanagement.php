@@ -56,7 +56,7 @@
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
           <li class="level-1 first"><a href="about_overview.php">Overview</a></li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
-          <li class="level-1"><a href="about_advisorteam.php">The team</a></li>
+          <li class="level-1"><a href="about_boardofdirectors.php">The team</a></li>
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1 parent-menu-active"><a href="about_riskmanagement.php">Risk management</a>
             <ul class="nav_sub">
