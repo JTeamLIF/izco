@@ -290,13 +290,17 @@ hr {
 	padding-top: 15px;
 }
 .newsitem {
-	border-bottom: 1px solid #666666;
-	line-height: 0.8em;
-	padding-top: 20px;
-	font-size: 1.2em;
+    border-bottom: 1px solid #666666;
+    font-size: 1.2em;
+    height: 75px;
+    line-height: 0.8em;
+    padding-top: 15px;
 }
 .newsdate {
 	color: #3B7CBD;
+}
+.newstitle {
+	line-height:1.2em;
 }
 .thumbs {
 	height: 322px;

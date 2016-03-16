@@ -20,12 +20,21 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-
+    <?php     
+	$xml=simplexml_load_file("http://tools.euroland.com/tools/services/?func=GetCompanyPressReleases&companycode=uk-jlif&format=xml&amount=2") or die("Error: Cannot create object");
+	$titlern1 = (string)$xml->item[0]->title;
+	$titlern2 = (string)$xml->item[1]->title;
+	$datetimern1 = (string)$xml->item[0]->date;
+	$rndate1 = date_create($datetimern1);
+	$datetimern2 = (string)$xml->item[1]->date;
+	$rndate2 = date_create($datetimern2);
+	?>
 </head>
 
 <body>
 
 <?php require_once('twitterapi/index_new.php'); ?>
+
 
 <div class="im-centered">
  <?php include("inc/mobile_navigation.php"); ?>
@@ -177,11 +186,11 @@
         <div class="upcomingeventscontent">
           <div class="newsitem">
             <p class="newsdate">16 May 2016</p>
-            <p>Annual General Meeting</p>
+            <p class="newstitle">Annual General Meeting</p>
           </div>
           <div class="newsitem">
             <p class="newsdate">13 May 2016</p>
-            <p>2nd half-year Dividend Payment</p>
+            <p class="newstitle">2nd half-year Dividend Payment</p>
           </div>
           <div href="#" class="btn-viewAssetGallery">
             <a href="investors_financialcalendar.php"><span class="spn-viewAssetGallery">View all events</span>
@@ -189,18 +198,19 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-3 regnews">
         <div class="regnewstitle">
           <h3>Latest regulatory news</h3>
         </div>
         <div class="regnewscontent">
            <div class="newsitem">
-            <p class="newsdate">16 Mar 2016</p>
-            <p>Preliminary Results 31 Dec 2015</p>
+            <p class="newsdate"><?php echo date_format($rndate1, 'F j, Y');?></p>
+            <p class="newstitle"><?php echo $titlern1;?></p>
           </div>
           <div class="newsitem">
-            <p class="newsdate">07 Mar 2016</p>
-            <p>Results of Placing</p>
+            <p class="newsdate"><?php echo date_format($rndate2, 'F j, Y');?></p>
+            <p class="newstitle"><?php echo $titlern2;?></p>
           </div>
 
           <div href="#" class="btn-viewAssetGallery"> <a href="investors_latestregulatorynews.php"><span class="spn-viewAssetGallery">View all news</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a> </div>
