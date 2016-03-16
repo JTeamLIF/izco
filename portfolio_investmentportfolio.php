@@ -76,7 +76,7 @@
       </div>
       <div class="col-lg-6 content1">
         <h1>Investment Portfolio</h1>
-        <h3>JLIF has invested its capital in the acquisition of 57 independently valued infrastructure projects sourced from third party vendors and John Laing, with a growing proportion of assets acquired from the broader secondary market. The portfolio provides geographic diversification in countries that are regarded as fiscally strong and are committed to PPP projects.</h3>
+        <h3>JLIF has an investment portfolio of 59 infrastructure projects sourced from both third party vendors and John Laing Group. The portfolio provides sectoral and geographic diversification, comprising jurisdictions that are regarded as fiscally strong and are committed to the PPP procurement model.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
