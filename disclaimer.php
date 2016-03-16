@@ -87,7 +87,7 @@ Any person accessing the website should carefully review the Terms of Use of the
           </div>
         <br>
         <div href="#" class="btn-viewAssetGallery">
-          <span class="spn-viewAssetGallery"><a href="docs/presentations/2014_Annual_Results_Presentation[1].pdf" target="_blank">View annual report</a></span>
+          <span class="spn-viewAssetGallery"><a href="docs/reportsandresults/JLIF Annual Report 2015.pdf" target="_blank">View annual report</a></span>
           <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span>
           </div>
       </div>

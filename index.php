@@ -194,14 +194,15 @@
           <h3>Latest regulatory news</h3>
         </div>
         <div class="regnewscontent">
+           <div class="newsitem">
+            <p class="newsdate">16 Mar 2016</p>
+            <p>Preliminary Results 31 Dec 2015</p>
+          </div>
           <div class="newsitem">
             <p class="newsdate">07 Mar 2016</p>
             <p>Results of Placing</p>
           </div>
-          <div class="newsitem">
-            <p class="newsdate">29 Feb 2016</p>
-            <p>Agreement and Completion of Acquisition</p>
-          </div>
+
           <div href="#" class="btn-viewAssetGallery"> <a href="investors_latestregulatorynews.php"><span class="spn-viewAssetGallery">View all news</span> <span class="glyphicon glyphicon-triangle-right pull-left" aria-hidden="true"></span></a> </div>
         </div>
       </div>
