@@ -106,8 +106,9 @@ var url = getUrlParameters("loc", "", true);
   <li>YOU ARE NOT A US PERSON OR OTHERWISE ACTING FOR THE ACCOUNT OR BENEFIT OF A US PERSON OR RESIDENT OR AUSTRALIA, CANADA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA</li>
   </ul>
 <p>
-  <button type="button" class="btn btn-default navbar-btn inline accept"><a href='http://www.jlif.com/' onMouseDown="setCookie()" onClick="location.href=url;return false;">Accept</a></button>
+  <button type="button" class="btn btn-default navbar-btn inline accept"><a href='#' onMouseDown="setCookie()" onMouseUp="location.href=url;return false;">Accept</a></button>
 </p>
+
       </div>
       <div class="col-lg-3 rightcol1">
        
@@ -122,6 +123,7 @@ var url = getUrlParameters("loc", "", true);
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script src="js/app.js"></script>
+
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
