@@ -48,7 +48,6 @@ function getUrlParameters(parameter, staticURL, decode){
 
 var url = getUrlParameters("loc", "", true);
 
-
 </script>
 </head>
 <?php $categorytitle = 'Disclaimer'; ?>
@@ -106,9 +105,9 @@ var url = getUrlParameters("loc", "", true);
   <li>YOU ARE NOT A US PERSON OR OTHERWISE ACTING FOR THE ACCOUNT OR BENEFIT OF A US PERSON OR RESIDENT OR AUSTRALIA, CANADA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA</li>
   </ul>
 <p>
-  <button type="button" class="btn btn-default navbar-btn inline accept"><a href='#' onMouseDown="setCookie()" onMouseUp="location.href=url;return false;">Accept</a></button>
+  <button type="button" class="btn btn-default navbar-btn inline accept"><a href='#' id="accept">Accept</a></button>
 </p>
-
+	
       </div>
       <div class="col-lg-3 rightcol1">
        
@@ -123,7 +122,36 @@ var url = getUrlParameters("loc", "", true);
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script src="js/app.js"></script>
+<script>
+$('#accept').on('click', function() {
+      {
+document.cookie = "verify_jlif=yes";
+}
 
+function getUrlParameters(parameter, staticURL, decode){
+
+   var currLocation = (staticURL.length)? staticURL : window.location.search,
+       parArr = currLocation.split("?")[1].split("&"),
+       returnBool = true;
+   
+   for(var i = 0; i < parArr.length; i++){
+        parr = parArr[i].split("=");
+        if(parr[0] == parameter){
+            return (decode) ? decodeURIComponent(parr[1]) : parr[1];
+            returnBool = true;
+        }else{
+            returnBool = false;            
+        }
+   }
+   
+   if(!returnBool) return false;  
+}
+
+var url = getUrlParameters("loc", "", true);
+      location.href=url;
+      return false;
+    });
+</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
