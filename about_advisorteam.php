@@ -42,7 +42,7 @@ if (getCookie("verify_jlif"))
 else
 {
     // Cookie not found, redirect to gateway.php	
-	window.location = "http://www.jlif.com/gateway.php?loc=" + document.URL
+	////window.location = "http://www.jlif.com/gateway.php?loc=" + document.URL
 }
 </script>
 <script type="text/javascript">
