@@ -184,7 +184,7 @@ else
               <div id="Guido_van_Berkel" class="teamMember">
                 <div class="emptyOverlay"></div>
                 <div class="teamMemberInfo">
-                  <h1>Guido_van_Berkel</h1>
+                  <h1>Guido van Berkel</h1>
                   <h3>Director</h3>
                   <div class="dropup">
                     <span class="glyphicon glyphicon-triangle-top pull-right" aria-hidden="true" style="display:block; top: -35px; right: -10px;"></span>

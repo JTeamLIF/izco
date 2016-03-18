@@ -171,6 +171,12 @@ else
             <table class="table-striped publicationsTable">
               <tr>
                 <td>
+                  <span class="date">18 Mar 2016</span>
+                  <span class="text"><a href="docs/factsheets/JLIF Factsheet Dec15.pdf" target="_blank">JLIF Factsheet December 2015</a></span>
+                </td>
+              </tr>            
+              <tr>
+                <td>
                   <span class="date">9 Nov 2015</span>
                   <span class="text"><a href="docs/factsheets/JLIF_Fact_Sheet_September_15[1].pdf" target="_blank">JLIF Factsheet September 2015</a></span>
                 </td>
@@ -209,12 +215,6 @@ else
                 <td>
                   <span class="date">2 May 2014</span>
                   <span class="text"><a href="docs/factsheets/March_2014_Fact_sheet[1].pdf" target="_blank">JLIF Factsheet March 2014</a></span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="date">24 Mar 2014</span>
-                  <span class="text">JLIF Factsheet</span>
                 </td>
               </tr>
               <tr>

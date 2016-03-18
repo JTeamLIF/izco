@@ -58,7 +58,7 @@
     <!-- /.container -->
     <div class="row">
       <div class="col-md-12 underFooter">
-        <div class="col-lg-6 pull-left copyright"> &copy;2016 John Laing Infrastructure Fund </div>
+        <div class="col-lg-6 pull-left copyright"> &copy; 2016 John Laing Infrastructure Fund </div>
         <div class="col-lg-6 pull-right utilities"> <a href="termsandconditions.php">Terms &amp; Conditions</a> | <a href="disclaimer.php">Disclaimer</a> | <a href="privacypolicy.php">Privacy Policy</a> | <a href="cookiepolicy.php">Cookie Policy</a> </div>
       </div>
     </div>

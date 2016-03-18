@@ -44,7 +44,7 @@ if (getCookie("verify_jlif"))
 else
 {
     // Cookie not found, redirect to gateway.php	
-	window.location = window.location.protocol + "//" + window.location.host + "/" + "gateway.php?loc=" + document.URL
+	//window.location = window.location.protocol + "//" + window.location.host + "/" + "gateway.php?loc=" + document.URL
 	
 }
 </script>
@@ -153,21 +153,21 @@ else
         <div>
           <p class="heading">Market capitalisation</p>
           <p class="price">£950.8m</p>
-          <p class="time">As at 3:15pm . 21 December 15</p>
+          <p class="time">As at 31 December 15</p>
         </div>
       </div>
        <div class="col-md-3 statistics">
         <div>
           <p class="heading">Net assets</p>
           <p class="price">£883.1m</p>
-          <p class="time">As at 3:15pm . 21 December 15</p>
+          <p class="time">As at 31 December 15</p>
         </div>
       </div>
        <div class="col-md-3 statistics">
         <div>
           <p class="heading">NAV per share</p>
           <p class="price">108.4p</p>
-          <p class="time">As at 3:15pm . 21 December 15</p>
+          <p class="time">As at 31 December 15</p>
         </div>
       </div>
     </div>
@@ -181,7 +181,7 @@ else
         <h1>The investment adviser</h1>
         <h3>John Laing Capital Management Limited (“JLCM”), a wholly owned subsidiary of John Laing, acts as the Investment Adviser to the Company and as the Operator of JLIF Limited Partnership. </h3>
         <p>JLCM was incorporated in England and Wales on 19 May 2004 under the Companies Act 1985 (registered number 5132286) and has been authorised and regulated in the UK by the Financial Services Authority (now the Financial Conduct Authority) since December 2004. JLCM has the ability to call on and utilise the substantial experience of the John Laing Group in the management of the Fund.</p>
-      </div>
+      <img src="images/jlif_structure.jpg" width="612" height="758" alt="jlif structure"> </div>
 
       <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre" style="background-color: #f7f7f7;">
         <div href="#" class="btn-viewAssetGallery">
