@@ -21,6 +21,44 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+<script type="text/javascript">
+function getCookie(name) {
+     var dc = document.cookie;
+     var prefix = name + "=";
+     var begin = dc.indexOf("; " + prefix);
+     if (begin == -1) {
+          begin = dc.indexOf(prefix);
+          if (begin != 0) return null;
+     } else
+          begin += 2;
+     var end = document.cookie.indexOf(";", begin);
+     if (end == -1)
+          end = dc.length;
+     return unescape(dc.substring(begin + prefix.length, end));
+}
+if (getCookie("verify_jlif"))
+{
+    //If cookie is found, visitor has visited/viewed the home/disclaimer page. Do not redirect visitor to the home/disclaimer page; allow visitor to view page.
+}
+else
+{
+    // Cookie not found, redirect to gateway.php	
+	window.location = "http://www.jlif.com/gateway.php?loc=" + document.URL
+}
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19101193-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <?php $categorytitle = 'Contact'; ?>
 <body>
