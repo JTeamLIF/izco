@@ -30,6 +30,7 @@
 	$rndate2 = date_create($datetimern2);
 	?>
 
+
 </head>
 
 <body>

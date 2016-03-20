@@ -13,6 +13,7 @@ $('.accept').on('click', function () {
    });
  });
 
-function setCookie() {
-  document.cookie = "verify_jlif=yes";
+function setCookie()
+{
+document.cookie = "verify_jlif=yes";
 }
