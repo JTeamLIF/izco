@@ -1,4 +1,5 @@
-    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://jlif.com/cookiepolicy.php","theme":"light-bottom"};
+// THIS IS NOTHING TO DO WITH THE GATEWAY PAGE!!
+window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://jlif.com/cookiepolicy.php","theme":"light-bottom"};
 	
 
 $(function () {

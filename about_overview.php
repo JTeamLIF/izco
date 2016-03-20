@@ -24,31 +24,58 @@
 
 <script type="text/javascript">
 function getCookie(name) {
-     var dc = document.cookie;
-     var prefix = name + "=";
-     var begin = dc.indexOf("; " + prefix);
-     if (begin == -1) {
-          begin = dc.indexOf(prefix);
-          if (begin != 0) return null;
-     } else
-          begin += 2;
-     var end = document.cookie.indexOf(";", begin);
-     if (end == -1)
-          end = dc.length;
-     return unescape(dc.substring(begin + prefix.length, end));
-}
-if (getCookie("verify_jlif"))
-{
-    //If cookie is found, visitor has visited/viewed the home/disclaimer page. Do not redirect visitor to the home/disclaimer page; allow visitor to view page.
-}
-else
-{
-    // Cookie not found, redirect to gateway.php	
-	window.location = "http://www.jlif.com/gateway.php?loc=" + document.URL
-	
-}
-</script>
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    }
+    else
+    {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+    }
+    return unescape(dc.substring(begin + prefix.length, end));
+} 
 
+    var myCookie = getCookie("verify_jlif");
+
+    if (myCookie == null) {
+        window.location = "http://jlif.com/gateway.php?loc=" + document.URL;
+    }
+
+</script>
+<script type="text/javascript">
+function getCookie(name) {
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    }
+    else
+    {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+    }
+    return unescape(dc.substring(begin + prefix.length, end));
+} 
+
+    var myCookie = getCookie("verify_jlif");
+
+    if (myCookie == null) {
+        window.location = "http://jlif.com/gateway.php?loc=" + document.URL;
+    }
+
+</script>
 </head>
 <?php $categorytitle = 'About'; ?>
 <body>
@@ -169,7 +196,7 @@ else
         <h1>The investment adviser</h1>
         <h3>John Laing Capital Management Limited (“JLCM”), a wholly owned subsidiary of John Laing, acts as the Investment Adviser to the Company and as the Operator of JLIF Limited Partnership. </h3>
         <p>JLCM was incorporated in England and Wales on 19 May 2004 under the Companies Act 1985 (registered number 5132286) and has been authorised and regulated in the UK by the Financial Services Authority (now the Financial Conduct Authority) since December 2004. JLCM has the ability to call on and utilise the substantial experience of the John Laing Group in the management of the Fund.</p>
-      <img src="images/jlif_structure.jpg" width="612" height="758" alt="jlif structure"> </div>
+      <img class="img-responsive" src="images/jlif_structure.jpg" alt="jlif structure"> </div>
 
       <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre" style="background-color: #f7f7f7;">
         <div href="#" class="btn-viewAssetGallery">
