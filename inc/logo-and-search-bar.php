@@ -5,11 +5,11 @@
     </a>
   </div>
   <div class="searchBarDiv">
-    <div class="form-group">
+    <!--<div class="form-group">
       <input type="text" class="searchBar pull-left" placeholder="Search">
       <button type="submit" class="btn-search pull-left">
         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
       </button>
-    </div>
+    </div>-->
   </div>
 </div>
