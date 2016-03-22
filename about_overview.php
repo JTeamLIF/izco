@@ -124,7 +124,7 @@ function getCookie(name) {
           <li class="level-1 parent-menu-active"><a href="#">Overview</a>
             <ul class="nav_sub">
               <li class="level-2 parent-menu-active first"><a href="about_overview.php#whatWeDo">About</a></li>
-              <li class="level-2"><a href="about_overview.php#whoWeAre">The investment adviser</a></li>
+              <li class="level-2"><a href="about_overview.php#whoWeAre">Corporate structure</a></li>
             </ul>
           </li>
           <li class="level-1"><a href="about_keyevents.php">Key events</a></li>
@@ -193,9 +193,7 @@ function getCookie(name) {
       <div class="col-lg-3 menu_left whoWeAre" style="background-color: #f7f7f7;">
       </div>
       <div class="col-lg-6 content1 whoWeAre" style="background-color: #f7f7f7;">
-        <h1>The investment adviser</h1>
-        <h3>John Laing Capital Management Limited (“JLCM”), a wholly owned subsidiary of John Laing, acts as the Investment Adviser to the Company and as the Operator of JLIF Limited Partnership. </h3>
-        <p>JLCM was incorporated in England and Wales on 19 May 2004 under the Companies Act 1985 (registered number 5132286) and has been authorised and regulated in the UK by the Financial Services Authority (now the Financial Conduct Authority) since December 2004. JLCM has the ability to call on and utilise the substantial experience of the John Laing Group in the management of the Fund.</p>
+        <h1>Corporate structure</h1>
       <img class="img-responsive" src="images/jlif_structure.jpg" alt="jlif structure"> </div>
 
       <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre" style="background-color: #f7f7f7;">
