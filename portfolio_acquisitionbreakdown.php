@@ -23,33 +23,33 @@
 
 
 
-//<script type="text/javascript">
-//function getCookie(name) {
-//    var dc = document.cookie;
-//    var prefix = name + "=";
-//    var begin = dc.indexOf("; " + prefix);
-//    if (begin == -1) {
-//        begin = dc.indexOf(prefix);
-//        if (begin != 0) return null;
-//    }
-//    else
-//    {
-//        begin += 2;
-//        var end = document.cookie.indexOf(";", begin);
-//        if (end == -1) {
-//        end = dc.length;
-//        }
-//    }
-//    return unescape(dc.substring(begin + prefix.length, end));
-//} 
-//
-//    var myCookie = getCookie("verify_jlif");
-//
-//    if (myCookie == null) {
-//        window.location = "http://jlif.com/gateway.php?loc=" + document.URL;
-//    }
-//
-//</script>
+<script type="text/javascript">
+function getCookie(name) {
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    }
+    else
+    {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+    }
+    return unescape(dc.substring(begin + prefix.length, end));
+} 
+
+    var myCookie = getCookie("verify_jlif");
+
+    if (myCookie == null) {
+        window.location = "http://jlif.com/gateway.php?loc=" + document.URL;
+    }
+
+</script>
 </head>
 <?php
 $categorytitle = 'Portfolio';
