@@ -1083,6 +1083,18 @@ ol li {
 	padding-left: 10px;
 }
 
+.chartheadblock2 {
+	background-color: #666;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    height: 30px;
+    line-height: 2.5em;
+    width: 260px;
+	margin-top: 50px;
+	padding-left: 10px;
+}
+
 iframe {
 	border: 0 none;
 }
