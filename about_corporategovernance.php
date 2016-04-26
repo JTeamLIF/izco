@@ -95,7 +95,11 @@ function getCookie(name) {
           <li class="level-1"><a href="about_investmentpolicy.php">Investment policy</a></li>
           <li class="level-1"><a href="about_riskmanagement.php">Risk management</a></li>
           <li class="level-1"><a href="about_corporatesocialresponsibility.php">Corporate social responsibility</a></li>
-          <li class="level-1 parent-menu-active"><a href="about_corporategovernance.php">Corporate governance</a></li>
+          <li class="level-1 parent-menu-active"><a href="about_corporategovernance.php">Corporate governance</a>
+                      <ul class="nav_sub">
+              <li class="level-2 parent-menu-active first"><a href="about_corporategovernance.php">Corporate governance</a></li>
+              <li class="level-2"><a href="about_corporategovernance.php#articlesofincorporation">Articles of incorporation</a></li>
+            </ul></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
@@ -133,7 +137,22 @@ function getCookie(name) {
       </div>
     </div>
   </div>
+<div class="row">
+    <div class="col-md-12 contentwrapper1"  style="background-color: #f7f7f7;">
+      <div class="col-lg-3 menu_left"  style="background-color: #f7f7f7;">
+      </div>
+      <div class="col-lg-6 content1"  style="background-color: #f7f7f7;">
+        <h1><a id="articlesofincorporation"></a>Articles of incorporation</h1>
 
+        <p><a href="docs/John Laing - Articles of Incorporation - Current.pdf" target="_blank">JLIF Articles of Association – Current</a></p>
+        <p><a href="docs/John Laing - Memorandum and Articles of Incorporation NEW.pdf" target="_blank">JLIF Articles of Association – Proposed Subject to AGM Resolution Approval</a></p>
+
+      </div>
+      <div class="col-lg-3 rightcol1"  style="background-color: #f7f7f7;">
+
+      </div>
+    </div>
+  </div>
   <!-- Footer -->
   <?php include("inc/footer.php"); ?>
 </div>
