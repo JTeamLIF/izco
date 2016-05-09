@@ -92,6 +92,7 @@ function getCookie(name) {
 
           <li class="level-1 first"><a href="investors_sharedata.php">Share Information</a></li>
           <li class="level-1"><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
+          <li class="level-1"><a href="investors_othernews.php">Other news</a></li>
           <li class="level-1"><a href="investors_dividends.php">Dividends</a></li>
           <li class="level-1 parent-menu-active"><a href="investors_publications.php">Publications</a></li>
           <li class="level-1"><a href="investors_financialcalendar.php">Financial Calendar</a></li>

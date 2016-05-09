@@ -81,8 +81,7 @@ function getCookie(name) {
       <div class="col-lg-9 pull-right breadcrumbLinks">
         <span class="previousPage"><a href="index.php">Home</a></span> |
         <span class="previousPage">Investors</span> |
-        <span class="previousPage">Regulatory news</span> |
-        <span class="activePage">Latest and archived news</span>
+        <span class="activePage">Other news</span>
       </div>
     </div>
   </div>
@@ -92,21 +91,84 @@ function getCookie(name) {
         <ul class="nav_left hidden-xs hidden-sm hidden-md">
 
           <li class="level-1 first"><a href="investors_sharedata.php">Share Information</a></li>
-          <li class="level-1 parent-menu-active"><a href="investors_latestregulatorynews.php">Regulatory news</a>
-          <ul class="nav_sub">
-
-              <li class="level-2 parent-menu-active"><a href="investors_latestregulatorynews.php">Latest and archived news</a></li>
-              <li class="level-2"><a href="investors_newsemailalerts.php">News email alerts</a>
-            </ul></li>
-            <li class="level-1"><a href="investors_othernews.php">Other news</a></li>
+          <li class="level-1"><a href="investors_latestregulatorynews.php">Regulatory news</a></li>
+          <li class="level-1 parent-menu-active"><a href="investors_othernews.php">Other news</a></li>
           <li class="level-1"><a href="investors_dividends.php">Dividends</a></li>
           <li class="level-1"><a href="investors_publications.php">Publications</a></li>
           <li class="level-1"><a href="investors_financialcalendar.php">Financial Calendar</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
-        <h1>Latest and archived news</h1>
-<iframe src="http://tools.euroland.com/tools/pressreleases/?companycode=uk-jlif&lang=en-gb" width="100%" height="860px" ></iframe>
+        <h1>Other news</h1>
+        <!--<p>Search by date, keyword or category</p>
+        <div class="input-group inline">
+          <input type="text" class="form-control" placeholder="Keyword" aria-describedby="basic-addon1">
+        </div>
+        <div class="dropdown inline" style="margin-left: 37px;">
+          <button class="btn btn-default dropdown-toggle categoryDropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="title">Category</span>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </div>-->
+        <!--<div class="clearfix"></div>
+        <br>
+        <div class="input-group inline">
+          <input type="text" class="form-control" placeholder="From" aria-describedby="basic-addon1">
+        </div>
+        <img src="images/calendar-icon.jpg" class="inline calendarIconPadding">
+        <div class="input-group inline">
+          <input type="text" class="form-control" placeholder="To" aria-describedby="basic-addon1">
+        </div>
+        <img src="images/calendar-icon.jpg" class="inline calendarIconPadding">
+        <button type="button" class="btn btn-default navbar-btn inline search">Search</button>
+
+        <div class="clearfix"></div>-->
+
+        <div class="publicationsMain">
+
+        <!--<ul class="years">
+          <li><span>2016</span></li>
+          <li>2015</li>
+          <li>2014</li>
+          <li>2013</li>
+          <li>2012</li>
+        </ul>
+        <h2 class="selectedYear">2016</h2>
+        <p><b>Total:</b> 7 results</p>-->
+
+       <!-- Nav tabs -->
+        <ul class="nav nav-tabs publicationsTab" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#factsheet" aria-controls="factsheet" role="tab" data-toggle="tab">Other news</a>
+          </li>
+
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="factsheet">
+            <table class="table-striped publicationsTable">
+              <tr>
+                <td>
+                  <span class="date">6 April 2016</span>
+                  <span class="text"><a href="docs/othernews/2015_16_Scrip_Circular_prf3a.pdf" target="_blank">Scrip Circular Announcement</a></span>
+                </td>
+              </tr>            
+            </table>
+          </div>
+          
+			
+			
+        </div>
+
+
+        </div>
+
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
