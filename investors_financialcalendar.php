@@ -119,6 +119,25 @@ function getCookie(name) {
              <table class="table-striped publicationsTable">
               <tr>
                 <td>
+                  <span class="date">9 September 2016</span>
+                  <span class="text">Publication of 2016 interim results</span>
+                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">30 June 2016</span>
+                  <span class="text">Financial half-year end 2016</span>
+                  <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
+                </td>
+              </tr>
+
+            </table>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="pastEvents">
+            <table class="table-striped publicationsTable">
+                          <tr>
+                <td>
                   <span class="date">16 May 2016</span>
                   <span class="text">Annual General Meeting</span>
                   <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
@@ -131,11 +150,6 @@ function getCookie(name) {
                   <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
                 </td>
               </tr>
-
-            </table>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="pastEvents">
-            <table class="table-striped publicationsTable">
               <tr>
                 <td>
                   <span class="date">9 Nov 2015</span>

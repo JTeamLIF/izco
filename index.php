@@ -187,12 +187,12 @@
         </div>
         <div class="upcomingeventscontent">
           <div class="newsitem">
-            <p class="newsdate">16 May 2016</p>
-            <p class="newstitle">Annual General Meeting</p>
+            <p class="newsdate">9 September 2016</p>
+            <p class="newstitle">Publication of 2016 interim results</p>
           </div>
           <div class="newsitem">
-            <p class="newsdate">13 May 2016</p>
-            <p class="newstitle">2nd half-year Dividend Payment</p>
+            <p class="newsdate">30 June 2016</p>
+            <p class="newstitle">Financial half-year end 2016</p>
           </div>
           <div href="#" class="btn-viewAssetGallery">
             <a href="investors_financialcalendar.php"><span class="spn-viewAssetGallery">View all events</span>
