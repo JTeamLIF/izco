@@ -369,6 +369,12 @@ function getCookie(name) {
           </div>
 			<div role="tabpanel" class="tab-pane" id="reportResult">
              <table class="table-striped publicationsTable">
+                           <tr>
+                <td>
+                  <span class="date">02 June 2016</span>
+                  <span class="text"><a href="docs/reportsandresults/JLIF Trading Update Statement May 2016.pdf" target="_blank">JLIF Trading Update Statement May 2016</a></span>
+                </td>
+              </tr> 
               <tr>
                 <td>
                   <span class="date">16 Mar 2016</span>
