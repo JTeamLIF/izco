@@ -167,7 +167,7 @@ function getCookie(name) {
                   <span class="text"><a href="docs/factsheets/Fact Sheet Mar16_prf1.pdf" target="_blank">JLIF Factsheet March 2016</a></span>
                 </td>
               </tr> 
-              <tr>
+             <!-- <tr>
                 <td>
                   <span class="date">18 Mar 2016</span>
                   <span class="text"><a href="docs/factsheets/JLIF Factsheet Dec15.pdf" target="_blank">JLIF Factsheet December 2015</a></span>
@@ -226,7 +226,7 @@ function getCookie(name) {
                   <span class="date">27 Sep 2013</span>
                   <span class="text"><a href="docs/factsheets/JLIF Fact Sheet Sep 2013.pdf" target="_blank">JLIF Factsheet September 2013</a></span>
                 </td>
-              </tr>              
+              </tr>-->              
               <tr>
                 <td>
                   <span class="date">27 Aug 2013</span>
