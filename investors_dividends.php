@@ -117,10 +117,10 @@ function getCookie(name) {
             <br><br>
             <p>JLIF's last dividend payment was for:-</p>
 
-            <h1 class="dividendh1">GBX: 3.375 pence per share</h1>
+            <h1 class="dividendh1">GBX: 3.41 pence per share</h1>
 
             <p>This payment was made on:-</p>
-            <p class="dividendDate">20 Oct 2015</p>
+            <p class="dividendDate">13 May 2016</p>
 
             <hr>
 
@@ -144,6 +144,12 @@ function getCookie(name) {
                 </tr>
               </thead>
               <tbody>
+                <tr>
+                  <td>02-Mar-16</td>
+                  <td>04-Mar-16</td>
+                  <td>13-May-16</td>
+                  <td>3.41p</td>
+                </tr>              
                 <tr>
                   <td>10-Sep-15</td>
                   <td>11-Sep-15</td>
