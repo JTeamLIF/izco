@@ -108,6 +108,9 @@ function getCookie(name) {
           <li role="presentation">
             <a href="#historicalDividends" aria-controls="historicalDividends" role="tab" data-toggle="tab">Historical dividends</a>
           </li>
+          <li role="presentation">
+            <a href="#scripDividends" aria-controls="scripDividends" role="tab" data-toggle="tab">Scrip dividends</a>
+          </li>
         </ul>
 
         <!-- Tab panes -->
@@ -212,6 +215,9 @@ function getCookie(name) {
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="scripDividends">
+            
           </div>
         </div>
 
