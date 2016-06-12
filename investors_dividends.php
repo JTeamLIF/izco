@@ -127,13 +127,7 @@ function getCookie(name) {
 
             <hr>
 
-            <p>JLIF believes that future distributions will continue to fully cover future costs as well as
-            planned dividends payable to its shareholders. The Company continues to offer a scrip dividend alternative.</p>
-
-            <p>In August 2015, the Company announced a dividend for the six month period ended 30 June 2015 of 3.375 pence per share.
-            This was paid on 20 October 2015 and brings total dividends paid to date since launch to 29.0 pence per share. JLIF believes
-            that future distributions will continue to fully cover future costs as well as planned dividends payable to its shareholders.
-            The Company continues to offer a scrip dividend alternative.</p>
+            <p>In February 2016, the Company announced a dividend for the six month period ended 31 December 2015 of 3.41 pence per share. This was paid on 13 May 2016 and brings the total dividends paid to date since launch to 32.41 pence per share. JLIF believes that future distributions will continue to fully cover future costs as well as dividends payable to its shareholders. The Company continues to offer a scrip dividend alternative.</p>
 
           </div>
           <div role="tabpanel" class="tab-pane" id="historicalDividends">
@@ -217,6 +211,65 @@ function getCookie(name) {
             </table>
           </div>
           <div role="tabpanel" class="tab-pane" id="scripDividends">
+
+             <table class="table-striped publicationsTable">
+              <tr>
+                <td>
+                  <span class="date">Jun 2015</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Jun 2015.pdf" target="new">Scrip Dividend Circular Jun 2015</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Dec 2014</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Dec 2014.pdf" target="_blank">Scrip Dividend Circular Dec 2014</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Jun 2014</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Jun 2014.pdf" target="_blank">Scrip Dividend Circular Jun 2014</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Dec 2013</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Dec 2013.pdf" target="_blank">Scrip Dividend Circular Dec 2013</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Jun 2013</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Jun 2013.pdf" target="_blank">Scrip Dividend Circular Jun 2013</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Dec 2012</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Dec 2012.pdf" target="_blank">Scrip Dividend Circular Dec 2012</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Jun 2012</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Jun 2012.pdf" target="_blank">Scrip Dividend Circular Jun 2012</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Dec 2011</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Dec 2011.pdf" target="_blank">Scrip Dividend Circular Dec 2011</a></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="date">Jun 2011</span>
+                  <span class="text"><a href="docs/scrip/Scrip Dividend Circular Jun 2011.pdf" target="_blank">Scrip Dividend Circular Jun 2011</a></span>
+                </td>
+              </tr>
+
+
+            </table>
             
           </div>
         </div>
