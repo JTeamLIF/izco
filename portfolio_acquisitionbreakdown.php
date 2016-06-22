@@ -342,6 +342,9 @@ include("inc/internal_carousel.php");
             <div role="tabpanel" class="tab-pane" id="regeneration">
               <table class="table-striped publicationsTable">
                 <tr>
+                  <td><span class="date">31 May 2016</span> <span class="acquisition">Oldham Social Housing</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr>              
+                <tr>
                   <td><span class="date">19 Dec 2014</span> <span class="acquisition">Kirklees Social Housing</span> <span class="category">Regeneration & Social Housing</span></td>
                 </tr>
                 
@@ -415,6 +418,9 @@ include("inc/internal_carousel.php");
             
             <div role="tabpanel" class="tab-pane  active" id="all">
               <table class="table-striped publicationsTable">
+                              <tr>
+                  <td><span class="date">31 May 2016</span> <span class="acquisition">Oldham Social Housing</span> <span class="category">Regeneration & Social Housing</span></td>
+                </tr> 
 <tr><td><span class="date">29 Feb 2016</span> <span class="acquisition">British Transport Police PPP</span> <span class="category">Justice & Emergency Services</span></td></tr>
 <tr><td><span class="date">28 Jan 2016</span> <span class="acquisition">Line 9 - Section II, Barcelona</span> <span class="category">Transport</span></td></tr>
 <tr><td><span class="date">30 Jun 2015</span> <span class="acquisition">North Birmingham Mental Health</span> <span class="category">Health</span></td></tr>

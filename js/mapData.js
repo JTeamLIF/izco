@@ -65,6 +65,7 @@ latlong["WL"] = {"latitude":52.586229, "longitude":-1.981446};
 latlong["WS"] = {"latitude":53.684341, "longitude":-1.503688};
 latlong["MS"] = {"latitude":53.684341, "longitude":-1.503688};
 latlong["FU"] = {"latitude":51.517450, "longitude":-0.126323};
+latlong["OS"] = {"latitude":53.646449, "longitude":-1.772622};
 
 var mapData = [
 {
@@ -199,7 +200,7 @@ var mapData = [
    "category":"health",
    "id":"Queen-Elizabeth-Hospital"
 },
-{
+/*{
    "code":"NH",
    "name":"Newham Hospital",
    "value":2000000,
@@ -209,7 +210,7 @@ var mapData = [
    "address":"United Kingdom",
    "category":"health",
    "id":"Newham-Hospital"
-},
+},*/
 {
    "code":"KH",
    "name":"Kingston Hospital",
@@ -232,7 +233,7 @@ var mapData = [
    "category":"health",
    "id":"Abbotsford-Hospital"
 },
-{
+/*{
    "code":"BB",
    "name":"Barnsley BSF",
    "value":2000000,
@@ -243,7 +244,7 @@ var mapData = [
    "category":"education",
    "id":"Barnsley-BSF"
 },
-{
+*/{
    "code":"BR",
    "name":"Bristol BSF",
    "value":2000000,
@@ -716,6 +717,17 @@ var mapData = [
    "address":"United Kingdom",
    "category":"justice-and-emergency-services",
    "id":"British-Transport-Police-PPP"
+},
+{
+   "code":"OS",
+   "name":"Oldham Social Housing",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Inspiral Oldham Limited, the project company, entered into a contract with Oldham Metropolitan Borough Council to regenerate four housing estates in Oldham, comprising new builds and refurbishments totalling 633 units, two new community centres, and new open spaces. The concession runs until 2036..",
+   "ownership":95,
+   "address":"United Kingdom",
+   "category":"regeneration-and-social-housing",
+   "id":"Oldham-Social-Housing"
 }
 ];
 

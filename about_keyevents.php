@@ -100,7 +100,7 @@ function getCookie(name) {
       </div>
       <div class="col-lg-6 content1">
         <h1>Financial and Operational Highlights </h1>
-        <h3>JLIF has grown consistently since launch. The Company has successfully raised over £900 million of primary equity since November 2010, whilst delivering a 50.2% total return for shareholders over that time. JLIF’s focus continues to be on delivering a stable and secure income for its shareholders by investing in low risk, high yielding assets.</h3>
+        <h3>JLIF has grown consistently since launch. The Company has successfully raised over £900 million of primary equity since November 2010, whilst delivering a 50.2% total return for shareholders to the 31 December 2015. JLIF’s focus continues to be on delivering a stable and secure income for its shareholders by investing in low risk, high yielding assets.</h3>
         <p>JLIF continues to grow the Portfolio through active management, identifying and executing value enhancements on its existing Portfolio and also by acquisition of interests in new projects. JLIF’s Portfolio was valued at £867.8 million as at 31 December 2015.</p>
       </div>
       <div class="col-lg-3 rightcol1">
