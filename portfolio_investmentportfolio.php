@@ -101,11 +101,12 @@ function getCookie(name) {
 
           <li class="level-1 parent-menu-active"><a href="portfolio_investmentportfolio.php">Investment Portfolio</a></li>
           <li class="level-1 "><a href="portfolio_assetbreakdown.php">Asset Breakdown</a></li>
+          <li class="level-1"><a href="portfolio_acquisitionbreakdown.php">Acquisition Breakdown</a></li>
         </ul>
       </div>
       <div class="col-lg-6 content1">
         <h1>Investment Portfolio</h1>
-        <h3>JLIF has an investment portfolio of 59 infrastructure projects sourced from both third party vendors and John Laing Group. The portfolio provides sectoral and geographic diversification, comprising jurisdictions that are regarded as fiscally strong and are committed to the PPP procurement model.</h3>
+        <h3>As at 31 December 2015, JLIF had an investment portfolio of 57 infrastructure projects sourced from both third party vendors and John Laing Group. The portfolio provides sectoral and geographic diversification, comprising jurisdictions that are regarded as fiscally strong and are committed to the PPP procurement model.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">

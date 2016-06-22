@@ -144,7 +144,7 @@ function getCookie(name) {
         <h5>Our objective </h5>
         <p>We target a minimum annualised yield of 6% per annum, by reference to the issue price of £1 of the Ordinary Shares issued at the IPO, and an IRR of 7-8% over the longer term via an active management approach designed to enhance the value of existing investments, supported by the acquisition of new, value enhancing investments. </p>
                 <h5>Your investment</h5>
-        <p>As at 31 December 2015, JLIF was valued at £950.8 million on the stock market and has delivered a total return to shareholders of 50.2% since launch in November 2010. The Portfolio saw underlying growth of 8.34% in the year. JLIF holds stakes in low-risk, operational PPP infrastructure projects located in the UK, Continental Europe and North America, and looks forward to continuing to grow the Portfolio in the future, both in size and geographic footprint.</p>
+        <p>As at 31 December 2015, JLIF was valued at £950.8 million on the stock market and had delivered a total return to shareholders of 50.2% since launch in November 2010. The Portfolio saw underlying growth of 8.34% in 2015. JLIF holds stakes in low-risk, operational PPP infrastructure projects located in the UK, Continental Europe and North America, and looks forward to continuing to grow the Portfolio in the future, both in size and geographic footprint.</p>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
