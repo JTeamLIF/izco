@@ -187,7 +187,7 @@
         </div>
         <div class="upcomingeventscontent">
           <div class="newsitem">
-            <p class="newsdate">9 September 2016</p>
+            <p class="newsdate">12 September 2016</p>
             <p class="newstitle">Publication of 2016 interim results</p>
           </div>
           <div class="newsitem">
