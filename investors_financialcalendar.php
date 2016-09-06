@@ -119,7 +119,7 @@ function getCookie(name) {
              <table class="table-striped publicationsTable">
               <tr>
                 <td>
-                  <span class="date">9 September 2016</span>
+                  <span class="date">12 September 2016</span>
                   <span class="text">Publication of 2016 interim results</span>
                   <span class="calendar"><img src="images/calendar-icon-events.jpg"></span>
                 </td>
