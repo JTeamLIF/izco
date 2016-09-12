@@ -66,6 +66,8 @@ latlong["WS"] = {"latitude":53.684341, "longitude":-1.503688};
 latlong["MS"] = {"latitude":53.684341, "longitude":-1.503688};
 latlong["FU"] = {"latitude":51.517450, "longitude":-0.126323};
 latlong["OS"] = {"latitude":53.646449, "longitude":-1.772622};
+latlong["PZ"] = {"latitude":41.745323, "longitude":-72.681109};
+
 
 var mapData = [
 {
@@ -728,6 +730,17 @@ var mapData = [
    "address":"United Kingdom",
    "category":"regeneration-and-social-housing",
    "id":"Oldham-Social-Housing"
+},
+{
+   "code":"PZ",
+   "name":"Connecticut Service Stations P3",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Project Service LLC (the “Concessionaire”) is the exclusive provider of 23 highway service areas in the State of Connecticut, USA. The project involves the renovation (completed in August 2015), operation and maintenance of 23 highway service areas under a 35-year concession.",
+   "ownership":100,
+   "address":"USA",
+   "category":"transport",
+   "id":"Connecticut_Service_Stations_P3"
 }
 ];
 
