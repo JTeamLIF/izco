@@ -744,7 +744,6 @@ var mapData = [
 }
 ];
 
-
 $.each(mapData, function(index, data) {
   $('.' + data.category).append(
     '<div id="' + data.id + '" class="smallAsset" data-code="' + data.code + '">' +
