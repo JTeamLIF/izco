@@ -106,7 +106,7 @@ function getCookie(name) {
       </div>
       <div class="col-lg-6 content1">
         <h1>Investment Portfolio</h1>
-        <h3>As at 31 December 2015, JLIF had an investment portfolio of 57 infrastructure projects sourced from both third party vendors and John Laing Group. The portfolio provides sectoral and geographic diversification, comprising jurisdictions that are regarded as fiscally strong and are committed to the PPP procurement model.</h3>
+        <h3>As at 30 June 2016, JLIF had an investment portfolio of 59 infrastructure projects sourced from both third party vendors and John Laing Group. The portfolio provides sectoral and geographic diversification, comprising jurisdictions that are regarded as fiscally strong and are committed to the PPP procurement model.</h3>
       </div>
       <div class="col-lg-3 rightcol1">
         <div href="#" class="btn-viewAssetGallery">
@@ -155,18 +155,14 @@ function getCookie(name) {
           <dd class="education">
             <div class="assetCard">
               <div class="pull-left">
-                <img class="mainImage" src="images/gallery/education/Gallery_main_Barnsley-BSF.png">
+                <img class="mainImage" src="images/gallery/education/Gallery_main_Bristol-BSF.png">
               </div>
               <div class="pull-right assetInfo">
-                <h1 class="mainName">Barnsley BSF</h1>
+                <h1 class="mainName">Bristol BSF</h1>
                 <h3 class="mainAddress">United Kingdom</h3>
-                <p class="mainDesc">Part of the Building Schools for the Future programme, the Barnsley BSF project involves an overhaul
-                of the existing secondary school estate in Barnsley into 11 new schools (consisting of 9 advanced learning
-                centres, one special school, and one special school extension) over three phases. Financial close on Phase
-                1 was achieved on 6 July 2009, for Phase 2 on April 2010 and for Phase 3 on 9 October 2010. Construction was
-                completed in 2011 for all phases.</p>
+                <p class="mainDesc">Bristol PFI Ltd, the project company, has contracted with Bristol BSF to design, build, finance and operate 4 new secondary schools/academies in Bristol under a 17 year concession which runs until 2030.</p>
                 <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">40%</span></div>
+                <span class="percentageOwned">37.5%</span></div>
                 <br><br>
               </div>
             </div>
