@@ -205,7 +205,7 @@ function getCookie(name) {
                 <h3 class="mainAddress">Spain</h3>
                 <p class="mainDesc">Línia Nou Tram Dos, S.A. (the “Concessionaire”) and Línia Nou Manteniment, S.L., (the “Maintenance Company”) has contracted with IFERCAT, a public entity responsible for the Catalonian railway system (the “Grantor”) to design, build, finance, operate and maintain 15 metro stations along Section II of the Line 9 subway system in Barcelona, Spain (the “Project”) under a 26 year concession which runs until 2042.</p>
                 <div class="percentagecontainer"><span class="blue">Percentage ownership:</span>
-                <span class="percentageOwned">40%</span></div>
+                <span class="percentageOwned">53.5%</span></div>
                 <br><br>
               </div>
             </div>

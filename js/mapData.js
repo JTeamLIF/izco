@@ -40,6 +40,7 @@ latlong["PT"] = {"latitude":51.441226, "longitude":0.404896};
 latlong["GM"] = {"latitude":53.469809, "longitude":-2.176243};
 latlong["AS"] = {"latitude":51.345702, "longitude":-2.977459};
 latlong["BM"] = {"latitude":41.387299, "longitude":2.185845};
+latlong["BZ"] = {"latitude":41.387299, "longitude":2.185845};
 latlong["LU"] = {"latitude":51.501086, "longitude":0.006170};
 latlong["MM"] = {"latitude":55.5067, "longitude":-3.6974};
 latlong["SW"] = {"latitude":51.668613, "longitude":-3.190329};
@@ -66,6 +67,8 @@ latlong["WS"] = {"latitude":53.684341, "longitude":-1.503688};
 latlong["MS"] = {"latitude":53.684341, "longitude":-1.503688};
 latlong["FU"] = {"latitude":51.517450, "longitude":-0.126323};
 latlong["OS"] = {"latitude":53.646449, "longitude":-1.772622};
+latlong["PZ"] = {"latitude":41.745323, "longitude":-72.681109};
+
 
 var mapData = [
 {
@@ -438,10 +441,21 @@ var mapData = [
    "value":2000000,
    "color":"#0094d9",
    "desc":"Línia Nou Tram Dos, S.A. (the “Concessionaire”) and Línia Nou Manteniment, S.L., (the “Maintenance Company”) has contracted with IFERCAT, a public entity responsible for the Catalonian railway system (the “Grantor”) to design, build, finance, operate and maintain 15 metro stations along Section II of the Line 9 subway system in Barcelona, Spain (the “Project”) under a 26 year concession which runs until 2042.",
-   "ownership":40,
+   "ownership":53.5,
    "address":"Spain",
    "category":"transport",
    "id":"Line-9---Section-II,-Barcelona-Metro"
+},
+{
+   "code":"BZ",
+   "name":"Line 9 - Section IV, Barcelona Metro",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"The project involves the design, construction, operation and maintenance of 13 metro stations along Line 9, Section IV of the Barcelona Metro system. The public sector counterparty to the PPP contract is IFERCAT, a public entity responsible for the Catalonian railway system. The concession period ends in September 2040.",
+   "ownership":13.5,
+   "address":"Spain",
+   "category":"transport",
+   "id":"Barcelona Line 9 Section IV Metro Stations"
 },
 {
    "code":"LU",
@@ -728,9 +742,19 @@ var mapData = [
    "address":"United Kingdom",
    "category":"regeneration-and-social-housing",
    "id":"Oldham-Social-Housing"
+},
+{
+   "code":"PZ",
+   "name":"Connecticut Service Stations P3",
+   "value":2000000,
+   "color":"#0094d9",
+   "desc":"Project Service LLC (the “Concessionaire”) is the exclusive provider of 23 highway service areas in the State of Connecticut, USA. The project involves the renovation (completed in August 2015), operation and maintenance of 23 highway service areas under a 35-year concession.",
+   "ownership":100,
+   "address":"USA",
+   "category":"transport",
+   "id":"Connecticut_Service_Stations_P3"
 }
 ];
-
 
 $.each(mapData, function(index, data) {
   $('.' + data.category).append(
