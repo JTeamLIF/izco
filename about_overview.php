@@ -194,7 +194,7 @@ function getCookie(name) {
       </div>
       <div class="col-lg-6 content1 whoWeAre" style="background-color: #f7f7f7;">
         <h1>Corporate structure</h1>
-      <img src="images/jlif_structure.jpg" alt="jlif structure" width="612" height="758" class="img-responsive"> </div>
+      <img src="images/JLIF_Struture_chart.png" alt="jlif structure" width="612" height="758" class="img-responsive"> </div>
 
       <div class="col-lg-3 rightcol1 whoWeAre" id="whoWeAre" style="background-color: #f7f7f7;">
         <div href="#" class="btn-viewAssetGallery">
