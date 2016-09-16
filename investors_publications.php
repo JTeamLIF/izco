@@ -144,6 +144,10 @@ function getCookie(name) {
           <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="factsheet">
               <table class="table-striped publicationsTable">
+                              <tr>
+                  <td><span class="date">12 Sep 2016</span> <span class="text"><a href="docs/factsheets/Fact Sheet June 2016.pdf" target="_blank">JLIF Factsheet June 2016</a></span></td>
+                </tr>
+                <tr>
                 <tr>
                   <td><span class="date">17 May 2016</span> <span class="text"><a href="docs/factsheets/Fact Sheet Mar16_prf1.pdf" target="_blank">JLIF Factsheet March 2016</a></span></td>
                 </tr>
@@ -207,9 +211,7 @@ function getCookie(name) {
               <table class="table-striped publicationsTable">
                               <tr>
                   <td><span class="date">16 Sep 2016</span> <span class="text"><a href="docs/presentations/2016 Interim Results Presentation.pdf" target="new">Presentation (Interim Results) 2016</a></span></td>
-                </tr>                <tr>
-                  <td><span class="date">16 Mar 2016</span> <span class="text"><a href="docs/presentations/2015 Annual Results Presentation.pdf" target="new">Presentation (Results) 2015</a></span></td>
-                </tr>                <tr>
+                </tr>                                <tr>
                   <td><span class="date">28 August 2015</span> <span class="text"><a href="docs/presentations/2015 Interim Results Presentation.pdf" target="new">Presentation (Interim Results) 2015</a></span></td>
                 </tr>
                 
